@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css?v=6" />
 </head>
 <body>
   <header>
@@ -22,6 +22,7 @@
       <select id="country-filter" class="cfilter" aria-label="Filter by country of origin"></select>
     </label>
     <button id="detail-btn" class="detail-btn">▦ Detailed view (table)</button>
+    <button id="about-btn" class="detail-btn">ℹ About &amp; sources</button>
     <span id="subtitle" class="sub"></span>
   </header>
 
@@ -39,7 +40,52 @@
   </div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <div id="about-modal" class="modal">
+    <div class="modal-card">
+      <button id="about-close" class="modal-close" aria-label="Close">×</button>
+      <h2>About this map &amp; data sources</h2>
+      <p>This site maps foreign students and residents in South Korea (2024–2025), with a
+         focus on people from <b>Muslim-majority countries</b> (countries where more than
+         50% of the population is Muslim). <b>All student and resident counts come directly
+         from official South Korean government statistics.</b></p>
+
+      <h3>Government statistical sources</h3>
+      <ul>
+        <li><b>University students</b> (the “All foreign students”, “Muslim-country students”,
+            and “Muslim students by province” views): the official university information
+            disclosure system <a href="https://www.academyinfo.go.kr" target="_blank" rel="noopener">대학알리미 (Academy Info)</a>,
+            operated under the <b>Ministry of Education</b> and compiled by the
+            <b>Korea Educational Development Institute (KEDI)</b>. Disclosure item
+            “Foreign Student Status (외국학생 현황)”, 2025 survey year (as of 1 April 2025).
+            Mirrored on <a href="https://www.data.go.kr/data/15050054/fileData.do" target="_blank" rel="noopener">data.go.kr</a>.</li>
+        <li><b>Registered residents</b> (the “Muslim residents by province” view):
+            <b>Ministry of Justice — Korea Immigration Service</b>,
+            <a href="https://www.immigration.go.kr" target="_blank" rel="noopener">Statistical Yearbook of Immigration &amp; Foreigner Policy 2024</a>
+            (출입국·외국인정책 통계연보 2024), table “Registered foreigners by district and
+            nationality”. Figures as of 31 December 2024.</li>
+      </ul>
+
+      <h3>Supporting data (not statistics)</h3>
+      <ul>
+        <li><b>University map locations:</b> <a href="https://www.openstreetmap.org" target="_blank" rel="noopener">OpenStreetMap</a> (Nominatim) — approximate coordinates, for placing markers only.</li>
+        <li><b>Province boundaries:</b> the open <a href="https://github.com/southkorea/southkorea-maps" target="_blank" rel="noopener">southkorea-maps</a> dataset, derived from <b>Statistics Korea (KOSTAT)</b> administrative boundaries.</li>
+        <li><b>“Muslim-majority” classification:</b> our own list of countries with a Muslim population above 50%.</li>
+      </ul>
+
+      <h3>Notes</h3>
+      <ul>
+        <li><b>Mongolia</b> is not a Muslim-majority country; where shown it is labelled
+            “non-Muslim” and is <b>excluded from every Muslim-country total</b>.</li>
+        <li>Fully online (“cyber”) universities are omitted from the campus maps as they have no physical location.</li>
+      </ul>
+
+      <p class="src-foot">In short: the numbers are official Korean government data
+        (Ministry of Education / KEDI and Ministry of Justice, 2024–2025). Coordinates,
+        boundary shapes, and the Muslim-majority definition are open data or editorial choices.</p>
+    </div>
+  </div>
+
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
-  <script src="app.js"></script>
+  <script src="app.js?v=6"></script>
 </body>
 </html>
