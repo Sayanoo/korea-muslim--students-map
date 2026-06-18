@@ -100,10 +100,13 @@ function loadFile(path) {
 let layer = null;
 let regionCountry = "";
 let regionCtx = null; // {cfg, geo, regions}
+let markerIndex = {};  // name_en(lower) -> {marker, latlng}
+let regionIndex = {};  // name_eng(lower) -> layer
 function clearLayer() { if (layer) { map.removeLayer(layer); layer = null; } }
 
 function renderMarkers(cfg, data) {
   clearLayer();
+  markerIndex = {};
   layer = L.markerClusterGroup({ maxClusterRadius: 45 });
   data.forEach((u) => {
     const m = L.circleMarker([u.lat, u.lon], {
@@ -111,6 +114,7 @@ function renderMarkers(cfg, data) {
     });
     m.bindPopup(cfg.card(u), { maxHeight: 320 });
     m.on("mouseover", () => m.openPopup());
+    markerIndex[u.name_en.toLowerCase()] = { marker: m, latlng: [u.lat, u.lon] };
     layer.addLayer(m);
   });
   map.addLayer(layer);
@@ -131,6 +135,7 @@ function renderRegions() {
     document.getElementById("legend").innerHTML = cfg.legend;
   }
   clearLayer();
+  regionIndex = {};
   layer = L.geoJSON(geo, {
     style: (f) => ({ fillColor: colorFor(regionMetric(cfg, regions[f.properties.code]), thr),
                      fillOpacity: 0.72, color: "#0b3d2e", weight: 1.2 }),
@@ -140,9 +145,46 @@ function renderRegions() {
       lyr.bindPopup(regionCard(cfg, r), { maxHeight: 320 });
       lyr.on("mouseover", () => { lyr.setStyle({ weight: 3, fillOpacity: 0.9 }); lyr.openPopup(); });
       lyr.on("mouseout", () => layer.resetStyle(lyr));
+      regionIndex[(f.properties.name_eng || "").toLowerCase()] = lyr;
     },
   });
   map.addLayer(layer);
+}
+
+// ---- "ping" pulse + locate-from-table ------------------------------------
+function pulseAt(latlng, n) {
+  if (n === undefined) n = 0;
+  const halo = L.circleMarker(latlng, { radius: 9, color: "#f59e0b", weight: 3,
+    fillColor: "#fbbf24", fillOpacity: 0.55 }).addTo(map);
+  let r = 9, op = 0.6;
+  const iv = setInterval(() => {
+    r += 5; op -= 0.035;
+    halo.setRadius(r); halo.setStyle({ fillOpacity: Math.max(0, op), opacity: Math.max(0, op) });
+    if (op <= 0) { clearInterval(iv); map.removeLayer(halo); }
+  }, 40);
+  if (n < 3) setTimeout(() => pulseAt(latlng, n + 1), 520);
+}
+function locateUniversity(name) {
+  const e = markerIndex[name.toLowerCase()];
+  if (!e) return;
+  map.setView(e.latlng, 12);
+  const done = () => { e.marker.openPopup(); pulseAt(L.latLng(e.latlng)); };
+  if (layer && layer.zoomToShowLayer) layer.zoomToShowLayer(e.marker, done); else done();
+}
+function locateProvince(name) {
+  const lyr = regionIndex[name.toLowerCase()];
+  if (!lyr) return;
+  map.fitBounds(lyr.getBounds(), { maxZoom: 9 });
+  lyr.openPopup();
+  pulseAt(lyr.getBounds().getCenter());
+}
+function locateFromTable(type, view, name) {
+  showMode("map");
+  document.querySelectorAll(".toggle button").forEach((b) => b.classList.toggle("active", b.dataset.view === view));
+  if (type === "province") regionCountry = "";
+  loadMapView(view).then(() => {
+    setTimeout(() => (type === "uni" ? locateUniversity(name) : locateProvince(name)), 60);
+  });
 }
 
 function populateCountryFilter(regions) {
@@ -160,17 +202,16 @@ function loadMapView(name) {
   document.getElementById("cfilter-wrap").style.display = isRegion ? "" : "none";
   if (isRegion) {
     const cfg = REGION_VIEWS[name];
-    Promise.all([loadFile(cfg.geo), loadFile(cfg.data)]).then(([geo, regions]) => {
+    return Promise.all([loadFile(cfg.geo), loadFile(cfg.data)]).then(([geo, regions]) => {
       regionCtx = { cfg, geo, regions };
       populateCountryFilter(regions);
       renderRegions();
     });
-  } else {
-    const cfg = MARKER_VIEWS[name];
-    document.getElementById("subtitle").textContent = cfg.subtitle;
-    document.getElementById("legend").innerHTML = cfg.legend;
-    loadFile(cfg.file).then((d) => renderMarkers(cfg, d));
   }
+  const cfg = MARKER_VIEWS[name];
+  document.getElementById("subtitle").textContent = cfg.subtitle;
+  document.getElementById("legend").innerHTML = cfg.legend;
+  return loadFile(cfg.file).then((d) => renderMarkers(cfg, d));
 }
 
 // ---- Detailed table view -------------------------------------------------
@@ -186,9 +227,10 @@ let tableKey = "muslim";
 let tableSort = { col: "name", dir: 1 };
 let tableCountry = "";
 
-function rankTableHtml(label, entity, rows) {
+function rankTableHtml(label, entity, rows, locType, locView) {
   const total = rows.reduce((s, r) => s + r.count, 0);
-  const body = rows.map((r, i) => `<tr><td class="num">${i + 1}</td>
+  const body = rows.map((r, i) => `<tr class="clickable" data-loc-type="${locType}" data-loc-view="${locView}" data-loc-name="${r.name.replace(/"/g, "&quot;")}">
+    <td class="num">${i + 1}</td>
     <td class="nm"><b>${r.name}</b>${r.sub && r.sub !== r.name ? `<span class="ko">${r.sub}</span>` : ""}</td>
     <td class="num tot">${r.count.toLocaleString()}</td></tr>`).join("");
   return `<div class="rank-col"><h4 class="rank-h">${label} · <b>${total.toLocaleString()}</b></h4>
@@ -214,11 +256,11 @@ function renderCountryTable() {
     document.getElementById("table-meta").innerHTML =
       `Country: <select id="ctab-select" class="cfilter">` +
       list.map((c) => `<option value="${c}"${c === C ? " selected" : ""}>${c}</option>`).join("") +
-      `</select> <span class="hint">${C} — ranked high → low across Korea.</span>`;
+      `</select> <span class="hint">${C} — ranked high → low · click a row to show it on the map.</span>`;
     document.getElementById("table-wrap").innerHTML = `<div class="rank-grid">` +
-      rankTableHtml("Residents by province (MOJ 2024)", "Province", resRows) +
-      rankTableHtml("Students by university (2025)", "University", uniRows) +
-      rankTableHtml("Students by province (2025)", "Province", stuRows) + `</div>`;
+      rankTableHtml("Residents by province (MOJ 2024)", "Province", resRows, "province", "residents") +
+      rankTableHtml("Students by university (2025)", "University", uniRows, "uni", "muslim") +
+      rankTableHtml("Students by province (2025)", "Province", stuRows, "province", "region") + `</div>`;
     document.getElementById("ctab-select").onchange = (e) => { tableCountry = e.target.value; renderCountryTable(); };
   });
 }
@@ -237,13 +279,14 @@ function renderTable() {
     const grand = rows.reduce((s, r) => s + r.total, 0);
     document.getElementById("table-meta").innerHTML =
       `${rows.length} ${set.entity.toLowerCase()}s · ${grand.toLocaleString()} ${set.total} ` +
-      `<span class="hint">(click a header to sort; “·non-Muslim” = Mongolia, not in totals)</span>`;
+      `<span class="hint">(click a header to sort · click a row to show it on the map · “·non-Muslim” = Mongolia)</span>`;
     const arrow = (c) => tableSort.col === c ? (tableSort.dir > 0 ? " ▲" : " ▼") : "";
+    const locType = tableKey === "muslim" ? "uni" : "province";
     const head = `<tr><th class="num">#</th>
       <th class="sortable" data-col="name">${set.entity}${arrow("name")}</th>
       <th class="sortable num" data-col="total">${set.total}${arrow("total")}</th>
       <th>By country of origin</th></tr>`;
-    const body = rows.map((r, i) => `<tr>
+    const body = rows.map((r, i) => `<tr class="clickable" data-loc-type="${locType}" data-loc-view="${tableKey}" data-loc-name="${r.name.replace(/"/g, "&quot;")}">
       <td class="num">${i + 1}</td>
       <td class="nm"><b>${r.name}</b>${r.sub && r.sub !== r.name ? `<span class="ko">${r.sub}</span>` : ""}</td>
       <td class="num tot">${r.total.toLocaleString()}</td>
@@ -292,6 +335,12 @@ document.querySelectorAll(".table-tabs button").forEach((btn) => {
     tableSort = { col: "name", dir: 1 };
     renderTable();
   });
+});
+
+document.getElementById("table-wrap").addEventListener("click", (e) => {
+  const tr = e.target.closest("tr.clickable");
+  if (!tr) return;
+  locateFromTable(tr.dataset.locType, tr.dataset.locView, tr.dataset.locName);
 });
 
 const aboutModal = document.getElementById("about-modal");
