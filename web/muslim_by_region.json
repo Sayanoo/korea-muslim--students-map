@@ -1,9 +1,89 @@
 {
+  "33": {
+    "code": "33",
+    "name": "충청북도",
+    "name_eng": "Chungcheongbuk-do",
+    "total_muslim": 1012,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 834
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 112
+      },
+      {
+        "country": "Indonesia",
+        "count": 12
+      },
+      {
+        "country": "Tajikistan",
+        "count": 8
+      },
+      {
+        "country": "Malaysia",
+        "count": 8
+      },
+      {
+        "country": "Turkey",
+        "count": 7
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 6
+      },
+      {
+        "country": "Iran",
+        "count": 5
+      },
+      {
+        "country": "Pakistan",
+        "count": 5
+      },
+      {
+        "country": "Bangladesh",
+        "count": 5
+      },
+      {
+        "country": "Egypt",
+        "count": 2
+      },
+      {
+        "country": "Morocco",
+        "count": 2
+      },
+      {
+        "country": "Afghanistan",
+        "count": 1
+      },
+      {
+        "country": "Libya",
+        "count": 1
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Sudan",
+        "count": 1
+      },
+      {
+        "country": "Brunei",
+        "count": 1
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 1
+      }
+    ]
+  },
   "11": {
     "code": "11",
     "name": "서울특별시",
     "name_eng": "Seoul",
-    "total_muslim": 4631,
+    "total_muslim": 4786,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -28,6 +108,10 @@
       {
         "country": "Turkey",
         "count": 292
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 155
       },
       {
         "country": "Morocco",
@@ -151,91 +235,19 @@
       }
     ]
   },
-  "33": {
-    "code": "33",
-    "name": "충청북도",
-    "name_eng": "Chungcheongbuk-do",
-    "total_muslim": 900,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 834
-      },
-      {
-        "country": "Indonesia",
-        "count": 12
-      },
-      {
-        "country": "Tajikistan",
-        "count": 8
-      },
-      {
-        "country": "Malaysia",
-        "count": 8
-      },
-      {
-        "country": "Turkey",
-        "count": 7
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 6
-      },
-      {
-        "country": "Iran",
-        "count": 5
-      },
-      {
-        "country": "Pakistan",
-        "count": 5
-      },
-      {
-        "country": "Bangladesh",
-        "count": 5
-      },
-      {
-        "country": "Egypt",
-        "count": 2
-      },
-      {
-        "country": "Morocco",
-        "count": 2
-      },
-      {
-        "country": "Afghanistan",
-        "count": 1
-      },
-      {
-        "country": "Libya",
-        "count": 1
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Sudan",
-        "count": 1
-      },
-      {
-        "country": "Brunei",
-        "count": 1
-      },
-      {
-        "country": "Turkmenistan",
-        "count": 1
-      }
-    ]
-  },
   "25": {
     "code": "25",
     "name": "대전광역시",
     "name_eng": "Daejeon",
-    "total_muslim": 1167,
+    "total_muslim": 1433,
     "by_country": [
       {
         "country": "Bangladesh",
         "count": 348
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 266
       },
       {
         "country": "Uzbekistan",
@@ -335,99 +347,19 @@
       }
     ]
   },
-  "37": {
-    "code": "37",
-    "name": "경상북도",
-    "name_eng": "Gyeongsangbuk-do",
-    "total_muslim": 1766,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 1593
-      },
-      {
-        "country": "Indonesia",
-        "count": 53
-      },
-      {
-        "country": "Tajikistan",
-        "count": 35
-      },
-      {
-        "country": "Turkey",
-        "count": 22
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 17
-      },
-      {
-        "country": "Bangladesh",
-        "count": 10
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 5
-      },
-      {
-        "country": "Iran",
-        "count": 5
-      },
-      {
-        "country": "Malaysia",
-        "count": 5
-      },
-      {
-        "country": "Pakistan",
-        "count": 4
-      },
-      {
-        "country": "Algeria",
-        "count": 4
-      },
-      {
-        "country": "Saudi Arabia",
-        "count": 2
-      },
-      {
-        "country": "Morocco",
-        "count": 2
-      },
-      {
-        "country": "Egypt",
-        "count": 2
-      },
-      {
-        "country": "Tunisia",
-        "count": 2
-      },
-      {
-        "country": "Guinea",
-        "count": 2
-      },
-      {
-        "country": "Lebanon",
-        "count": 1
-      },
-      {
-        "country": "Albania",
-        "count": 1
-      },
-      {
-        "country": "Jordan",
-        "count": 1
-      }
-    ]
-  },
   "23": {
     "code": "23",
     "name": "인천광역시",
     "name_eng": "Incheon",
-    "total_muslim": 652,
+    "total_muslim": 762,
     "by_country": [
       {
         "country": "Uzbekistan",
         "count": 401
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 110
       },
       {
         "country": "Azerbaijan",
@@ -527,11 +459,99 @@
       }
     ]
   },
+  "37": {
+    "code": "37",
+    "name": "경상북도",
+    "name_eng": "Gyeongsangbuk-do",
+    "total_muslim": 1967,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 1593
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 201
+      },
+      {
+        "country": "Indonesia",
+        "count": 53
+      },
+      {
+        "country": "Tajikistan",
+        "count": 35
+      },
+      {
+        "country": "Turkey",
+        "count": 22
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 17
+      },
+      {
+        "country": "Bangladesh",
+        "count": 10
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 5
+      },
+      {
+        "country": "Iran",
+        "count": 5
+      },
+      {
+        "country": "Malaysia",
+        "count": 5
+      },
+      {
+        "country": "Pakistan",
+        "count": 4
+      },
+      {
+        "country": "Algeria",
+        "count": 4
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 2
+      },
+      {
+        "country": "Morocco",
+        "count": 2
+      },
+      {
+        "country": "Egypt",
+        "count": 2
+      },
+      {
+        "country": "Tunisia",
+        "count": 2
+      },
+      {
+        "country": "Guinea",
+        "count": 2
+      },
+      {
+        "country": "Lebanon",
+        "count": 1
+      },
+      {
+        "country": "Albania",
+        "count": 1
+      },
+      {
+        "country": "Jordan",
+        "count": 1
+      }
+    ]
+  },
   "21": {
     "code": "21",
     "name": "부산광역시",
     "name_eng": "Busan",
-    "total_muslim": 2348,
+    "total_muslim": 2415,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -552,6 +572,10 @@
       {
         "country": "Pakistan",
         "count": 108
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 67
       },
       {
         "country": "Malaysia",
@@ -643,7 +667,7 @@
     "code": "35",
     "name": "전라북도",
     "name_eng": "Jeollabuk-do",
-    "total_muslim": 747,
+    "total_muslim": 766,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -660,6 +684,10 @@
       {
         "country": "Indonesia",
         "count": 24
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 19
       },
       {
         "country": "Tajikistan",
@@ -719,7 +747,7 @@
     "code": "34",
     "name": "충청남도",
     "name_eng": "Chungcheongnam-do",
-    "total_muslim": 892,
+    "total_muslim": 942,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -728,6 +756,10 @@
       {
         "country": "Bangladesh",
         "count": 58
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 50
       },
       {
         "country": "Indonesia",
@@ -815,7 +847,7 @@
     "code": "32",
     "name": "강원도",
     "name_eng": "Gangwon-do",
-    "total_muslim": 570,
+    "total_muslim": 576,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -847,6 +879,10 @@
       },
       {
         "country": "Turkey",
+        "count": 6
+      },
+      {
+        "country": "Kyrgyzstan",
         "count": 6
       },
       {
@@ -895,7 +931,7 @@
     "code": "36",
     "name": "전라남도",
     "name_eng": "Jeollanam-do",
-    "total_muslim": 807,
+    "total_muslim": 843,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -912,6 +948,10 @@
       {
         "country": "Kazakhstan",
         "count": 39
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 36
       },
       {
         "country": "Pakistan",
@@ -971,7 +1011,7 @@
     "code": "22",
     "name": "대구광역시",
     "name_eng": "Daegu",
-    "total_muslim": 313,
+    "total_muslim": 326,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -992,6 +1032,10 @@
       {
         "country": "Malaysia",
         "count": 15
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 13
       },
       {
         "country": "Turkey",
@@ -1043,7 +1087,7 @@
     "code": "31",
     "name": "경기도",
     "name_eng": "Gyeonggi-do",
-    "total_muslim": 1062,
+    "total_muslim": 1081,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1074,6 +1118,10 @@
         "count": 22
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 19
+      },
+      {
         "country": "Azerbaijan",
         "count": 13
       },
@@ -1094,20 +1142,12 @@
         "count": 5
       },
       {
-        "country": "Yemen",
-        "count": 2
-      },
-      {
         "country": "Tunisia",
         "count": 2
       },
       {
-        "country": "Algeria",
-        "count": 1
-      },
-      {
-        "country": "Niger",
-        "count": 1
+        "country": "Yemen",
+        "count": 2
       },
       {
         "country": "Qatar",
@@ -1115,6 +1155,14 @@
       },
       {
         "country": "Syria",
+        "count": 1
+      },
+      {
+        "country": "Algeria",
+        "count": 1
+      },
+      {
+        "country": "Niger",
         "count": 1
       },
       {
@@ -1135,7 +1183,7 @@
     "code": "38",
     "name": "경상남도",
     "name_eng": "Gyeongsangnam-do",
-    "total_muslim": 128,
+    "total_muslim": 136,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1156,6 +1204,10 @@
       {
         "country": "Kazakhstan",
         "count": 12
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 8
       },
       {
         "country": "Egypt",
@@ -1207,7 +1259,7 @@
     "code": "26",
     "name": "울산광역시",
     "name_eng": "Ulsan",
-    "total_muslim": 74,
+    "total_muslim": 85,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -1216,6 +1268,10 @@
       {
         "country": "Uzbekistan",
         "count": 14
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 11
       },
       {
         "country": "Tajikistan",
@@ -1259,7 +1315,7 @@
     "code": "39",
     "name": "제주특별자치도",
     "name_eng": "Jeju-do",
-    "total_muslim": 47,
+    "total_muslim": 48,
     "by_country": [
       {
         "country": "Tajikistan",
@@ -1287,6 +1343,10 @@
       },
       {
         "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Mauritania",
         "count": 1
       },
       {

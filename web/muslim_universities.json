@@ -1,10 +1,48 @@
 [
   {
+    "name_ko": "서원대학교",
+    "name_en": "Seowon University",
+    "lat": 36.6247156,
+    "lon": 127.481457,
+    "total_muslim": 878,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 759
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 108
+      },
+      {
+        "country": "Tajikistan",
+        "count": 8
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1
+      },
+      {
+        "country": "Turkey",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 62,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "세종대학교",
     "name_en": "Sejong University",
     "lat": 37.5491107,
     "lon": 127.0750012,
-    "total_muslim": 823,
+    "total_muslim": 832,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -25,6 +63,10 @@
       {
         "country": "Indonesia",
         "count": 37
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
       },
       {
         "country": "Iran",
@@ -74,45 +116,11 @@
     ]
   },
   {
-    "name_ko": "서원대학교",
-    "name_en": "Seowon University",
-    "lat": 36.6247156,
-    "lon": 127.481457,
-    "total_muslim": 770,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 759
-      },
-      {
-        "country": "Tajikistan",
-        "count": 8
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 1
-      },
-      {
-        "country": "Turkey",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 62,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "우송대학교",
     "name_en": "Woosong University",
     "lat": 36.3352732,
     "lon": 127.452935,
-    "total_muslim": 694,
+    "total_muslim": 812,
     "by_country": [
       {
         "country": "Bangladesh",
@@ -125,6 +133,10 @@
       {
         "country": "Indonesia",
         "count": 127
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 118
       },
       {
         "country": "Kazakhstan",
@@ -174,41 +186,19 @@
     ]
   },
   {
-    "name_ko": "대구한의대학교",
-    "name_en": "Daegu Haany University",
-    "lat": 35.7948523,
-    "lon": 128.776222,
-    "total_muslim": 636,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 634
-      },
-      {
-        "country": "Indonesia",
-        "count": 1
-      },
-      {
-        "country": "Tajikistan",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 2,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "인하대학교",
     "name_en": "Inha University",
     "lat": 37.4494431,
     "lon": 126.6534446,
-    "total_muslim": 572,
+    "total_muslim": 680,
     "by_country": [
       {
         "country": "Uzbekistan",
         "count": 348
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 108
       },
       {
         "country": "Azerbaijan",
@@ -310,67 +300,31 @@
     ]
   },
   {
-    "name_ko": "경성대학교",
-    "name_en": "Kyungsung University",
-    "lat": 35.1406608,
-    "lon": 129.0980524,
-    "total_muslim": 569,
+    "name_ko": "대구한의대학교",
+    "name_en": "Daegu Haany University",
+    "lat": 35.7948523,
+    "lon": 128.776222,
+    "total_muslim": 644,
     "by_country": [
       {
-        "country": "Bangladesh",
-        "count": 376
+        "country": "Uzbekistan",
+        "count": 634
       },
       {
-        "country": "Uzbekistan",
-        "count": 107
+        "country": "Kyrgyzstan",
+        "count": 8
       },
       {
         "country": "Indonesia",
-        "count": 37
-      },
-      {
-        "country": "Pakistan",
-        "count": 30
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 3
-      },
-      {
-        "country": "Morocco",
-        "count": 3
+        "count": 1
       },
       {
         "country": "Tajikistan",
-        "count": 3
-      },
-      {
-        "country": "Turkey",
-        "count": 3
-      },
-      {
-        "country": "Malaysia",
-        "count": 2
-      },
-      {
-        "country": "Yemen",
-        "count": 2
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Sudan",
-        "count": 1
-      },
-      {
-        "country": "Tunisia",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 27,
+        "count": 2,
         "extra": true
       }
     ]
@@ -380,7 +334,7 @@
     "name_en": "Korea University",
     "lat": 37.5880378,
     "lon": 127.0323927,
-    "total_muslim": 562,
+    "total_muslim": 587,
     "by_country": [
       {
         "country": "Malaysia",
@@ -405,6 +359,10 @@
       {
         "country": "Turkey",
         "count": 27
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 25
       },
       {
         "country": "Iran",
@@ -498,11 +456,81 @@
     ]
   },
   {
+    "name_ko": "경성대학교",
+    "name_en": "Kyungsung University",
+    "lat": 35.1406608,
+    "lon": 129.0980524,
+    "total_muslim": 572,
+    "by_country": [
+      {
+        "country": "Bangladesh",
+        "count": 376
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 107
+      },
+      {
+        "country": "Indonesia",
+        "count": 37
+      },
+      {
+        "country": "Pakistan",
+        "count": 30
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 3
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 3
+      },
+      {
+        "country": "Morocco",
+        "count": 3
+      },
+      {
+        "country": "Tajikistan",
+        "count": 3
+      },
+      {
+        "country": "Turkey",
+        "count": 3
+      },
+      {
+        "country": "Malaysia",
+        "count": 2
+      },
+      {
+        "country": "Yemen",
+        "count": 2
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Sudan",
+        "count": 1
+      },
+      {
+        "country": "Tunisia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 27,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "연세대학교",
     "name_en": "Yonsei University",
     "lat": 37.567836,
     "lon": 126.9393747,
-    "total_muslim": 465,
+    "total_muslim": 481,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -527,6 +555,10 @@
       {
         "country": "Morocco",
         "count": 20
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 16
       },
       {
         "country": "Iran",
@@ -616,7 +648,7 @@
     "name_en": "Hanyang University",
     "lat": 37.5569876,
     "lon": 127.0470893,
-    "total_muslim": 463,
+    "total_muslim": 467,
     "by_country": [
       {
         "country": "Indonesia",
@@ -657,6 +689,10 @@
       {
         "country": "United Arab Emirates",
         "count": 7
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 4
       },
       {
         "country": "Pakistan",
@@ -714,7 +750,7 @@
     "name_en": "Busan University of Foreign Studies",
     "lat": 35.2670628,
     "lon": 129.0795592,
-    "total_muslim": 400,
+    "total_muslim": 410,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -723,6 +759,10 @@
       {
         "country": "Kazakhstan",
         "count": 29
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 10
       },
       {
         "country": "Indonesia",
@@ -796,7 +836,7 @@
     "name_en": "Jeonbuk National University",
     "lat": 35.8466752,
     "lon": 127.1337209,
-    "total_muslim": 367,
+    "total_muslim": 386,
     "by_country": [
       {
         "country": "Bangladesh",
@@ -813,6 +853,10 @@
       {
         "country": "Indonesia",
         "count": 23
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 19
       },
       {
         "country": "Malaysia",
@@ -878,7 +922,7 @@
     "name_en": "Dongyang University",
     "lat": 36.8823206,
     "lon": 128.5337885,
-    "total_muslim": 357,
+    "total_muslim": 360,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -889,8 +933,38 @@
         "count": 5
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 3
+      },
+      {
         "country": "Mongolia",
         "count": 153,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "경일대학교",
+    "name_en": "Kyungil University",
+    "lat": 35.9077641,
+    "lon": 128.8011067,
+    "total_muslim": 356,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 263
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 91
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 2
+      },
+      {
+        "country": "Mongolia",
+        "count": 2,
         "extra": true
       }
     ]
@@ -900,7 +974,7 @@
     "name_en": "Youngsan University (Haeundae)",
     "lat": 35.2234617,
     "lon": 129.1532831,
-    "total_muslim": 279,
+    "total_muslim": 297,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -909,6 +983,10 @@
       {
         "country": "Indonesia",
         "count": 19
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 18
       },
       {
         "country": "Pakistan",
@@ -938,7 +1016,7 @@
     "name_en": "Tongmyong University",
     "lat": 35.1219955,
     "lon": 129.1017248,
-    "total_muslim": 269,
+    "total_muslim": 273,
     "by_country": [
       {
         "country": "Bangladesh",
@@ -951,6 +1029,10 @@
       {
         "country": "Pakistan",
         "count": 42
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 4
       },
       {
         "country": "Indonesia",
@@ -967,28 +1049,6 @@
       {
         "country": "Mongolia",
         "count": 13,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "경일대학교",
-    "name_en": "Kyungil University",
-    "lat": 35.9077641,
-    "lon": 128.8011067,
-    "total_muslim": 265,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 263
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 2
-      },
-      {
-        "country": "Mongolia",
-        "count": 2,
         "extra": true
       }
     ]
@@ -1032,7 +1092,7 @@
     "name_en": "Sun Moon University",
     "lat": 36.7982739,
     "lon": 127.0745741,
-    "total_muslim": 257,
+    "total_muslim": 259,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1067,6 +1127,10 @@
         "count": 5
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
         "country": "Tajikistan",
         "count": 2
       },
@@ -1098,11 +1162,101 @@
     ]
   },
   {
+    "name_ko": "경희대학교",
+    "name_en": "Kyung Hee University",
+    "lat": 37.5971213,
+    "lon": 127.0519867,
+    "total_muslim": 255,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 65
+      },
+      {
+        "country": "Malaysia",
+        "count": 39
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 37
+      },
+      {
+        "country": "Indonesia",
+        "count": 28
+      },
+      {
+        "country": "Bangladesh",
+        "count": 22
+      },
+      {
+        "country": "Iran",
+        "count": 14
+      },
+      {
+        "country": "Turkey",
+        "count": 12
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
+      },
+      {
+        "country": "Morocco",
+        "count": 8
+      },
+      {
+        "country": "Pakistan",
+        "count": 5
+      },
+      {
+        "country": "Afghanistan",
+        "count": 4
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 3
+      },
+      {
+        "country": "Iraq",
+        "count": 2
+      },
+      {
+        "country": "Tajikistan",
+        "count": 2
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Jordan",
+        "count": 1
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Yemen",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 54,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "강원대학교",
     "name_en": "Kangwon National University",
     "lat": 37.8672582,
     "lon": 127.7447487,
-    "total_muslim": 246,
+    "total_muslim": 247,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1157,6 +1311,10 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Morocco",
         "count": 1
       },
@@ -1176,232 +1334,11 @@
     ]
   },
   {
-    "name_ko": "경동대학교",
-    "name_en": "Kyungdong University",
-    "lat": 38.251531,
-    "lon": 128.556618,
-    "total_muslim": 246,
-    "by_country": [
-      {
-        "country": "Bangladesh",
-        "count": 176
-      },
-      {
-        "country": "Pakistan",
-        "count": 42
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 18
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 7
-      },
-      {
-        "country": "Indonesia",
-        "count": 3
-      }
-    ]
-  },
-  {
-    "name_ko": "경희대학교",
-    "name_en": "Kyung Hee University",
-    "lat": 37.5971213,
-    "lon": 127.0519867,
-    "total_muslim": 246,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 65
-      },
-      {
-        "country": "Malaysia",
-        "count": 39
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 37
-      },
-      {
-        "country": "Indonesia",
-        "count": 28
-      },
-      {
-        "country": "Bangladesh",
-        "count": 22
-      },
-      {
-        "country": "Iran",
-        "count": 14
-      },
-      {
-        "country": "Turkey",
-        "count": 12
-      },
-      {
-        "country": "Morocco",
-        "count": 8
-      },
-      {
-        "country": "Pakistan",
-        "count": 5
-      },
-      {
-        "country": "Afghanistan",
-        "count": 4
-      },
-      {
-        "country": "Turkmenistan",
-        "count": 3
-      },
-      {
-        "country": "Iraq",
-        "count": 2
-      },
-      {
-        "country": "Tajikistan",
-        "count": 2
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Jordan",
-        "count": 1
-      },
-      {
-        "country": "Saudi Arabia",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Yemen",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 54,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "한국외국어대학교",
-    "name_en": "Hankuk University of Foreign Studies",
-    "lat": 37.5970815,
-    "lon": 127.0587413,
-    "total_muslim": 241,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 101
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 23
-      },
-      {
-        "country": "Malaysia",
-        "count": 22
-      },
-      {
-        "country": "Turkey",
-        "count": 21
-      },
-      {
-        "country": "Morocco",
-        "count": 12
-      },
-      {
-        "country": "Saudi Arabia",
-        "count": 11
-      },
-      {
-        "country": "Indonesia",
-        "count": 10
-      },
-      {
-        "country": "Pakistan",
-        "count": 9
-      },
-      {
-        "country": "Bangladesh",
-        "count": 5
-      },
-      {
-        "country": "Iran",
-        "count": 3
-      },
-      {
-        "country": "Iraq",
-        "count": 3
-      },
-      {
-        "country": "United Arab Emirates",
-        "count": 3
-      },
-      {
-        "country": "Tunisia",
-        "count": 3
-      },
-      {
-        "country": "Turkmenistan",
-        "count": 3
-      },
-      {
-        "country": "Algeria",
-        "count": 2
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 2
-      },
-      {
-        "country": "Egypt",
-        "count": 2
-      },
-      {
-        "country": "Afghanistan",
-        "count": 1
-      },
-      {
-        "country": "Brunei",
-        "count": 1
-      },
-      {
-        "country": "Libya",
-        "count": 1
-      },
-      {
-        "country": "Sudan",
-        "count": 1
-      },
-      {
-        "country": "Syria",
-        "count": 1
-      },
-      {
-        "country": "Tajikistan",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 21,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "서울대학교",
     "name_en": "Seoul National University",
     "lat": 37.458115,
     "lon": 126.9521607,
-    "total_muslim": 239,
+    "total_muslim": 247,
     "by_country": [
       {
         "country": "Malaysia",
@@ -1430,6 +1367,10 @@
       {
         "country": "Morocco",
         "count": 9
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 8
       },
       {
         "country": "Brunei",
@@ -1503,11 +1444,150 @@
     ]
   },
   {
+    "name_ko": "경동대학교",
+    "name_en": "Kyungdong University",
+    "lat": 38.251531,
+    "lon": 128.556618,
+    "total_muslim": 246,
+    "by_country": [
+      {
+        "country": "Bangladesh",
+        "count": 176
+      },
+      {
+        "country": "Pakistan",
+        "count": 42
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 18
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 7
+      },
+      {
+        "country": "Indonesia",
+        "count": 3
+      }
+    ]
+  },
+  {
+    "name_ko": "한국외국어대학교",
+    "name_en": "Hankuk University of Foreign Studies",
+    "lat": 37.5970815,
+    "lon": 127.0587413,
+    "total_muslim": 245,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 101
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 23
+      },
+      {
+        "country": "Malaysia",
+        "count": 22
+      },
+      {
+        "country": "Turkey",
+        "count": 21
+      },
+      {
+        "country": "Morocco",
+        "count": 12
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 11
+      },
+      {
+        "country": "Indonesia",
+        "count": 10
+      },
+      {
+        "country": "Pakistan",
+        "count": 9
+      },
+      {
+        "country": "Bangladesh",
+        "count": 5
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 4
+      },
+      {
+        "country": "Iran",
+        "count": 3
+      },
+      {
+        "country": "Iraq",
+        "count": 3
+      },
+      {
+        "country": "United Arab Emirates",
+        "count": 3
+      },
+      {
+        "country": "Tunisia",
+        "count": 3
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 3
+      },
+      {
+        "country": "Algeria",
+        "count": 2
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 2
+      },
+      {
+        "country": "Egypt",
+        "count": 2
+      },
+      {
+        "country": "Afghanistan",
+        "count": 1
+      },
+      {
+        "country": "Brunei",
+        "count": 1
+      },
+      {
+        "country": "Libya",
+        "count": 1
+      },
+      {
+        "country": "Sudan",
+        "count": 1
+      },
+      {
+        "country": "Syria",
+        "count": 1
+      },
+      {
+        "country": "Tajikistan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 21,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "순천향대학교",
     "name_en": "Soonchunhyang University",
     "lat": 36.769988,
     "lon": 126.9316341,
-    "total_muslim": 235,
+    "total_muslim": 236,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1538,6 +1618,10 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Mongolia",
         "count": 170,
         "extra": true
@@ -1549,7 +1633,7 @@
     "name_en": "Sungkyunkwan University",
     "lat": 37.5870459,
     "lon": 126.9906264,
-    "total_muslim": 230,
+    "total_muslim": 235,
     "by_country": [
       {
         "country": "Malaysia",
@@ -1574,6 +1658,10 @@
       {
         "country": "Brunei",
         "count": 8
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 5
       },
       {
         "country": "Lebanon",
@@ -1635,7 +1723,7 @@
     "name_en": "Dongshin University",
     "lat": 35.0491912,
     "lon": 126.7188837,
-    "total_muslim": 226,
+    "total_muslim": 227,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1654,30 +1742,12 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Mongolia",
         "count": 19,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "우석대학교",
-    "name_en": "Woosuk University",
-    "lat": 35.91435,
-    "lon": 127.0683333,
-    "total_muslim": 218,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 208
-      },
-      {
-        "country": "Bangladesh",
-        "count": 10
-      },
-      {
-        "country": "Mongolia",
-        "count": 61,
         "extra": true
       }
     ]
@@ -1687,7 +1757,7 @@
     "name_en": "Korea Advanced Institute of Science and Technology (KAIST)",
     "lat": 36.3703054,
     "lon": 127.3620118,
-    "total_muslim": 213,
+    "total_muslim": 225,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -1712,6 +1782,10 @@
       {
         "country": "Pakistan",
         "count": 14
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 12
       },
       {
         "country": "Turkey",
@@ -1769,11 +1843,33 @@
     ]
   },
   {
+    "name_ko": "우석대학교",
+    "name_en": "Woosuk University",
+    "lat": 35.91435,
+    "lon": 127.0683333,
+    "total_muslim": 218,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 208
+      },
+      {
+        "country": "Bangladesh",
+        "count": 10
+      },
+      {
+        "country": "Mongolia",
+        "count": 61,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "부산대학교",
     "name_en": "Pusan National University",
     "lat": 35.2343498,
     "lon": 129.0784068,
-    "total_muslim": 192,
+    "total_muslim": 214,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -1782,6 +1878,10 @@
       {
         "country": "Uzbekistan",
         "count": 41
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 22
       },
       {
         "country": "Indonesia",
@@ -1863,7 +1963,7 @@
     "name_en": "Kyungpook National University",
     "lat": 35.8905697,
     "lon": 128.6108553,
-    "total_muslim": 181,
+    "total_muslim": 188,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1884,6 +1984,10 @@
       {
         "country": "Pakistan",
         "count": 10
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 7
       },
       {
         "country": "Turkey",
@@ -1929,7 +2033,7 @@
     "name_en": "Chonnam National University",
     "lat": 35.1769099,
     "lon": 126.9068927,
-    "total_muslim": 179,
+    "total_muslim": 180,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -1973,6 +2077,10 @@
       },
       {
         "country": "Jordan",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
         "count": 1
       },
       {
@@ -2037,7 +2145,7 @@
     "name_en": "Shinhan University (2nd Campus)",
     "lat": 37.90148,
     "lon": 127.05887,
-    "total_muslim": 153,
+    "total_muslim": 154,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -2060,30 +2168,12 @@
         "count": 1
       },
       {
-        "country": "Mongolia",
-        "count": 463,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "중부대학교",
-    "name_en": "Joongbu University",
-    "lat": 36.1925591,
-    "lon": 127.452084,
-    "total_muslim": 143,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 142
-      },
-      {
-        "country": "Pakistan",
+        "country": "Kyrgyzstan",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 7,
+        "count": 463,
         "extra": true
       }
     ]
@@ -2093,11 +2183,15 @@
     "name_en": "Daegu University",
     "lat": 35.8974953,
     "lon": 128.8482601,
-    "total_muslim": 141,
+    "total_muslim": 150,
     "by_country": [
       {
         "country": "Uzbekistan",
         "count": 122
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
       },
       {
         "country": "Indonesia",
@@ -2135,7 +2229,7 @@
     "name_en": "Sogang University",
     "lat": 37.5520909,
     "lon": 126.9409875,
-    "total_muslim": 137,
+    "total_muslim": 145,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -2156,6 +2250,10 @@
       {
         "country": "Morocco",
         "count": 11
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 8
       },
       {
         "country": "Turkey",
@@ -2213,11 +2311,33 @@
     ]
   },
   {
+    "name_ko": "중부대학교",
+    "name_en": "Joongbu University",
+    "lat": 36.1925591,
+    "lon": 127.452084,
+    "total_muslim": 143,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 142
+      },
+      {
+        "country": "Pakistan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 7,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "충남대학교",
     "name_en": "Chungnam National University",
     "lat": 36.369879,
     "lon": 127.3448276,
-    "total_muslim": 133,
+    "total_muslim": 139,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -2237,6 +2357,10 @@
       },
       {
         "country": "Kazakhstan",
+        "count": 6
+      },
+      {
+        "country": "Kyrgyzstan",
         "count": 6
       },
       {
@@ -2283,11 +2407,37 @@
     ]
   },
   {
+    "name_ko": "경운대학교",
+    "name_en": "Kyungwoon University",
+    "lat": 36.1676137,
+    "lon": 128.4669655,
+    "total_muslim": 136,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 94
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 40
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 2
+      },
+      {
+        "country": "Mongolia",
+        "count": 165,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "건국대학교",
     "name_en": "Konkuk University",
     "lat": 37.541847,
     "lon": 127.0771149,
-    "total_muslim": 130,
+    "total_muslim": 132,
     "by_country": [
       {
         "country": "Indonesia",
@@ -2318,6 +2468,10 @@
         "count": 5
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
         "country": "Senegal",
         "count": 1
       },
@@ -2341,7 +2495,7 @@
     "name_en": "Keimyung University",
     "lat": 35.8567134,
     "lon": 128.4849417,
-    "total_muslim": 123,
+    "total_muslim": 129,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -2350,6 +2504,10 @@
       {
         "country": "Indonesia",
         "count": 21
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 6
       },
       {
         "country": "Pakistan",
@@ -2403,87 +2561,11 @@
     ]
   },
   {
-    "name_ko": "동아대학교",
-    "name_en": "Dong-A University",
-    "lat": 35.1154117,
-    "lon": 128.9675937,
-    "total_muslim": 118,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 57
-      },
-      {
-        "country": "Indonesia",
-        "count": 22
-      },
-      {
-        "country": "Bangladesh",
-        "count": 15
-      },
-      {
-        "country": "Pakistan",
-        "count": 9
-      },
-      {
-        "country": "Iran",
-        "count": 3
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 3
-      },
-      {
-        "country": "Malaysia",
-        "count": 3
-      },
-      {
-        "country": "Tajikistan",
-        "count": 3
-      },
-      {
-        "country": "Morocco",
-        "count": 1
-      },
-      {
-        "country": "Turkmenistan",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 9,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "칼빈대학교",
-    "name_en": "Calvin University",
-    "lat": 37.305161,
-    "lon": 127.128183,
-    "total_muslim": 118,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 118
-      },
-      {
-        "country": "Mongolia",
-        "count": 31,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "이화여자대학교",
     "name_en": "Ewha Womans University",
     "lat": 37.5643371,
     "lon": 126.9468925,
-    "total_muslim": 114,
+    "total_muslim": 124,
     "by_country": [
       {
         "country": "Malaysia",
@@ -2496,6 +2578,10 @@
       {
         "country": "Uzbekistan",
         "count": 21
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 10
       },
       {
         "country": "Indonesia",
@@ -2569,11 +2655,91 @@
     ]
   },
   {
+    "name_ko": "동아대학교",
+    "name_en": "Dong-A University",
+    "lat": 35.1154117,
+    "lon": 128.9675937,
+    "total_muslim": 119,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 57
+      },
+      {
+        "country": "Indonesia",
+        "count": 22
+      },
+      {
+        "country": "Bangladesh",
+        "count": 15
+      },
+      {
+        "country": "Pakistan",
+        "count": 9
+      },
+      {
+        "country": "Iran",
+        "count": 3
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 3
+      },
+      {
+        "country": "Malaysia",
+        "count": 3
+      },
+      {
+        "country": "Tajikistan",
+        "count": 3
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Morocco",
+        "count": 1
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 9,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "칼빈대학교",
+    "name_en": "Calvin University",
+    "lat": 37.305161,
+    "lon": 127.128183,
+    "total_muslim": 118,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 118
+      },
+      {
+        "country": "Mongolia",
+        "count": 31,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "중앙대학교",
     "name_en": "Chung-Ang University",
     "lat": 37.5043446,
     "lon": 126.9562823,
-    "total_muslim": 114,
+    "total_muslim": 116,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -2620,6 +2786,10 @@
         "count": 2
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
         "country": "Sudan",
         "count": 2
       },
@@ -2658,6 +2828,32 @@
       {
         "country": "Mongolia",
         "count": 660,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "대신대학교",
+    "name_en": "Daeshin University",
+    "lat": 35.8042007,
+    "lon": 128.7446346,
+    "total_muslim": 114,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 84
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 29
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 1,
         "extra": true
       }
     ]
@@ -2705,11 +2901,81 @@
     ]
   },
   {
+    "name_ko": "배재대학교",
+    "name_en": "Pai Chai University",
+    "lat": 36.3205428,
+    "lon": 127.3658519,
+    "total_muslim": 113,
+    "by_country": [
+      {
+        "country": "Kyrgyzstan",
+        "count": 58
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 18
+      },
+      {
+        "country": "Indonesia",
+        "count": 7
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 7
+      },
+      {
+        "country": "Tajikistan",
+        "count": 5
+      },
+      {
+        "country": "Egypt",
+        "count": 5
+      },
+      {
+        "country": "Pakistan",
+        "count": 3
+      },
+      {
+        "country": "Bangladesh",
+        "count": 2
+      },
+      {
+        "country": "Iran",
+        "count": 2
+      },
+      {
+        "country": "Malaysia",
+        "count": 2
+      },
+      {
+        "country": "Brunei",
+        "count": 1
+      },
+      {
+        "country": "Jordan",
+        "count": 1
+      },
+      {
+        "country": "Morocco",
+        "count": 1
+      },
+      {
+        "country": "Turkey",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 11,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "서울과학기술대학교",
     "name_en": "Seoul National University of Science and Technology",
     "lat": 37.6324414,
     "lon": 127.0794648,
-    "total_muslim": 105,
+    "total_muslim": 110,
     "by_country": [
       {
         "country": "Malaysia",
@@ -2726,6 +2992,10 @@
       {
         "country": "Iran",
         "count": 10
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 5
       },
       {
         "country": "Turkey",
@@ -2775,7 +3045,7 @@
     "name_en": "Kookmin University",
     "lat": 37.6114792,
     "lon": 126.9964154,
-    "total_muslim": 98,
+    "total_muslim": 107,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -2784,6 +3054,10 @@
       {
         "country": "Uzbekistan",
         "count": 14
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
       },
       {
         "country": "Indonesia",
@@ -2845,6 +3119,80 @@
     ]
   },
   {
+    "name_ko": "아주대학교",
+    "name_en": "Ajou University",
+    "lat": 37.2830024,
+    "lon": 127.0453782,
+    "total_muslim": 97,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 29
+      },
+      {
+        "country": "Turkey",
+        "count": 15
+      },
+      {
+        "country": "Indonesia",
+        "count": 12
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 6
+      },
+      {
+        "country": "Iran",
+        "count": 5
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 4
+      },
+      {
+        "country": "Bangladesh",
+        "count": 3
+      },
+      {
+        "country": "Malaysia",
+        "count": 3
+      },
+      {
+        "country": "Morocco",
+        "count": 3
+      },
+      {
+        "country": "Pakistan",
+        "count": 3
+      },
+      {
+        "country": "Tajikistan",
+        "count": 2
+      },
+      {
+        "country": "Qatar",
+        "count": 1
+      },
+      {
+        "country": "Syria",
+        "count": 1
+      },
+      {
+        "country": "Tunisia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 40,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "전남대학교 (제2캠퍼스)",
     "name_en": "Chonnam National University (2nd Campus)",
     "lat": 34.77497,
@@ -2866,28 +3214,6 @@
       {
         "country": "Turkey",
         "count": 1
-      }
-    ]
-  },
-  {
-    "name_ko": "경운대학교",
-    "name_en": "Kyungwoon University",
-    "lat": 36.1676137,
-    "lon": 128.4669655,
-    "total_muslim": 96,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 94
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 2
-      },
-      {
-        "country": "Mongolia",
-        "count": 165,
-        "extra": true
       }
     ]
   },
@@ -2954,11 +3280,65 @@
     ]
   },
   {
+    "name_ko": "호서대학교",
+    "name_en": "Hoseo University",
+    "lat": 36.7352819,
+    "lon": 127.0757053,
+    "total_muslim": 93,
+    "by_country": [
+      {
+        "country": "Kyrgyzstan",
+        "count": 25
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 22
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 17
+      },
+      {
+        "country": "Pakistan",
+        "count": 13
+      },
+      {
+        "country": "Bangladesh",
+        "count": 5
+      },
+      {
+        "country": "Indonesia",
+        "count": 5
+      },
+      {
+        "country": "Iran",
+        "count": 3
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Syria",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 10,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "국립부경대학교",
     "name_en": "Pukyong National University",
     "lat": 35.1159916,
     "lon": 129.090102,
-    "total_muslim": 90,
+    "total_muslim": 92,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -2979,6 +3359,10 @@
       {
         "country": "Algeria",
         "count": 3
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
       },
       {
         "country": "Malaysia",
@@ -3015,6 +3399,68 @@
       {
         "country": "Mongolia",
         "count": 15,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "숭실대학교",
+    "name_en": "Soongsil University",
+    "lat": 37.4962989,
+    "lon": 126.9567202,
+    "total_muslim": 92,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 27
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 14
+      },
+      {
+        "country": "Iran",
+        "count": 10
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
+      },
+      {
+        "country": "Turkey",
+        "count": 7
+      },
+      {
+        "country": "Indonesia",
+        "count": 6
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 5
+      },
+      {
+        "country": "Morocco",
+        "count": 5
+      },
+      {
+        "country": "Malaysia",
+        "count": 3
+      },
+      {
+        "country": "Mali",
+        "count": 3
+      },
+      {
+        "country": "Algeria",
+        "count": 2
+      },
+      {
+        "country": "Tunisia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 137,
         "extra": true
       }
     ]
@@ -3082,161 +3528,11 @@
     ]
   },
   {
-    "name_ko": "아주대학교",
-    "name_en": "Ajou University",
-    "lat": 37.2830024,
-    "lon": 127.0453782,
-    "total_muslim": 88,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 29
-      },
-      {
-        "country": "Turkey",
-        "count": 15
-      },
-      {
-        "country": "Indonesia",
-        "count": 12
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 6
-      },
-      {
-        "country": "Iran",
-        "count": 5
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 4
-      },
-      {
-        "country": "Bangladesh",
-        "count": 3
-      },
-      {
-        "country": "Malaysia",
-        "count": 3
-      },
-      {
-        "country": "Morocco",
-        "count": 3
-      },
-      {
-        "country": "Pakistan",
-        "count": 3
-      },
-      {
-        "country": "Tajikistan",
-        "count": 2
-      },
-      {
-        "country": "Qatar",
-        "count": 1
-      },
-      {
-        "country": "Syria",
-        "count": 1
-      },
-      {
-        "country": "Tunisia",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 40,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "대신대학교",
-    "name_en": "Daeshin University",
-    "lat": 35.8042007,
-    "lon": 128.7446346,
-    "total_muslim": 85,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 84
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 1,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "숭실대학교",
-    "name_en": "Soongsil University",
-    "lat": 37.4962989,
-    "lon": 126.9567202,
-    "total_muslim": 83,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 27
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 14
-      },
-      {
-        "country": "Iran",
-        "count": 10
-      },
-      {
-        "country": "Turkey",
-        "count": 7
-      },
-      {
-        "country": "Indonesia",
-        "count": 6
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 5
-      },
-      {
-        "country": "Morocco",
-        "count": 5
-      },
-      {
-        "country": "Malaysia",
-        "count": 3
-      },
-      {
-        "country": "Mali",
-        "count": 3
-      },
-      {
-        "country": "Algeria",
-        "count": 2
-      },
-      {
-        "country": "Tunisia",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 137,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "인천대학교",
     "name_en": "Incheon National University",
     "lat": 37.3751446,
     "lon": 126.6323415,
-    "total_muslim": 80,
+    "total_muslim": 82,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -3256,6 +3552,10 @@
       },
       {
         "country": "Iraq",
+        "count": 2
+      },
+      {
+        "country": "Kyrgyzstan",
         "count": 2
       },
       {
@@ -3285,6 +3585,68 @@
       {
         "country": "Mongolia",
         "count": 44,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "영남대학교",
+    "name_en": "Yeungnam University",
+    "lat": 35.828022,
+    "lon": 128.7572223,
+    "total_muslim": 80,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 23
+      },
+      {
+        "country": "Turkey",
+        "count": 21
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 13
+      },
+      {
+        "country": "Indonesia",
+        "count": 4
+      },
+      {
+        "country": "Iran",
+        "count": 4
+      },
+      {
+        "country": "Tajikistan",
+        "count": 4
+      },
+      {
+        "country": "Algeria",
+        "count": 3
+      },
+      {
+        "country": "Bangladesh",
+        "count": 3
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 2
+      },
+      {
+        "country": "Lebanon",
+        "count": 1
+      },
+      {
+        "country": "Morocco",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 79,
         "extra": true
       }
     ]
@@ -3356,7 +3718,7 @@
     "name_en": "Duksung Women's University",
     "lat": 37.650931,
     "lon": 127.016908,
-    "total_muslim": 68,
+    "total_muslim": 69,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -3376,6 +3738,10 @@
       },
       {
         "country": "Iran",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
         "count": 1
       },
       {
@@ -3410,56 +3776,6 @@
     ]
   },
   {
-    "name_ko": "호서대학교",
-    "name_en": "Hoseo University",
-    "lat": 36.7352819,
-    "lon": 127.0757053,
-    "total_muslim": 68,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 22
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 17
-      },
-      {
-        "country": "Pakistan",
-        "count": 13
-      },
-      {
-        "country": "Bangladesh",
-        "count": 5
-      },
-      {
-        "country": "Indonesia",
-        "count": 5
-      },
-      {
-        "country": "Iran",
-        "count": 3
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Syria",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 10,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "국립순천대학교",
     "name_en": "Sunchon National University",
     "lat": 34.9681989,
@@ -3489,64 +3805,6 @@
       {
         "country": "Mongolia",
         "count": 76,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "영남대학교",
-    "name_en": "Yeungnam University",
-    "lat": 35.828022,
-    "lon": 128.7572223,
-    "total_muslim": 67,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 23
-      },
-      {
-        "country": "Turkey",
-        "count": 21
-      },
-      {
-        "country": "Indonesia",
-        "count": 4
-      },
-      {
-        "country": "Iran",
-        "count": 4
-      },
-      {
-        "country": "Tajikistan",
-        "count": 4
-      },
-      {
-        "country": "Algeria",
-        "count": 3
-      },
-      {
-        "country": "Bangladesh",
-        "count": 3
-      },
-      {
-        "country": "Saudi Arabia",
-        "count": 2
-      },
-      {
-        "country": "Lebanon",
-        "count": 1
-      },
-      {
-        "country": "Morocco",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 79,
         "extra": true
       }
     ]
@@ -3616,33 +3874,11 @@
     ]
   },
   {
-    "name_ko": "극동대학교",
-    "name_en": "Far East University",
-    "lat": 37.1292211,
-    "lon": 127.6350513,
-    "total_muslim": 64,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 39
-      },
-      {
-        "country": "Bangladesh",
-        "count": 25
-      },
-      {
-        "country": "Mongolia",
-        "count": 119,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "광운대학교",
     "name_en": "Kwangwoon University",
     "lat": 37.6197648,
     "lon": 127.0597566,
-    "total_muslim": 62,
+    "total_muslim": 65,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -3659,6 +3895,10 @@
       {
         "country": "Bangladesh",
         "count": 4
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 3
       },
       {
         "country": "Malaysia",
@@ -3688,11 +3928,63 @@
     ]
   },
   {
+    "name_ko": "국립한밭대학교",
+    "name_en": "Hanbat National University",
+    "lat": 36.3506504,
+    "lon": 127.2974494,
+    "total_muslim": 64,
+    "by_country": [
+      {
+        "country": "Kyrgyzstan",
+        "count": 59
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 3
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1
+      },
+      {
+        "country": "Tajikistan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 49,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "극동대학교",
+    "name_en": "Far East University",
+    "lat": 37.1292211,
+    "lon": 127.6350513,
+    "total_muslim": 64,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 39
+      },
+      {
+        "country": "Bangladesh",
+        "count": 25
+      },
+      {
+        "country": "Mongolia",
+        "count": 119,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "인제대학교",
     "name_en": "Inje University",
     "lat": 35.250061,
     "lon": 128.9020135,
-    "total_muslim": 56,
+    "total_muslim": 62,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -3709,6 +4001,10 @@
       {
         "country": "Pakistan",
         "count": 10
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 6
       },
       {
         "country": "Egypt",
@@ -3754,6 +4050,55 @@
     ]
   },
   {
+    "name_ko": "울산과학기술원",
+    "name_en": "Ulsan National Institute of Science and Technology (UNIST)",
+    "lat": 35.5735512,
+    "lon": 129.1899352,
+    "total_muslim": 59,
+    "by_country": [
+      {
+        "country": "Kazakhstan",
+        "count": 32
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
+      },
+      {
+        "country": "Tajikistan",
+        "count": 6
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 5
+      },
+      {
+        "country": "Pakistan",
+        "count": 2
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Morocco",
+        "count": 1
+      },
+      {
+        "country": "Turkey",
+        "count": 1
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 1
+      }
+    ]
+  },
+  {
     "name_ko": "국립목포해양대학교",
     "name_en": "Mokpo National Maritime University",
     "lat": 34.79273,
@@ -3767,77 +4112,11 @@
     ]
   },
   {
-    "name_ko": "배재대학교",
-    "name_en": "Pai Chai University",
-    "lat": 36.3205428,
-    "lon": 127.3658519,
-    "total_muslim": 55,
-    "by_country": [
-      {
-        "country": "Kazakhstan",
-        "count": 18
-      },
-      {
-        "country": "Indonesia",
-        "count": 7
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 7
-      },
-      {
-        "country": "Tajikistan",
-        "count": 5
-      },
-      {
-        "country": "Egypt",
-        "count": 5
-      },
-      {
-        "country": "Pakistan",
-        "count": 3
-      },
-      {
-        "country": "Bangladesh",
-        "count": 2
-      },
-      {
-        "country": "Iran",
-        "count": 2
-      },
-      {
-        "country": "Malaysia",
-        "count": 2
-      },
-      {
-        "country": "Brunei",
-        "count": 1
-      },
-      {
-        "country": "Jordan",
-        "count": 1
-      },
-      {
-        "country": "Morocco",
-        "count": 1
-      },
-      {
-        "country": "Turkey",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 11,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "동국대학교",
     "name_en": "Dongguk University",
     "lat": 37.5582383,
     "lon": 126.9994886,
-    "total_muslim": 52,
+    "total_muslim": 54,
     "by_country": [
       {
         "country": "Malaysia",
@@ -3876,6 +4155,10 @@
         "count": 2
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
         "country": "Morocco",
         "count": 2
       },
@@ -3907,56 +4190,11 @@
     ]
   },
   {
-    "name_ko": "울산과학기술원",
-    "name_en": "Ulsan National Institute of Science and Technology (UNIST)",
-    "lat": 35.5735512,
-    "lon": 129.1899352,
-    "total_muslim": 50,
-    "by_country": [
-      {
-        "country": "Kazakhstan",
-        "count": 32
-      },
-      {
-        "country": "Tajikistan",
-        "count": 6
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 5
-      },
-      {
-        "country": "Pakistan",
-        "count": 2
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Indonesia",
-        "count": 1
-      },
-      {
-        "country": "Morocco",
-        "count": 1
-      },
-      {
-        "country": "Turkey",
-        "count": 1
-      },
-      {
-        "country": "Turkmenistan",
-        "count": 1
-      }
-    ]
-  },
-  {
     "name_ko": "국립공주대학교",
     "name_en": "Kongju National University",
     "lat": 36.4682808,
     "lon": 127.1401671,
-    "total_muslim": 48,
+    "total_muslim": 52,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -3969,6 +4207,10 @@
       {
         "country": "Bangladesh",
         "count": 9
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 4
       },
       {
         "country": "Pakistan",
@@ -4006,6 +4248,28 @@
     ]
   },
   {
+    "name_ko": "광주여자대학교",
+    "name_en": "Kwangju Women's University",
+    "lat": 35.1636239,
+    "lon": 126.7974759,
+    "total_muslim": 47,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 46
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 27,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "원광대학교",
     "name_en": "Wonkwang University",
     "lat": 35.968779,
@@ -4028,19 +4292,105 @@
     ]
   },
   {
-    "name_ko": "광주여자대학교",
-    "name_en": "Kwangju Women's University",
-    "lat": 35.1636239,
-    "lon": 126.7974759,
+    "name_ko": "한국공학대학교",
+    "name_en": "Tech University of Korea",
+    "lat": 37.3402397,
+    "lon": 126.7333516,
     "total_muslim": 46,
     "by_country": [
       {
         "country": "Uzbekistan",
-        "count": 46
+        "count": 29
+      },
+      {
+        "country": "Pakistan",
+        "count": 5
+      },
+      {
+        "country": "Indonesia",
+        "count": 3
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 2
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 2
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1
+      },
+      {
+        "country": "Iran",
+        "count": 1
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 27,
+        "count": 73,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "경상국립대학교",
+    "name_en": "Gyeongsang National University",
+    "lat": 35.1546243,
+    "lon": 128.0994027,
+    "total_muslim": 45,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 16
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 9
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 5
+      },
+      {
+        "country": "Pakistan",
+        "count": 5
+      },
+      {
+        "country": "Bangladesh",
+        "count": 3
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
+        "country": "Malaysia",
+        "count": 2
+      },
+      {
+        "country": "Iran",
+        "count": 1
+      },
+      {
+        "country": "Iraq",
+        "count": 1
+      },
+      {
+        "country": "Morocco",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 52,
         "extra": true
       }
     ]
@@ -4100,120 +4450,11 @@
     ]
   },
   {
-    "name_ko": "한국공학대학교",
-    "name_en": "Tech University of Korea",
-    "lat": 37.3402397,
-    "lon": 126.7333516,
-    "total_muslim": 44,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 29
-      },
-      {
-        "country": "Pakistan",
-        "count": 5
-      },
-      {
-        "country": "Indonesia",
-        "count": 3
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 2
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 2
-      },
-      {
-        "country": "Bangladesh",
-        "count": 1
-      },
-      {
-        "country": "Iran",
-        "count": 1
-      },
-      {
-        "country": "Burkina Faso",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 73,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "경상국립대학교",
-    "name_en": "Gyeongsang National University",
-    "lat": 35.1546243,
-    "lon": 128.0994027,
-    "total_muslim": 43,
-    "by_country": [
-      {
-        "country": "Indonesia",
-        "count": 16
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 9
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 5
-      },
-      {
-        "country": "Pakistan",
-        "count": 5
-      },
-      {
-        "country": "Bangladesh",
-        "count": 3
-      },
-      {
-        "country": "Malaysia",
-        "count": 2
-      },
-      {
-        "country": "Iran",
-        "count": 1
-      },
-      {
-        "country": "Iraq",
-        "count": 1
-      },
-      {
-        "country": "Morocco",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 52,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "유원대학교",
-    "name_en": "U1 University",
-    "lat": 36.1953813,
-    "lon": 127.7989927,
-    "total_muslim": 42,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 42
-      }
-    ]
-  },
-  {
     "name_ko": "명지대학교 (제2캠퍼스)",
     "name_en": "Myongji University (2nd Campus)",
     "lat": 37.22105,
     "lon": 127.1856,
-    "total_muslim": 41,
+    "total_muslim": 43,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -4234,6 +4475,10 @@
       {
         "country": "Kazakhstan",
         "count": 3
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
       },
       {
         "country": "Malaysia",
@@ -4259,11 +4504,24 @@
     ]
   },
   {
+    "name_ko": "유원대학교",
+    "name_en": "U1 University",
+    "lat": 36.1953813,
+    "lon": 127.7989927,
+    "total_muslim": 42,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 42
+      }
+    ]
+  },
+  {
     "name_ko": "충북대학교",
     "name_en": "Chungbuk National University",
     "lat": 36.6281688,
     "lon": 127.4538403,
-    "total_muslim": 38,
+    "total_muslim": 40,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -4288,6 +4546,10 @@
       {
         "country": "Pakistan",
         "count": 3
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
       },
       {
         "country": "Morocco",
@@ -4321,105 +4583,19 @@
     ]
   },
   {
-    "name_ko": "국립목포대학교",
-    "name_en": "Mokpo National University",
-    "lat": 34.9103033,
-    "lon": 126.437759,
-    "total_muslim": 37,
-    "by_country": [
-      {
-        "country": "Indonesia",
-        "count": 37
-      },
-      {
-        "country": "Mongolia",
-        "count": 7,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "한남대학교",
-    "name_en": "Hannam University",
-    "lat": 36.3544981,
-    "lon": 127.4220842,
-    "total_muslim": 37,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 16
-      },
-      {
-        "country": "Bangladesh",
-        "count": 8
-      },
-      {
-        "country": "Pakistan",
-        "count": 3
-      },
-      {
-        "country": "Tajikistan",
-        "count": 3
-      },
-      {
-        "country": "Indonesia",
-        "count": 2
-      },
-      {
-        "country": "Afghanistan",
-        "count": 1
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 1
-      },
-      {
-        "country": "Turkey",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 24,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "한라대학교",
-    "name_en": "Halla University",
-    "lat": 37.3032193,
-    "lon": 127.9074151,
-    "total_muslim": 34,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 34
-      },
-      {
-        "country": "Mongolia",
-        "count": 7,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "광주과학기술원",
     "name_en": "Gwangju Institute of Science and Technology (GIST)",
     "lat": 35.2281557,
     "lon": 126.8421662,
-    "total_muslim": 33,
+    "total_muslim": 39,
     "by_country": [
       {
         "country": "Kazakhstan",
         "count": 19
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 6
       },
       {
         "country": "Morocco",
@@ -4457,11 +4633,109 @@
     ]
   },
   {
+    "name_ko": "광주대학교",
+    "name_en": "Gwangju University",
+    "lat": 35.1057203,
+    "lon": 126.8955031,
+    "total_muslim": 39,
+    "by_country": [
+      {
+        "country": "Kyrgyzstan",
+        "count": 23
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 16
+      },
+      {
+        "country": "Mongolia",
+        "count": 52,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "한남대학교",
+    "name_en": "Hannam University",
+    "lat": 36.3544981,
+    "lon": 127.4220842,
+    "total_muslim": 39,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 16
+      },
+      {
+        "country": "Bangladesh",
+        "count": 8
+      },
+      {
+        "country": "Pakistan",
+        "count": 3
+      },
+      {
+        "country": "Tajikistan",
+        "count": 3
+      },
+      {
+        "country": "Indonesia",
+        "count": 2
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
+        "country": "Afghanistan",
+        "count": 1
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1
+      },
+      {
+        "country": "Turkey",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 24,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "국립목포대학교",
+    "name_en": "Mokpo National University",
+    "lat": 34.9103033,
+    "lon": 126.437759,
+    "total_muslim": 37,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 37
+      },
+      {
+        "country": "Mongolia",
+        "count": 7,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "대구가톨릭대학교",
     "name_en": "Daegu Catholic University",
     "lat": 35.9111518,
     "lon": 128.8077284,
-    "total_muslim": 33,
+    "total_muslim": 37,
     "by_country": [
       {
         "country": "Tajikistan",
@@ -4470,6 +4744,10 @@
       {
         "country": "Indonesia",
         "count": 8
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 4
       },
       {
         "country": "Bangladesh",
@@ -4499,11 +4777,89 @@
     ]
   },
   {
+    "name_ko": "백석대학교",
+    "name_en": "Baekseok University",
+    "lat": 36.8397504,
+    "lon": 127.1850643,
+    "total_muslim": 35,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 31
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 3
+      },
+      {
+        "country": "Pakistan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 7,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "한라대학교",
+    "name_en": "Halla University",
+    "lat": 37.3032193,
+    "lon": 127.9074151,
+    "total_muslim": 35,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 34
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 7,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "서울여자대학교",
+    "name_en": "Seoul Women's University",
+    "lat": 37.6282981,
+    "lon": 127.0905308,
+    "total_muslim": 34,
+    "by_country": [
+      {
+        "country": "Kazakhstan",
+        "count": 13
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 8
+      },
+      {
+        "country": "Turkey",
+        "count": 8
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 5
+      },
+      {
+        "country": "Mongolia",
+        "count": 257,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "신라대학교",
     "name_en": "Silla University",
     "lat": 35.1672753,
     "lon": 128.9966121,
-    "total_muslim": 33,
+    "total_muslim": 34,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -4515,6 +4871,10 @@
       },
       {
         "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
         "count": 1
       },
       {
@@ -4533,23 +4893,47 @@
     ]
   },
   {
-    "name_ko": "백석대학교",
-    "name_en": "Baekseok University",
-    "lat": 36.8397504,
-    "lon": 127.1850643,
-    "total_muslim": 32,
+    "name_ko": "한동대학교",
+    "name_en": "Handong Global University",
+    "lat": 36.103127,
+    "lon": 129.3886111,
+    "total_muslim": 34,
     "by_country": [
       {
-        "country": "Uzbekistan",
-        "count": 31
+        "country": "Indonesia",
+        "count": 17
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 7
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 3
+      },
+      {
+        "country": "Malaysia",
+        "count": 3
+      },
+      {
+        "country": "Albania",
+        "count": 1
+      },
+      {
+        "country": "Jordan",
+        "count": 1
       },
       {
         "country": "Pakistan",
         "count": 1
       },
       {
+        "country": "Uzbekistan",
+        "count": 1
+      },
+      {
         "country": "Mongolia",
-        "count": 7,
+        "count": 15,
         "extra": true
       }
     ]
@@ -4594,43 +4978,47 @@
     ]
   },
   {
-    "name_ko": "한동대학교",
-    "name_en": "Handong Global University",
-    "lat": 36.103127,
-    "lon": 129.3886111,
+    "name_ko": "청운대학교",
+    "name_en": "Chungwoon University",
+    "lat": 36.5801433,
+    "lon": 126.6610803,
     "total_muslim": 31,
     "by_country": [
       {
-        "country": "Indonesia",
-        "count": 17
+        "country": "Uzbekistan",
+        "count": 12
+      },
+      {
+        "country": "Iran",
+        "count": 8
       },
       {
         "country": "Kazakhstan",
-        "count": 7
-      },
-      {
-        "country": "Malaysia",
         "count": 3
       },
       {
-        "country": "Albania",
+        "country": "Kyrgyzstan",
+        "count": 3
+      },
+      {
+        "country": "Turkey",
+        "count": 2
+      },
+      {
+        "country": "Afghanistan",
         "count": 1
       },
       {
-        "country": "Jordan",
+        "country": "Algeria",
         "count": 1
       },
       {
-        "country": "Pakistan",
-        "count": 1
-      },
-      {
-        "country": "Uzbekistan",
+        "country": "Azerbaijan",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 15,
+        "count": 109,
         "extra": true
       }
     ]
@@ -4653,7 +5041,7 @@
     "name_en": "Sungshin Women's University",
     "lat": 37.5913559,
     "lon": 127.0222074,
-    "total_muslim": 28,
+    "total_muslim": 29,
     "by_country": [
       {
         "country": "Turkey",
@@ -4688,6 +5076,10 @@
         "count": 2
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Morocco",
         "count": 1
       },
@@ -4703,43 +5095,35 @@
     ]
   },
   {
-    "name_ko": "청운대학교",
-    "name_en": "Chungwoon University",
-    "lat": 36.5801433,
-    "lon": 126.6610803,
-    "total_muslim": 28,
+    "name_ko": "남서울대학교",
+    "name_en": "Namseoul University",
+    "lat": 36.9079475,
+    "lon": 127.1409837,
+    "total_muslim": 27,
     "by_country": [
       {
         "country": "Uzbekistan",
-        "count": 12
-      },
-      {
-        "country": "Iran",
-        "count": 8
+        "count": 18
       },
       {
         "country": "Kazakhstan",
-        "count": 3
+        "count": 5
       },
       {
-        "country": "Turkey",
+        "country": "Kyrgyzstan",
         "count": 2
       },
       {
-        "country": "Afghanistan",
+        "country": "Brunei",
         "count": 1
       },
       {
-        "country": "Algeria",
-        "count": 1
-      },
-      {
-        "country": "Azerbaijan",
+        "country": "Indonesia",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 109,
+        "count": 116,
         "extra": true
       }
     ]
@@ -4775,57 +5159,85 @@
     ]
   },
   {
-    "name_ko": "서울여자대학교",
-    "name_en": "Seoul Women's University",
-    "lat": 37.6282981,
-    "lon": 127.0905308,
+    "name_ko": "목원대학교",
+    "name_en": "Mokwon University",
+    "lat": 36.3246693,
+    "lon": 127.339086,
     "total_muslim": 26,
     "by_country": [
       {
-        "country": "Kazakhstan",
-        "count": 13
+        "country": "Bangladesh",
+        "count": 10
       },
       {
-        "country": "Turkey",
-        "count": 8
+        "country": "Kyrgyzstan",
+        "count": 9
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 3
       },
       {
         "country": "Uzbekistan",
-        "count": 5
-      },
-      {
-        "country": "Mongolia",
-        "count": 257,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "남서울대학교",
-    "name_en": "Namseoul University",
-    "lat": 36.9079475,
-    "lon": 127.1409837,
-    "total_muslim": 25,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 18
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 5
-      },
-      {
-        "country": "Brunei",
-        "count": 1
+        "count": 2
       },
       {
         "country": "Indonesia",
         "count": 1
       },
       {
+        "country": "Pakistan",
+        "count": 1
+      },
+      {
         "country": "Mongolia",
-        "count": 116,
+        "count": 22,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "울산대학교",
+    "name_en": "University of Ulsan",
+    "lat": 35.5442371,
+    "lon": 129.2567134,
+    "total_muslim": 26,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 9
+      },
+      {
+        "country": "Indonesia",
+        "count": 6
+      },
+      {
+        "country": "Pakistan",
+        "count": 4
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
+        "country": "Tajikistan",
+        "count": 2
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1
+      },
+      {
+        "country": "Iran",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 8,
         "extra": true
       }
     ]
@@ -4835,7 +5247,7 @@
     "name_en": "Sahmyook University",
     "lat": 37.642012,
     "lon": 127.1056211,
-    "total_muslim": 24,
+    "total_muslim": 25,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -4866,6 +5278,10 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Malaysia",
         "count": 1
       },
@@ -4877,53 +5293,11 @@
     ]
   },
   {
-    "name_ko": "울산대학교",
-    "name_en": "University of Ulsan",
-    "lat": 35.5442371,
-    "lon": 129.2567134,
-    "total_muslim": 24,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 9
-      },
-      {
-        "country": "Indonesia",
-        "count": 6
-      },
-      {
-        "country": "Pakistan",
-        "count": 4
-      },
-      {
-        "country": "Tajikistan",
-        "count": 2
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Bangladesh",
-        "count": 1
-      },
-      {
-        "country": "Iran",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 8,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "한국예술종합학교",
     "name_en": "Korea National University of Arts",
     "lat": 37.6049302,
     "lon": 127.0574461,
-    "total_muslim": 24,
+    "total_muslim": 25,
     "by_country": [
       {
         "country": "Iran",
@@ -4943,6 +5317,10 @@
       },
       {
         "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
         "count": 1
       },
       {
@@ -4973,7 +5351,7 @@
     "name_en": "Semyung University",
     "lat": 37.1783983,
     "lon": 128.1968878,
-    "total_muslim": 23,
+    "total_muslim": 24,
     "by_country": [
       {
         "country": "Malaysia",
@@ -5004,6 +5382,10 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Sudan",
         "count": 1
       },
@@ -5015,49 +5397,11 @@
     ]
   },
   {
-    "name_ko": "서경대학교",
-    "name_en": "Seokyeong University",
-    "lat": 37.6149469,
-    "lon": 127.0128587,
-    "total_muslim": 22,
-    "by_country": [
-      {
-        "country": "Malaysia",
-        "count": 15
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 3
-      },
-      {
-        "country": "Indonesia",
-        "count": 1
-      },
-      {
-        "country": "Iran",
-        "count": 1
-      },
-      {
-        "country": "Turkey",
-        "count": 1
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 65,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "홍익대학교",
     "name_en": "Hongik University",
     "lat": 37.55305,
     "lon": 126.92461,
-    "total_muslim": 22,
+    "total_muslim": 24,
     "by_country": [
       {
         "country": "Kazakhstan",
@@ -5084,6 +5428,10 @@
         "count": 2
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
         "country": "Morocco",
         "count": 1
       },
@@ -5095,11 +5443,53 @@
     ]
   },
   {
+    "name_ko": "서경대학교",
+    "name_en": "Seokyeong University",
+    "lat": 37.6149469,
+    "lon": 127.0128587,
+    "total_muslim": 23,
+    "by_country": [
+      {
+        "country": "Malaysia",
+        "count": 15
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 3
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Iran",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Turkey",
+        "count": 1
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 65,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "조선대학교",
     "name_en": "Chosun University",
     "lat": 35.1412134,
     "lon": 126.9303491,
-    "total_muslim": 21,
+    "total_muslim": 22,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -5122,8 +5512,50 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Mongolia",
         "count": 81,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "건양대학교",
+    "name_en": "Konyang University",
+    "lat": 36.1808993,
+    "lon": 127.1115408,
+    "total_muslim": 20,
+    "by_country": [
+      {
+        "country": "Kyrgyzstan",
+        "count": 9
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 5
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 3
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Malaysia",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 3,
         "extra": true
       }
     ]
@@ -5167,31 +5599,43 @@
     ]
   },
   {
-    "name_ko": "한국성서대학교",
-    "name_en": "Korean Bible University",
-    "lat": 37.6486582,
-    "lon": 127.0642124,
-    "total_muslim": 19,
+    "name_ko": "한림대학교",
+    "name_en": "Hallym University",
+    "lat": 37.8861199,
+    "lon": 127.7386506,
+    "total_muslim": 20,
     "by_country": [
       {
         "country": "Uzbekistan",
-        "count": 11
+        "count": 6
       },
       {
-        "country": "Pakistan",
-        "count": 5
+        "country": "Kyrgyzstan",
+        "count": 4
       },
       {
-        "country": "Senegal",
-        "count": 2
+        "country": "Turkey",
+        "count": 4
       },
       {
         "country": "Kazakhstan",
+        "count": 3
+      },
+      {
+        "country": "Algeria",
+        "count": 1
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1
+      },
+      {
+        "country": "Turkmenistan",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 20,
+        "count": 8,
         "extra": true
       }
     ]
@@ -5201,7 +5645,7 @@
     "name_en": "Cheongju University",
     "lat": 36.6600782,
     "lon": 127.4994307,
-    "total_muslim": 18,
+    "total_muslim": 19,
     "by_country": [
       {
         "country": "Uzbekistan",
@@ -5228,12 +5672,46 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Turkmenistan",
         "count": 1
       },
       {
         "country": "Mongolia",
         "count": 160,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "한국성서대학교",
+    "name_en": "Korean Bible University",
+    "lat": 37.6486582,
+    "lon": 127.0642124,
+    "total_muslim": 19,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 11
+      },
+      {
+        "country": "Pakistan",
+        "count": 5
+      },
+      {
+        "country": "Senegal",
+        "count": 2
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 20,
         "extra": true
       }
     ]
@@ -5291,63 +5769,11 @@
     ]
   },
   {
-    "name_ko": "목원대학교",
-    "name_en": "Mokwon University",
-    "lat": 36.3246693,
-    "lon": 127.339086,
-    "total_muslim": 17,
-    "by_country": [
-      {
-        "country": "Bangladesh",
-        "count": 10
-      },
-      {
-        "country": "Turkmenistan",
-        "count": 3
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 2
-      },
-      {
-        "country": "Indonesia",
-        "count": 1
-      },
-      {
-        "country": "Pakistan",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 22,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "광주대학교",
-    "name_en": "Gwangju University",
-    "lat": 35.1057203,
-    "lon": 126.8955031,
-    "total_muslim": 16,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 16
-      },
-      {
-        "country": "Mongolia",
-        "count": 52,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "제주대학교",
     "name_en": "Jeju National University",
     "lat": 33.460114,
     "lon": 126.561659,
-    "total_muslim": 16,
+    "total_muslim": 17,
     "by_country": [
       {
         "country": "Pakistan",
@@ -5370,6 +5796,10 @@
         "count": 1
       },
       {
+        "country": "Mauritania",
+        "count": 1
+      },
+      {
         "country": "Tajikistan",
         "count": 1
       },
@@ -5389,7 +5819,7 @@
     "name_en": "Korea University of Technology and Education",
     "lat": 36.7635507,
     "lon": 127.281751,
-    "total_muslim": 16,
+    "total_muslim": 17,
     "by_country": [
       {
         "country": "Malaysia",
@@ -5416,6 +5846,10 @@
         "count": 1
       },
       {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
         "country": "Pakistan",
         "count": 1
       },
@@ -5431,39 +5865,69 @@
     ]
   },
   {
-    "name_ko": "한림대학교",
-    "name_en": "Hallym University",
-    "lat": 37.8861199,
-    "lon": 127.7386506,
-    "total_muslim": 16,
+    "name_ko": "호남대학교",
+    "name_en": "Honam University",
+    "lat": 35.1515516,
+    "lon": 126.7600432,
+    "total_muslim": 17,
     "by_country": [
       {
         "country": "Uzbekistan",
-        "count": 6
-      },
-      {
-        "country": "Turkey",
-        "count": 4
+        "count": 10
       },
       {
         "country": "Kazakhstan",
-        "count": 3
+        "count": 4
       },
       {
-        "country": "Algeria",
-        "count": 1
+        "country": "Kyrgyzstan",
+        "count": 2
       },
       {
-        "country": "Bangladesh",
-        "count": 1
-      },
-      {
-        "country": "Turkmenistan",
+        "country": "Pakistan",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 8,
+        "count": 1,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "한국방송통신대학교",
+    "name_en": "Korea National Open University",
+    "lat": 37.5786076,
+    "lon": 127.0034506,
+    "total_muslim": 16,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 8
+      },
+      {
+        "country": "Turkey",
+        "count": 3
+      },
+      {
+        "country": "Malaysia",
+        "count": 2
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 6,
         "extra": true
       }
     ]
@@ -5491,44 +5955,10 @@
     ]
   },
   {
-    "name_ko": "한국방송통신대학교",
-    "name_en": "Korea National Open University",
-    "lat": 37.5786076,
-    "lon": 127.0034506,
-    "total_muslim": 15,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 8
-      },
-      {
-        "country": "Turkey",
-        "count": 3
-      },
-      {
-        "country": "Malaysia",
-        "count": 2
-      },
-      {
-        "country": "Indonesia",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 6,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "호남대학교",
-    "name_en": "Honam University",
-    "lat": 35.1515516,
-    "lon": 126.7600432,
+    "name_ko": "한경국립대학교",
+    "name_en": "Hankyong National University",
+    "lat": 37.0517569,
+    "lon": 127.0959379,
     "total_muslim": 15,
     "by_country": [
       {
@@ -5536,16 +5966,16 @@
         "count": 10
       },
       {
-        "country": "Kazakhstan",
+        "country": "Kyrgyzstan",
         "count": 4
       },
       {
-        "country": "Pakistan",
+        "country": "Kazakhstan",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 1,
+        "count": 42,
         "extra": true
       }
     ]
@@ -5584,6 +6014,48 @@
       {
         "country": "Mongolia",
         "count": 1,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "세종사이버대학교",
+    "name_en": "Sejong Cyber University",
+    "lat": 37.553298,
+    "lon": 127.0725984,
+    "total_muslim": 14,
+    "by_country": [
+      {
+        "country": "Pakistan",
+        "count": 6
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 2
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Malaysia",
+        "count": 1
+      },
+      {
+        "country": "Turkey",
+        "count": 1
+      },
+      {
+        "country": "Egypt",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 2,
         "extra": true
       }
     ]
@@ -5648,6 +6120,78 @@
     ]
   },
   {
+    "name_ko": "상명대학교",
+    "name_en": "Sangmyung University",
+    "lat": 37.6025021,
+    "lon": 126.9548314,
+    "total_muslim": 13,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 5
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 4
+      },
+      {
+        "country": "Iran",
+        "count": 2
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Turkey",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 3,
+        "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "수원대학교",
+    "name_en": "University of Suwon",
+    "lat": 37.2100359,
+    "lon": 126.9757751,
+    "total_muslim": 13,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 6
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 3
+      },
+      {
+        "country": "Comoros",
+        "count": 1
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Pakistan",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 2,
+        "extra": true
+      }
+    ]
+  },
+  {
     "name_ko": "예원예술대학교 (제2캠퍼스)",
     "name_en": "Yewon Arts University (2nd Campus)",
     "lat": 37.84643,
@@ -5702,108 +6246,6 @@
       },
       {
         "country": "Yemen",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 2,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "상명대학교",
-    "name_en": "Sangmyung University",
-    "lat": 37.6025021,
-    "lon": 126.9548314,
-    "total_muslim": 12,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 5
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 4
-      },
-      {
-        "country": "Iran",
-        "count": 2
-      },
-      {
-        "country": "Turkey",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 3,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "세종사이버대학교",
-    "name_en": "Sejong Cyber University",
-    "lat": 37.553298,
-    "lon": 127.0725984,
-    "total_muslim": 12,
-    "by_country": [
-      {
-        "country": "Pakistan",
-        "count": 6
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 2
-      },
-      {
-        "country": "Indonesia",
-        "count": 1
-      },
-      {
-        "country": "Malaysia",
-        "count": 1
-      },
-      {
-        "country": "Turkey",
-        "count": 1
-      },
-      {
-        "country": "Egypt",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 2,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "수원대학교",
-    "name_en": "University of Suwon",
-    "lat": 37.2100359,
-    "lon": 126.9757751,
-    "total_muslim": 12,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 6
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 3
-      },
-      {
-        "country": "Comoros",
-        "count": 1
-      },
-      {
-        "country": "Indonesia",
-        "count": 1
-      },
-      {
-        "country": "Pakistan",
         "count": 1
       },
       {
@@ -5907,36 +6349,61 @@
     ]
   },
   {
-    "name_ko": "건양대학교",
-    "name_en": "Konyang University",
-    "lat": 36.1808993,
-    "lon": 127.1115408,
+    "name_ko": "대전대학교",
+    "name_en": "Daejeon University",
+    "lat": 36.3354252,
+    "lon": 127.4603521,
     "total_muslim": 11,
     "by_country": [
       {
         "country": "Uzbekistan",
-        "count": 5
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 3
+        "count": 4
       },
       {
         "country": "Indonesia",
+        "count": 2
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
+        "country": "Algeria",
         "count": 1
       },
       {
-        "country": "Malaysia",
+        "country": "Azerbaijan",
         "count": 1
       },
       {
-        "country": "Egypt",
+        "country": "Kazakhstan",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 3,
+        "count": 2,
         "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "부산가톨릭대학교",
+    "name_en": "Catholic University of Pusan",
+    "lat": 35.2457082,
+    "lon": 129.0988427,
+    "total_muslim": 11,
+    "by_country": [
+      {
+        "country": "Kyrgyzstan",
+        "count": 6
+      },
+      {
+        "country": "Pakistan",
+        "count": 4
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1
       }
     ]
   },
@@ -5967,23 +6434,35 @@
     ]
   },
   {
-    "name_ko": "한경국립대학교",
-    "name_en": "Hankyong National University",
-    "lat": 37.0517569,
-    "lon": 127.0959379,
+    "name_ko": "숭실사이버대학교",
+    "name_en": "Soongsil Cyber University",
+    "lat": 37.574442,
+    "lon": 126.9887166,
     "total_muslim": 11,
     "by_country": [
       {
-        "country": "Uzbekistan",
-        "count": 10
+        "country": "Afghanistan",
+        "count": 4
       },
       {
-        "country": "Kazakhstan",
+        "country": "Malaysia",
+        "count": 3
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 2
+      },
+      {
+        "country": "Indonesia",
+        "count": 1
+      },
+      {
+        "country": "Uzbekistan",
         "count": 1
       },
       {
         "country": "Mongolia",
-        "count": 42,
+        "count": 1,
         "extra": true
       }
     ]
@@ -6057,30 +6536,22 @@
     ]
   },
   {
-    "name_ko": "대전대학교",
-    "name_en": "Daejeon University",
-    "lat": 36.3354252,
-    "lon": 127.4603521,
+    "name_ko": "성공회대학교",
+    "name_en": "Sungkonghoe University",
+    "lat": 37.4872849,
+    "lon": 126.8258937,
     "total_muslim": 9,
     "by_country": [
       {
         "country": "Uzbekistan",
-        "count": 4
+        "count": 5
       },
       {
-        "country": "Indonesia",
-        "count": 2
+        "country": "Kyrgyzstan",
+        "count": 3
       },
       {
-        "country": "Algeria",
-        "count": 1
-      },
-      {
-        "country": "Azerbaijan",
-        "count": 1
-      },
-      {
-        "country": "Kazakhstan",
+        "country": "Malaysia",
         "count": 1
       },
       {
@@ -6091,22 +6562,22 @@
     ]
   },
   {
-    "name_ko": "숭실사이버대학교",
-    "name_en": "Soongsil Cyber University",
-    "lat": 37.574442,
-    "lon": 126.9887166,
-    "total_muslim": 9,
+    "name_ko": "김천대학교",
+    "name_en": "Gimcheon University",
+    "lat": 36.1398256,
+    "lon": 128.0812634,
+    "total_muslim": 8,
     "by_country": [
       {
-        "country": "Afghanistan",
+        "country": "Tajikistan",
         "count": 4
       },
       {
-        "country": "Malaysia",
-        "count": 3
+        "country": "Guinea",
+        "count": 2
       },
       {
-        "country": "Indonesia",
+        "country": "Kyrgyzstan",
         "count": 1
       },
       {
@@ -6115,7 +6586,7 @@
       },
       {
         "country": "Mongolia",
-        "count": 1,
+        "count": 48,
         "extra": true
       }
     ]
@@ -6217,32 +6688,6 @@
     ]
   },
   {
-    "name_ko": "김천대학교",
-    "name_en": "Gimcheon University",
-    "lat": 36.1398256,
-    "lon": 128.0812634,
-    "total_muslim": 7,
-    "by_country": [
-      {
-        "country": "Tajikistan",
-        "count": 4
-      },
-      {
-        "country": "Guinea",
-        "count": 2
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 48,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "한성대학교",
     "name_en": "Hansung University",
     "lat": 37.5821124,
@@ -6329,28 +6774,6 @@
     ]
   },
   {
-    "name_ko": "성공회대학교",
-    "name_en": "Sungkonghoe University",
-    "lat": 37.4872849,
-    "lon": 126.8258937,
-    "total_muslim": 6,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 5
-      },
-      {
-        "country": "Malaysia",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 2,
-        "extra": true
-      }
-    ]
-  },
-  {
     "name_ko": "송원대학교",
     "name_en": "Songwon University",
     "lat": 35.1085836,
@@ -6400,49 +6823,6 @@
       {
         "country": "Pakistan",
         "count": 6
-      }
-    ]
-  },
-  {
-    "name_ko": "국립한밭대학교",
-    "name_en": "Hanbat National University",
-    "lat": 36.3506504,
-    "lon": 127.2974494,
-    "total_muslim": 5,
-    "by_country": [
-      {
-        "country": "Uzbekistan",
-        "count": 3
-      },
-      {
-        "country": "Kazakhstan",
-        "count": 1
-      },
-      {
-        "country": "Tajikistan",
-        "count": 1
-      },
-      {
-        "country": "Mongolia",
-        "count": 49,
-        "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "부산가톨릭대학교",
-    "name_en": "Catholic University of Pusan",
-    "lat": 35.2457082,
-    "lon": 129.0988427,
-    "total_muslim": 5,
-    "by_country": [
-      {
-        "country": "Pakistan",
-        "count": 4
-      },
-      {
-        "country": "Bangladesh",
-        "count": 1
       }
     ]
   },
@@ -6534,6 +6914,27 @@
         "country": "Mongolia",
         "count": 9,
         "extra": true
+      }
+    ]
+  },
+  {
+    "name_ko": "서울디지털대학교",
+    "name_en": "Seoul Digital University",
+    "lat": 37.543038,
+    "lon": 126.947751,
+    "total_muslim": 3,
+    "by_country": [
+      {
+        "country": "Kazakhstan",
+        "count": 1
+      },
+      {
+        "country": "Kyrgyzstan",
+        "count": 1
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 1
       }
     ]
   },
@@ -6666,23 +7067,6 @@
         "country": "Mongolia",
         "count": 16,
         "extra": true
-      }
-    ]
-  },
-  {
-    "name_ko": "서울디지털대학교",
-    "name_en": "Seoul Digital University",
-    "lat": 37.543038,
-    "lon": 126.947751,
-    "total_muslim": 2,
-    "by_country": [
-      {
-        "country": "Kazakhstan",
-        "count": 1
-      },
-      {
-        "country": "Uzbekistan",
-        "count": 1
       }
     ]
   },
@@ -6965,6 +7349,19 @@
     "by_country": [
       {
         "country": "Egypt",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "name_ko": "호남신학대학교",
+    "name_en": "Honam Theological University and Seminary",
+    "lat": 35.1395444,
+    "lon": 126.9122454,
+    "total_muslim": 1,
+    "by_country": [
+      {
+        "country": "Kyrgyzstan",
         "count": 1
       }
     ]
