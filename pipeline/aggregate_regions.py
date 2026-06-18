@@ -76,6 +76,8 @@ def aggregate_by_region(records: list[dict], geojson: dict) -> dict:
         })
         reg["total_muslim"] += r["total_muslim"]
         for c in r["by_country"]:
+            if c.get("extra"):       # e.g. Mongolia reference line — not a Muslim country
+                continue
             reg["_counts"][c["country"]] = reg["_counts"].get(c["country"], 0) + c["count"]
     for reg in regions.values():
         reg["by_country"] = [{"country": c, "count": n} for c, n in

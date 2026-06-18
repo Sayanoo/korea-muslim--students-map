@@ -17,7 +17,8 @@ function radius(n) {
 }
 function countryRows(list) {
   return list.map((c) =>
-    `<tr><td>${c.country}</td><td class="n">${c.count.toLocaleString()}</td></tr>`).join("");
+    `<tr class="${c.extra ? "extra" : ""}"><td>${c.country}${c.extra ? " <span class='tag'>non-Muslim</span>" : ""}</td>` +
+    `<td class="n">${c.count.toLocaleString()}</td></tr>`).join("");
 }
 function plainRows(list) {
   return list.map((c) =>
