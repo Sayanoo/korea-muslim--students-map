@@ -4,6 +4,10 @@ from __future__ import annotations
 from pipeline.muslim_countries import normalize_country
 from pipeline.university_names_en import to_english
 
+# Mongolia is not a Muslim-majority country; shown as a reference line pinned to the
+# bottom of each university's list (map 2 only), and excluded from totals.
+_MONGOLIA_KO = "몽골"
+
 
 def build_muslim_records(scraped: dict, located: dict) -> list[dict]:
     """For each school, keep only majority-Muslim countries (>=1 student) and
@@ -24,6 +28,9 @@ def build_muslim_records(scraped: dict, located: dict) -> list[dict]:
             continue
         by_country = [{"country": c, "count": n}
                       for c, n in sorted(counts.items(), key=lambda kv: kv[1], reverse=True)]
+        mongolia = info.get("countries", {}).get(_MONGOLIA_KO, 0)
+        if mongolia > 0:
+            by_country.append({"country": "Mongolia", "count": mongolia, "extra": True})
         records.append({
             "name_ko": name,
             "name_en": to_english(name),

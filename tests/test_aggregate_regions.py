@@ -26,7 +26,8 @@ def test_aggregate_sums_and_merges_countries_by_region():
     ]}
     records = [
         {"lat": 5, "lon": 5, "total_muslim": 10,
-         "by_country": [{"country": "Iran", "count": 6}, {"country": "Iraq", "count": 4}]},
+         "by_country": [{"country": "Iran", "count": 6}, {"country": "Iraq", "count": 4},
+                        {"country": "Mongolia", "count": 99, "extra": True}]},  # excluded
         {"lat": 6, "lon": 5, "total_muslim": 5,
          "by_country": [{"country": "Iran", "count": 5}]},
         {"lat": 50, "lon": 50, "total_muslim": 99,             # outside -> ignored

@@ -38,3 +38,7 @@ header .sub { font-size: 12px; color: #b8d8c9; flex-basis: 100%; order: 5; margi
 .uni-card table { border-collapse: collapse; width: 100%; }
 .uni-card td { padding: 1px 10px 1px 0; }
 .uni-card td.n { text-align: right; font-variant-numeric: tabular-nums; color: #0f766e; font-weight: 600; }
+.uni-card tr.extra td { color: #8a93a0; border-top: 1px dashed #cdd6d2; padding-top: 3px; }
+.uni-card tr.extra td.n { color: #8a93a0; }
+.uni-card tr.extra .tag { font-size: 9px; color: #94a3b8; border: 1px solid #d8e0dc;
+                          border-radius: 4px; padding: 0 3px; vertical-align: middle; }
