@@ -56,6 +56,9 @@ table.data td.tot { font-weight: 700; color: #0f766e; font-variant-numeric: tabu
 .rank-h { margin: 0 0 6px; color: #0b3d2e; font-size: 13px; font-weight: 600; }
 .rank-col table.data th:nth-child(2) { width: 100%; }
 .data td.none { color: #8a93a0; text-align: center; padding: 10px; }
+table.data tr.clickable { cursor: pointer; }
+table.data tr.clickable:hover td { background: #d1fae5; }
+table.data tr.clickable td.nm b { text-decoration: underline; text-decoration-color: #99f6e4; }
 
 /* About & sources modal */
 .modal { display: none; position: fixed; inset: 0; background: rgba(11,61,46,.55);
