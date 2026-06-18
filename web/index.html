@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Foreign Students at Korean Universities</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Foreign Students at Korean Universities</h1>
+    <div class="toggle">
+      <button id="btn-all" class="active" data-view="all">All foreign students</button>
+      <button id="btn-muslim" data-view="muslim">Muslim-country students</button>
+      <button id="btn-region" data-view="region">Muslim students by province</button>
+    </div>
+    <span id="subtitle" class="sub"></span>
+    <input id="search" type="search" placeholder="Search a university…" autocomplete="off" />
+  </header>
+  <div id="map"></div>
+  <div id="legend" class="legend"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

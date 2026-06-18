@@ -1,0 +1,812 @@
+{
+  "byid": {
+    "0002748": {
+      "rep_name": "가야대학교(김해)",
+      "expected_total": 12
+    },
+    "0000063": {
+      "rep_name": "가천대학교",
+      "expected_total": 4996
+    },
+    "0000072": {
+      "rep_name": "가톨릭관동대학교",
+      "expected_total": 157
+    },
+    "0000215": {
+      "rep_name": "가톨릭꽃동네대학교",
+      "expected_total": 2
+    },
+    "0000046": {
+      "rep_name": "가톨릭대학교",
+      "expected_total": 1665
+    },
+    "0000050": {
+      "rep_name": "감리교신학대학교",
+      "expected_total": 3
+    },
+    "0000051": {
+      "rep_name": "강남대학교",
+      "expected_total": 485
+    },
+    "0000079": {
+      "rep_name": "강서대학교",
+      "expected_total": 706
+    },
+    "0000003": {
+      "rep_name": "강원대학교",
+      "expected_total": 1015
+    },
+    "0000052": {
+      "rep_name": "건국대학교",
+      "expected_total": 2228
+    },
+    "0000054": {
+      "rep_name": "건양대학교",
+      "expected_total": 430
+    },
+    "0000335": {
+      "rep_name": "건양사이버대학교",
+      "expected_total": 13
+    },
+    "0000056": {
+      "rep_name": "경기대학교",
+      "expected_total": 812
+    },
+    "0000059": {
+      "rep_name": "경남대학교",
+      "expected_total": 407
+    },
+    "0000060": {
+      "rep_name": "경동대학교",
+      "expected_total": 1169
+    },
+    "0000005": {
+      "rep_name": "경북대학교",
+      "expected_total": 1660
+    },
+    "0000007": {
+      "rep_name": "경상국립대학교",
+      "expected_total": 335
+    },
+    "0000062": {
+      "rep_name": "경성대학교",
+      "expected_total": 1966
+    },
+    "0000244": {
+      "rep_name": "경운대학교",
+      "expected_total": 909
+    },
+    "0000256": {
+      "rep_name": "경인교육대학교",
+      "expected_total": 6
+    },
+    "0000064": {
+      "rep_name": "경일대학교",
+      "expected_total": 946
+    },
+    "0000066": {
+      "rep_name": "경희대학교",
+      "expected_total": 3535
+    },
+    "0000318": {
+      "rep_name": "경희사이버대학교",
+      "expected_total": 229
+    },
+    "0000068": {
+      "rep_name": "계명대학교",
+      "expected_total": 3044
+    },
+    "0000069": {
+      "rep_name": "고려대학교",
+      "expected_total": 4471
+    },
+    "0000328": {
+      "rep_name": "고려사이버대학교",
+      "expected_total": 172
+    },
+    "0000071": {
+      "rep_name": "고신대학교",
+      "expected_total": 79
+    },
+    "0000073": {
+      "rep_name": "광신대학교",
+      "expected_total": 115
+    },
+    "0000074": {
+      "rep_name": "광운대학교",
+      "expected_total": 1009
+    },
+    "0000075": {
+      "rep_name": "광주가톨릭대학교",
+      "expected_total": 1
+    },
+    "0000381": {
+      "rep_name": "광주과학기술원",
+      "expected_total": 69
+    },
+    "0000231": {
+      "rep_name": "광주대학교",
+      "expected_total": 692
+    },
+    "0000076": {
+      "rep_name": "광주여자대학교",
+      "expected_total": 533
+    },
+    "0000001": {
+      "rep_name": "국립강릉원주대학교",
+      "expected_total": 299
+    },
+    "0000021": {
+      "rep_name": "국립경국대학교",
+      "expected_total": 73
+    },
+    "0000008": {
+      "rep_name": "국립공주대학교",
+      "expected_total": 307
+    },
+    "0000009": {
+      "rep_name": "국립군산대학교",
+      "expected_total": 422
+    },
+    "0000010": {
+      "rep_name": "국립금오공과대학교",
+      "expected_total": 30
+    },
+    "0000011": {
+      "rep_name": "국립목포대학교",
+      "expected_total": 71
+    },
+    "0000012": {
+      "rep_name": "국립목포해양대학교",
+      "expected_total": 154
+    },
+    "0000013": {
+      "rep_name": "국립부경대학교",
+      "expected_total": 1115
+    },
+    "0000020": {
+      "rep_name": "국립순천대학교",
+      "expected_total": 261
+    },
+    "0000028": {
+      "rep_name": "국립창원대학교",
+      "expected_total": 277
+    },
+    "0000034": {
+      "rep_name": "국립한국교통대학교",
+      "expected_total": 113
+    },
+    "0000033": {
+      "rep_name": "국립한국해양대학교",
+      "expected_total": 241
+    },
+    "0000039": {
+      "rep_name": "국립한밭대학교",
+      "expected_total": 305
+    },
+    "0000078": {
+      "rep_name": "국민대학교",
+      "expected_total": 1533
+    },
+    "0000319": {
+      "rep_name": "국제사이버대학교",
+      "expected_total": 9
+    },
+    "0000080": {
+      "rep_name": "극동대학교",
+      "expected_total": 806
+    },
+    "0000334": {
+      "rep_name": "글로벌사이버대학교",
+      "expected_total": 168
+    },
+    "0000241": {
+      "rep_name": "김천대학교",
+      "expected_total": 466
+    },
+    "0000081": {
+      "rep_name": "나사렛대학교",
+      "expected_total": 413
+    },
+    "0000216": {
+      "rep_name": "남부대학교",
+      "expected_total": 231
+    },
+    "0000245": {
+      "rep_name": "남서울대학교",
+      "expected_total": 1544
+    },
+    "0000082": {
+      "rep_name": "단국대학교",
+      "expected_total": 956
+    },
+    "0000088": {
+      "rep_name": "대구가톨릭대학교",
+      "expected_total": 1178
+    },
+    "0000382": {
+      "rep_name": "대구경북과학기술원",
+      "expected_total": 15
+    },
+    "0000253": {
+      "rep_name": "대구교육대학교",
+      "expected_total": 2
+    },
+    "0000084": {
+      "rep_name": "대구대학교",
+      "expected_total": 1660
+    },
+    "0000320": {
+      "rep_name": "대구사이버대학교",
+      "expected_total": 31
+    },
+    "0000087": {
+      "rep_name": "대구예술대학교",
+      "expected_total": 227
+    },
+    "0000061": {
+      "rep_name": "대구한의대학교",
+      "expected_total": 1637
+    },
+    "0000093": {
+      "rep_name": "대신대학교",
+      "expected_total": 950
+    },
+    "0000094": {
+      "rep_name": "대전가톨릭대학교",
+      "expected_total": 1
+    },
+    "0000095": {
+      "rep_name": "대전대학교",
+      "expected_total": 356
+    },
+    "0000097": {
+      "rep_name": "대진대학교",
+      "expected_total": 1104
+    },
+    "0000099": {
+      "rep_name": "덕성여자대학교",
+      "expected_total": 571
+    },
+    "0000100": {
+      "rep_name": "동국대학교",
+      "expected_total": 2691
+    },
+    "0000102": {
+      "rep_name": "동덕여자대학교",
+      "expected_total": 56
+    },
+    "0000235": {
+      "rep_name": "동명대학교",
+      "expected_total": 1056
+    },
+    "0000103": {
+      "rep_name": "동서대학교",
+      "expected_total": 1497
+    },
+    "0000104": {
+      "rep_name": "동신대학교",
+      "expected_total": 989
+    },
+    "0000105": {
+      "rep_name": "동아대학교",
+      "expected_total": 1676
+    },
+    "0000106": {
+      "rep_name": "동양대학교",
+      "expected_total": 725
+    },
+    "0000107": {
+      "rep_name": "동의대학교",
+      "expected_total": 586
+    },
+    "0000330": {
+      "rep_name": "디지털서울문화예술대학교",
+      "expected_total": 34
+    },
+    "0000109": {
+      "rep_name": "명지대학교",
+      "expected_total": 301
+    },
+    "0000112": {
+      "rep_name": "목원대학교",
+      "expected_total": 1494
+    },
+    "0000113": {
+      "rep_name": "배재대학교",
+      "expected_total": 1131
+    },
+    "0000178": {
+      "rep_name": "백석대학교",
+      "expected_total": 469
+    },
+    "0000114": {
+      "rep_name": "부산가톨릭대학교",
+      "expected_total": 614
+    },
+    "0000014": {
+      "rep_name": "부산대학교",
+      "expected_total": 1134
+    },
+    "0000321": {
+      "rep_name": "부산디지털대학교",
+      "expected_total": 48
+    },
+    "0000115": {
+      "rep_name": "부산외국어대학교",
+      "expected_total": 1192
+    },
+    "0000332": {
+      "rep_name": "사이버한국외국어대학교",
+      "expected_total": 312
+    },
+    "0000116": {
+      "rep_name": "삼육대학교",
+      "expected_total": 361
+    },
+    "0000117": {
+      "rep_name": "상명대학교",
+      "expected_total": 194
+    },
+    "0000119": {
+      "rep_name": "상지대학교",
+      "expected_total": 75
+    },
+    "0000120": {
+      "rep_name": "서강대학교",
+      "expected_total": 2021
+    },
+    "0000121": {
+      "rep_name": "서경대학교",
+      "expected_total": 1077
+    },
+    "0000036": {
+      "rep_name": "서울과학기술대학교",
+      "expected_total": 1129
+    },
+    "0000255": {
+      "rep_name": "서울교육대학교",
+      "expected_total": 6
+    },
+    "0000098": {
+      "rep_name": "서울기독대학교",
+      "expected_total": 838
+    },
+    "0000019": {
+      "rep_name": "서울대학교",
+      "expected_total": 1383
+    },
+    "0000322": {
+      "rep_name": "서울디지털대학교",
+      "expected_total": 62
+    },
+    "0000323": {
+      "rep_name": "서울사이버대학교",
+      "expected_total": 62
+    },
+    "0000040": {
+      "rep_name": "서울시립대학교",
+      "expected_total": 725
+    },
+    "0000125": {
+      "rep_name": "서울신학대학교",
+      "expected_total": 407
+    },
+    "0000126": {
+      "rep_name": "서울여자대학교",
+      "expected_total": 1131
+    },
+    "0000127": {
+      "rep_name": "서울장신대학교",
+      "expected_total": 42
+    },
+    "0000205": {
+      "rep_name": "서울한영대학교",
+      "expected_total": 308
+    },
+    "0000128": {
+      "rep_name": "서원대학교",
+      "expected_total": 1001
+    },
+    "0000129": {
+      "rep_name": "선문대학교",
+      "expected_total": 2200
+    },
+    "0000131": {
+      "rep_name": "성결대학교",
+      "expected_total": 388
+    },
+    "0000132": {
+      "rep_name": "성공회대학교",
+      "expected_total": 275
+    },
+    "0000133": {
+      "rep_name": "성균관대학교",
+      "expected_total": 3911
+    },
+    "0000136": {
+      "rep_name": "성신여자대학교",
+      "expected_total": 890
+    },
+    "0000137": {
+      "rep_name": "세명대학교",
+      "expected_total": 237
+    },
+    "0000138": {
+      "rep_name": "세종대학교",
+      "expected_total": 2844
+    },
+    "0000325": {
+      "rep_name": "세종사이버대학교",
+      "expected_total": 134
+    },
+    "0000092": {
+      "rep_name": "세한대학교",
+      "expected_total": 62
+    },
+    "0000243": {
+      "rep_name": "송원대학교",
+      "expected_total": 400
+    },
+    "0000139": {
+      "rep_name": "수원가톨릭대학교",
+      "expected_total": 1
+    },
+    "0000140": {
+      "rep_name": "수원대학교",
+      "expected_total": 73
+    },
+    "0000141": {
+      "rep_name": "숙명여자대학교",
+      "expected_total": 520
+    },
+    "0000142": {
+      "rep_name": "순천향대학교",
+      "expected_total": 675
+    },
+    "0000143": {
+      "rep_name": "숭실대학교",
+      "expected_total": 2479
+    },
+    "0000329": {
+      "rep_name": "숭실사이버대학교",
+      "expected_total": 98
+    },
+    "0000065": {
+      "rep_name": "신경주대학교",
+      "expected_total": 168
+    },
+    "0000144": {
+      "rep_name": "신라대학교",
+      "expected_total": 1093
+    },
+    "0002712": {
+      "rep_name": "신한대학교",
+      "expected_total": 10
+    },
+    "0000145": {
+      "rep_name": "아신대학교",
+      "expected_total": 2
+    },
+    "0000146": {
+      "rep_name": "아주대학교",
+      "expected_total": 2411
+    },
+    "0000147": {
+      "rep_name": "안양대학교",
+      "expected_total": 16
+    },
+    "0000149": {
+      "rep_name": "연세대학교",
+      "expected_total": 4740
+    },
+    "0000151": {
+      "rep_name": "영남대학교",
+      "expected_total": 1439
+    },
+    "0000153": {
+      "rep_name": "영남신학대학교",
+      "expected_total": 28
+    },
+    "0003193": {
+      "rep_name": "영산대학교(해운대)",
+      "expected_total": 842
+    },
+    "0000155": {
+      "rep_name": "영산선학대학교",
+      "expected_total": 2
+    },
+    "0000218": {
+      "rep_name": "예원예술대학교",
+      "expected_total": 104
+    },
+    "0000156": {
+      "rep_name": "용인대학교",
+      "expected_total": 138
+    },
+    "0000157": {
+      "rep_name": "우석대학교",
+      "expected_total": 1111
+    },
+    "0000240": {
+      "rep_name": "우송대학교",
+      "expected_total": 2302
+    },
+    "0000250": {
+      "rep_name": "울산과학기술원",
+      "expected_total": 84
+    },
+    "0000158": {
+      "rep_name": "울산대학교",
+      "expected_total": 257
+    },
+    "0000159": {
+      "rep_name": "원광대학교",
+      "expected_total": 132
+    },
+    "0000327": {
+      "rep_name": "원광디지털대학교",
+      "expected_total": 54
+    },
+    "0000160": {
+      "rep_name": "위덕대학교",
+      "expected_total": 93
+    },
+    "0000154": {
+      "rep_name": "유원대학교",
+      "expected_total": 185
+    },
+    "0000161": {
+      "rep_name": "을지대학교",
+      "expected_total": 2
+    },
+    "0000163": {
+      "rep_name": "이화여자대학교",
+      "expected_total": 2089
+    },
+    "0000164": {
+      "rep_name": "인제대학교",
+      "expected_total": 893
+    },
+    "0000168": {
+      "rep_name": "인천가톨릭대학교",
+      "expected_total": 6
+    },
+    "0002660": {
+      "rep_name": "인천대학교",
+      "expected_total": 430
+    },
+    "0000169": {
+      "rep_name": "인하대학교",
+      "expected_total": 1954
+    },
+    "0000170": {
+      "rep_name": "장로회신학대학교",
+      "expected_total": 5
+    },
+    "0000023": {
+      "rep_name": "전남대학교",
+      "expected_total": 960
+    },
+    "0000025": {
+      "rep_name": "전북대학교",
+      "expected_total": 1112
+    },
+    "0000171": {
+      "rep_name": "전주대학교",
+      "expected_total": 245
+    },
+    "0000248": {
+      "rep_name": "제주국제대학교",
+      "expected_total": 208
+    },
+    "0000027": {
+      "rep_name": "제주대학교",
+      "expected_total": 331
+    },
+    "0000172": {
+      "rep_name": "조선대학교",
+      "expected_total": 295
+    },
+    "0000173": {
+      "rep_name": "중부대학교",
+      "expected_total": 971
+    },
+    "0000175": {
+      "rep_name": "중앙대학교",
+      "expected_total": 4257
+    },
+    "0000177": {
+      "rep_name": "중앙승가대학교",
+      "expected_total": 4
+    },
+    "0000239": {
+      "rep_name": "중원대학교",
+      "expected_total": 172
+    },
+    "0000187": {
+      "rep_name": "차의과학대학교",
+      "expected_total": 29
+    },
+    "0000249": {
+      "rep_name": "창신대학교",
+      "expected_total": 229
+    },
+    "0000284": {
+      "rep_name": "청운대학교",
+      "expected_total": 458
+    },
+    "0000179": {
+      "rep_name": "청주대학교",
+      "expected_total": 1952
+    },
+    "0000246": {
+      "rep_name": "초당대학교",
+      "expected_total": 349
+    },
+    "0000180": {
+      "rep_name": "총신대학교",
+      "expected_total": 7
+    },
+    "0000181": {
+      "rep_name": "추계예술대학교",
+      "expected_total": 45
+    },
+    "0000029": {
+      "rep_name": "충남대학교",
+      "expected_total": 674
+    },
+    "0000030": {
+      "rep_name": "충북대학교",
+      "expected_total": 826
+    },
+    "0000184": {
+      "rep_name": "칼빈대학교",
+      "expected_total": 1940
+    },
+    "0003183": {
+      "rep_name": "태재대학교",
+      "expected_total": 13
+    },
+    "0000186": {
+      "rep_name": "평택대학교",
+      "expected_total": 149
+    },
+    "0000188": {
+      "rep_name": "포항공과대학교",
+      "expected_total": 47
+    },
+    "0000037": {
+      "rep_name": "한경국립대학교",
+      "expected_total": 245
+    },
+    "0000247": {
+      "rep_name": "한국공학대학교",
+      "expected_total": 529
+    },
+    "0000374": {
+      "rep_name": "한국과학기술원",
+      "expected_total": 481
+    },
+    "0000031": {
+      "rep_name": "한국교원대학교",
+      "expected_total": 2
+    },
+    "0000189": {
+      "rep_name": "한국기술교육대학교",
+      "expected_total": 75
+    },
+    "0000273": {
+      "rep_name": "한국방송통신대학교",
+      "expected_total": 432
+    },
+    "0000191": {
+      "rep_name": "한국성서대학교",
+      "expected_total": 113
+    },
+    "0000326": {
+      "rep_name": "한국열린사이버대학교",
+      "expected_total": 30
+    },
+    "0000383": {
+      "rep_name": "한국예술종합학교",
+      "expected_total": 86
+    },
+    "0000192": {
+      "rep_name": "한국외국어대학교",
+      "expected_total": 2949
+    },
+    "0003022": {
+      "rep_name": "한국전통문화대학교",
+      "expected_total": 4
+    },
+    "0000032": {
+      "rep_name": "한국체육대학교",
+      "expected_total": 11
+    },
+    "0000182": {
+      "rep_name": "한국침례신학대학교",
+      "expected_total": 4
+    },
+    "0000194": {
+      "rep_name": "한국항공대학교",
+      "expected_total": 194
+    },
+    "0000195": {
+      "rep_name": "한남대학교",
+      "expected_total": 1599
+    },
+    "0000196": {
+      "rep_name": "한동대학교",
+      "expected_total": 177
+    },
+    "0000197": {
+      "rep_name": "한라대학교",
+      "expected_total": 196
+    },
+    "0000198": {
+      "rep_name": "한림대학교",
+      "expected_total": 168
+    },
+    "0000199": {
+      "rep_name": "한서대학교",
+      "expected_total": 205
+    },
+    "0000200": {
+      "rep_name": "한성대학교",
+      "expected_total": 506
+    },
+    "0000201": {
+      "rep_name": "한세대학교",
+      "expected_total": 22
+    },
+    "0000202": {
+      "rep_name": "한신대학교",
+      "expected_total": 242
+    },
+    "0000203": {
+      "rep_name": "한양대학교",
+      "expected_total": 3988
+    },
+    "0000331": {
+      "rep_name": "한양사이버대학교",
+      "expected_total": 151
+    },
+    "0000206": {
+      "rep_name": "한일장신대학교",
+      "expected_total": 276
+    },
+    "0000207": {
+      "rep_name": "협성대학교",
+      "expected_total": 98
+    },
+    "0000208": {
+      "rep_name": "호남대학교",
+      "expected_total": 1118
+    },
+    "0000209": {
+      "rep_name": "호남신학대학교",
+      "expected_total": 2
+    },
+    "0000211": {
+      "rep_name": "호서대학교",
+      "expected_total": 504
+    },
+    "0000282": {
+      "rep_name": "호원대학교",
+      "expected_total": 689
+    },
+    "0000212": {
+      "rep_name": "홍익대학교",
+      "expected_total": 1394
+    },
+    "0000233": {
+      "rep_name": "화성의과학대학교",
+      "expected_total": 1
+    },
+    "0000333": {
+      "rep_name": "화신사이버대학교",
+      "expected_total": 4
+    }
+  }
+}

@@ -1,0 +1,6960 @@
+[
+  {
+    "name_ko": "가천대학교",
+    "region_ko": "경기",
+    "total": 4996,
+    "degree": 3616,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 3020
+      },
+      {
+        "name": "Engineering",
+        "count": 346
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 201
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 49
+      }
+    ],
+    "non_degree": 1380,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1320
+      },
+      {
+        "name": "Exchange",
+        "count": 60
+      }
+    ],
+    "name_en": "Gachon University",
+    "lat": 37.4497212,
+    "lon": 127.1264571
+  },
+  {
+    "name_ko": "연세대학교",
+    "region_ko": "서울",
+    "total": 4740,
+    "degree": 2183,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1772
+      },
+      {
+        "name": "Engineering",
+        "count": 252
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 153
+      },
+      {
+        "name": "Medical",
+        "count": 5
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 2553,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1713
+      },
+      {
+        "name": "Exchange",
+        "count": 474
+      },
+      {
+        "name": "Visiting",
+        "count": 366
+      }
+    ],
+    "name_en": "Yonsei University",
+    "lat": 37.567836,
+    "lon": 126.9393747
+  },
+  {
+    "name_ko": "고려대학교",
+    "region_ko": "서울",
+    "total": 4471,
+    "degree": 2929,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2217
+      },
+      {
+        "name": "Engineering",
+        "count": 559
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 125
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 28
+      }
+    ],
+    "non_degree": 1539,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 807
+      },
+      {
+        "name": "Exchange",
+        "count": 470
+      },
+      {
+        "name": "Visiting",
+        "count": 262
+      }
+    ],
+    "name_en": "Korea University",
+    "lat": 37.5880378,
+    "lon": 127.0323927
+  },
+  {
+    "name_ko": "중앙대학교",
+    "region_ko": "서울",
+    "total": 4257,
+    "degree": 2233,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1898
+      },
+      {
+        "name": "Engineering",
+        "count": 286
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 32
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 12
+      },
+      {
+        "name": "Medical",
+        "count": 5
+      }
+    ],
+    "non_degree": 2024,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1631
+      },
+      {
+        "name": "Exchange",
+        "count": 393
+      }
+    ],
+    "name_en": "Chung-Ang University",
+    "lat": 37.5043446,
+    "lon": 126.9562823
+  },
+  {
+    "name_ko": "한양대학교",
+    "region_ko": "서울",
+    "total": 3988,
+    "degree": 2112,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1274
+      },
+      {
+        "name": "Engineering",
+        "count": 359
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 352
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 127
+      }
+    ],
+    "non_degree": 1876,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1110
+      },
+      {
+        "name": "Exchange",
+        "count": 521
+      },
+      {
+        "name": "Visiting",
+        "count": 245
+      }
+    ],
+    "name_en": "Hanyang University",
+    "lat": 37.5569876,
+    "lon": 127.0470893
+  },
+  {
+    "name_ko": "성균관대학교",
+    "region_ko": "서울",
+    "total": 3911,
+    "degree": 2270,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1739
+      },
+      {
+        "name": "Engineering",
+        "count": 287
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 186
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 58
+      }
+    ],
+    "non_degree": 1634,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 1251
+      },
+      {
+        "name": "Language training",
+        "count": 329
+      },
+      {
+        "name": "Visiting",
+        "count": 54
+      }
+    ],
+    "name_en": "Sungkyunkwan University",
+    "lat": 37.5870459,
+    "lon": 126.9906264
+  },
+  {
+    "name_ko": "경희대학교",
+    "region_ko": "서울",
+    "total": 3535,
+    "degree": 2486,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1846
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 447
+      },
+      {
+        "name": "Engineering",
+        "count": 138
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 55
+      }
+    ],
+    "non_degree": 1049,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 609
+      },
+      {
+        "name": "Exchange",
+        "count": 412
+      },
+      {
+        "name": "Other",
+        "count": 28
+      }
+    ],
+    "name_en": "Kyung Hee University",
+    "lat": 37.5971213,
+    "lon": 127.0519867
+  },
+  {
+    "name_ko": "계명대학교",
+    "region_ko": "대구",
+    "total": 3044,
+    "degree": 1406,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1045
+      },
+      {
+        "name": "Engineering",
+        "count": 203
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 133
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 25
+      }
+    ],
+    "non_degree": 1638,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1446
+      },
+      {
+        "name": "Exchange",
+        "count": 192
+      }
+    ],
+    "name_en": "Keimyung University",
+    "lat": 35.8567134,
+    "lon": 128.4849417
+  },
+  {
+    "name_ko": "한국외국어대학교",
+    "region_ko": "서울",
+    "total": 2949,
+    "degree": 2173,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2145
+      },
+      {
+        "name": "Engineering",
+        "count": 26
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 776,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 373
+      },
+      {
+        "name": "Exchange",
+        "count": 335
+      },
+      {
+        "name": "Visiting",
+        "count": 68
+      }
+    ],
+    "name_en": "Hankuk University of Foreign Studies",
+    "lat": 37.5970815,
+    "lon": 127.0587413
+  },
+  {
+    "name_ko": "세종대학교",
+    "region_ko": "서울",
+    "total": 2844,
+    "degree": 1630,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 873
+      },
+      {
+        "name": "Engineering",
+        "count": 526
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 230
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 1214,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1035
+      },
+      {
+        "name": "Exchange",
+        "count": 179
+      }
+    ],
+    "name_en": "Sejong University",
+    "lat": 37.5491107,
+    "lon": 127.0750012
+  },
+  {
+    "name_ko": "동국대학교",
+    "region_ko": "서울",
+    "total": 2691,
+    "degree": 1180,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 902
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 205
+      },
+      {
+        "name": "Engineering",
+        "count": 66
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 7
+      }
+    ],
+    "non_degree": 1511,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1329
+      },
+      {
+        "name": "Exchange",
+        "count": 182
+      }
+    ],
+    "name_en": "Dongguk University",
+    "lat": 37.5582383,
+    "lon": 126.9994886
+  },
+  {
+    "name_ko": "한양대학교(ERICA)_분교",
+    "region_ko": "경기",
+    "total": 2503,
+    "degree": 2096,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1087
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 532
+      },
+      {
+        "name": "Engineering",
+        "count": 438
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 39
+      }
+    ],
+    "non_degree": 407,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 187
+      },
+      {
+        "name": "Exchange",
+        "count": 157
+      },
+      {
+        "name": "Visiting",
+        "count": 63
+      }
+    ],
+    "name_en": "Hanyang University (ERICA)",
+    "lat": 37.29667,
+    "lon": 126.83501
+  },
+  {
+    "name_ko": "숭실대학교",
+    "region_ko": "서울",
+    "total": 2479,
+    "degree": 1752,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1549
+      },
+      {
+        "name": "Engineering",
+        "count": 182
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 18
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 3
+      }
+    ],
+    "non_degree": 727,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 594
+      },
+      {
+        "name": "Exchange",
+        "count": 133
+      }
+    ],
+    "name_en": "Soongsil University",
+    "lat": 37.4962989,
+    "lon": 126.9567202
+  },
+  {
+    "name_ko": "아주대학교",
+    "region_ko": "경기",
+    "total": 2411,
+    "degree": 937,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 541
+      },
+      {
+        "name": "Engineering",
+        "count": 387
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 9
+      }
+    ],
+    "non_degree": 1474,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1316
+      },
+      {
+        "name": "Exchange",
+        "count": 158
+      }
+    ],
+    "name_en": "Ajou University",
+    "lat": 37.2830024,
+    "lon": 127.0453782
+  },
+  {
+    "name_ko": "우송대학교",
+    "region_ko": "대전",
+    "total": 2302,
+    "degree": 2008,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1388
+      },
+      {
+        "name": "Engineering",
+        "count": 381
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 237
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 294,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 199
+      },
+      {
+        "name": "Language training",
+        "count": 86
+      },
+      {
+        "name": "Visiting",
+        "count": 9
+      }
+    ],
+    "name_en": "Woosong University",
+    "lat": 36.3352732,
+    "lon": 127.452935
+  },
+  {
+    "name_ko": "건국대학교",
+    "region_ko": "서울",
+    "total": 2228,
+    "degree": 1415,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 945
+      },
+      {
+        "name": "Engineering",
+        "count": 220
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 219
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 31
+      }
+    ],
+    "non_degree": 813,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 622
+      },
+      {
+        "name": "Exchange",
+        "count": 182
+      },
+      {
+        "name": "Visiting",
+        "count": 9
+      }
+    ],
+    "name_en": "Konkuk University",
+    "lat": 37.541847,
+    "lon": 127.0771149
+  },
+  {
+    "name_ko": "선문대학교",
+    "region_ko": "충남",
+    "total": 2200,
+    "degree": 1167,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 917
+      },
+      {
+        "name": "Engineering",
+        "count": 158
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 59
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 33
+      }
+    ],
+    "non_degree": 969,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 966
+      },
+      {
+        "name": "Exchange",
+        "count": 2
+      },
+      {
+        "name": "Visiting",
+        "count": 1
+      }
+    ],
+    "name_en": "Sun Moon University",
+    "lat": 36.7982739,
+    "lon": 127.0745741
+  },
+  {
+    "name_ko": "명지대학교_제2캠퍼스",
+    "region_ko": "서울",
+    "total": 2127,
+    "degree": 1204,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1190
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 7
+      },
+      {
+        "name": "Engineering",
+        "count": 7
+      }
+    ],
+    "non_degree": 923,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 764
+      },
+      {
+        "name": "Exchange",
+        "count": 159
+      }
+    ],
+    "name_en": "Myongji University (2nd Campus)",
+    "lat": 37.22105,
+    "lon": 127.1856
+  },
+  {
+    "name_ko": "이화여자대학교",
+    "region_ko": "서울",
+    "total": 2089,
+    "degree": 1344,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1128
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 104
+      },
+      {
+        "name": "Engineering",
+        "count": 63
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 49
+      }
+    ],
+    "non_degree": 745,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 492
+      },
+      {
+        "name": "Exchange",
+        "count": 213
+      },
+      {
+        "name": "Visiting",
+        "count": 40
+      }
+    ],
+    "name_en": "Ewha Womans University",
+    "lat": 37.5643371,
+    "lon": 126.9468925
+  },
+  {
+    "name_ko": "서강대학교",
+    "region_ko": "서울",
+    "total": 2021,
+    "degree": 910,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 806
+      },
+      {
+        "name": "Engineering",
+        "count": 90
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 14
+      }
+    ],
+    "non_degree": 1111,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 951
+      },
+      {
+        "name": "Exchange",
+        "count": 129
+      },
+      {
+        "name": "Visiting",
+        "count": 31
+      }
+    ],
+    "name_en": "Sogang University",
+    "lat": 37.5520909,
+    "lon": 126.9409875
+  },
+  {
+    "name_ko": "경성대학교",
+    "region_ko": "부산",
+    "total": 1966,
+    "degree": 1788,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1469
+      },
+      {
+        "name": "Engineering",
+        "count": 301
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 14
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 4
+      }
+    ],
+    "non_degree": 178,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 138
+      },
+      {
+        "name": "Exchange",
+        "count": 40
+      }
+    ],
+    "name_en": "Kyungsung University",
+    "lat": 35.1406608,
+    "lon": 129.0980524
+  },
+  {
+    "name_ko": "인하대학교",
+    "region_ko": "인천",
+    "total": 1954,
+    "degree": 1093,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 745
+      },
+      {
+        "name": "Engineering",
+        "count": 305
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 27
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 15
+      },
+      {
+        "name": "Medical",
+        "count": 1
+      }
+    ],
+    "non_degree": 778,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 603
+      },
+      {
+        "name": "Exchange",
+        "count": 145
+      },
+      {
+        "name": "Visiting",
+        "count": 30
+      }
+    ],
+    "name_en": "Inha University",
+    "lat": 37.4494431,
+    "lon": 126.6534446
+  },
+  {
+    "name_ko": "청주대학교",
+    "region_ko": "충북",
+    "total": 1952,
+    "degree": 1716,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 851
+      },
+      {
+        "name": "Engineering",
+        "count": 582
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 281
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 236,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 175
+      },
+      {
+        "name": "Exchange",
+        "count": 61
+      }
+    ],
+    "name_en": "Cheongju University",
+    "lat": 36.6600782,
+    "lon": 127.4994307
+  },
+  {
+    "name_ko": "칼빈대학교",
+    "region_ko": "경기",
+    "total": 1940,
+    "degree": 1856,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1777
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 79
+      }
+    ],
+    "non_degree": 84,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 84
+      }
+    ],
+    "name_en": "Calvin University",
+    "lat": 37.305161,
+    "lon": 127.128183
+  },
+  {
+    "name_ko": "동아대학교",
+    "region_ko": "부산",
+    "total": 1676,
+    "degree": 530,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 464
+      },
+      {
+        "name": "Engineering",
+        "count": 40
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 17
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 9
+      }
+    ],
+    "non_degree": 1146,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 1063
+      },
+      {
+        "name": "Exchange",
+        "count": 83
+      }
+    ],
+    "name_en": "Dong-A University",
+    "lat": 35.1154117,
+    "lon": 128.9675937
+  },
+  {
+    "name_ko": "가톨릭대학교",
+    "region_ko": "경기",
+    "total": 1665,
+    "degree": 890,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 597
+      },
+      {
+        "name": "Engineering",
+        "count": 126
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 113
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 54
+      }
+    ],
+    "non_degree": 775,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 710
+      },
+      {
+        "name": "Exchange",
+        "count": 65
+      }
+    ],
+    "name_en": "Catholic University of Korea",
+    "lat": 37.1936634,
+    "lon": 126.93913
+  },
+  {
+    "name_ko": "경북대학교",
+    "region_ko": "대구",
+    "total": 1660,
+    "degree": 632,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 399
+      },
+      {
+        "name": "Engineering",
+        "count": 129
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 95
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 9
+      }
+    ],
+    "non_degree": 1028,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 850
+      },
+      {
+        "name": "Exchange",
+        "count": 177
+      },
+      {
+        "name": "Visiting",
+        "count": 1
+      }
+    ],
+    "name_en": "Kyungpook National University",
+    "lat": 35.8905697,
+    "lon": 128.6108553
+  },
+  {
+    "name_ko": "대구대학교",
+    "region_ko": "경북",
+    "total": 1660,
+    "degree": 1446,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1175
+      },
+      {
+        "name": "Engineering",
+        "count": 159
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 93
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 19
+      }
+    ],
+    "non_degree": 214,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 124
+      },
+      {
+        "name": "Exchange",
+        "count": 90
+      }
+    ],
+    "name_en": "Daegu University",
+    "lat": 35.8974953,
+    "lon": 128.8482601
+  },
+  {
+    "name_ko": "대구한의대학교",
+    "region_ko": "경북",
+    "total": 1637,
+    "degree": 1297,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1098
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 171
+      },
+      {
+        "name": "Engineering",
+        "count": 24
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 4
+      }
+    ],
+    "non_degree": 340,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 339
+      },
+      {
+        "name": "Exchange",
+        "count": 1
+      }
+    ],
+    "name_en": "Daegu Haany University",
+    "lat": 35.7948523,
+    "lon": 128.776222
+  },
+  {
+    "name_ko": "한남대학교",
+    "region_ko": "대전",
+    "total": 1599,
+    "degree": 605,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 505
+      },
+      {
+        "name": "Engineering",
+        "count": 67
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 26
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 7
+      }
+    ],
+    "non_degree": 994,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 964
+      },
+      {
+        "name": "Exchange",
+        "count": 30
+      }
+    ],
+    "name_en": "Hannam University",
+    "lat": 36.3544981,
+    "lon": 127.4220842
+  },
+  {
+    "name_ko": "남서울대학교",
+    "region_ko": "충남",
+    "total": 1544,
+    "degree": 742,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 657
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 37
+      },
+      {
+        "name": "Engineering",
+        "count": 34
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 14
+      }
+    ],
+    "non_degree": 800,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 652
+      },
+      {
+        "name": "Other",
+        "count": 75
+      },
+      {
+        "name": "Exchange",
+        "count": 73
+      }
+    ],
+    "name_en": "Namseoul University",
+    "lat": 36.9079475,
+    "lon": 127.1409837
+  },
+  {
+    "name_ko": "국민대학교",
+    "region_ko": "서울",
+    "total": 1533,
+    "degree": 1130,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 785
+      },
+      {
+        "name": "Engineering",
+        "count": 176
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 132
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 37
+      }
+    ],
+    "non_degree": 403,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 262
+      },
+      {
+        "name": "Exchange",
+        "count": 141
+      }
+    ],
+    "name_en": "Kookmin University",
+    "lat": 37.6114792,
+    "lon": 126.9964154
+  },
+  {
+    "name_ko": "동서대학교",
+    "region_ko": "부산",
+    "total": 1497,
+    "degree": 361,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 252
+      },
+      {
+        "name": "Engineering",
+        "count": 66
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 41
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 633,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 586
+      },
+      {
+        "name": "Exchange",
+        "count": 47
+      }
+    ],
+    "name_en": "Dongseo University",
+    "lat": 35.1445519,
+    "lon": 129.010078
+  },
+  {
+    "name_ko": "목원대학교",
+    "region_ko": "대전",
+    "total": 1494,
+    "degree": 595,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 539
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 23
+      },
+      {
+        "name": "Engineering",
+        "count": 22
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 11
+      }
+    ],
+    "non_degree": 899,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 875
+      },
+      {
+        "name": "Exchange",
+        "count": 24
+      }
+    ],
+    "name_en": "Mokwon University",
+    "lat": 36.3246693,
+    "lon": 127.339086
+  },
+  {
+    "name_ko": "영남대학교",
+    "region_ko": "경북",
+    "total": 1439,
+    "degree": 834,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 576
+      },
+      {
+        "name": "Engineering",
+        "count": 142
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 75
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 41
+      }
+    ],
+    "non_degree": 605,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 524
+      },
+      {
+        "name": "Exchange",
+        "count": 81
+      }
+    ],
+    "name_en": "Yeungnam University",
+    "lat": 35.828022,
+    "lon": 128.7572223
+  },
+  {
+    "name_ko": "홍익대학교",
+    "region_ko": "서울",
+    "total": 1394,
+    "degree": 937,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 866
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 37
+      },
+      {
+        "name": "Engineering",
+        "count": 34
+      }
+    ],
+    "non_degree": 457,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 440
+      },
+      {
+        "name": "Exchange",
+        "count": 17
+      }
+    ],
+    "name_en": "Hongik University",
+    "lat": 37.55305,
+    "lon": 126.92461
+  },
+  {
+    "name_ko": "서울대학교",
+    "region_ko": "서울",
+    "total": 1383,
+    "degree": 180,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 77
+      },
+      {
+        "name": "Engineering",
+        "count": 64
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 28
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 11
+      }
+    ],
+    "non_degree": 1203,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 870
+      },
+      {
+        "name": "Exchange",
+        "count": 317
+      },
+      {
+        "name": "Visiting",
+        "count": 16
+      }
+    ],
+    "name_en": "Seoul National University",
+    "lat": 37.458115,
+    "lon": 126.9521607
+  },
+  {
+    "name_ko": "부산외국어대학교",
+    "region_ko": "부산",
+    "total": 1192,
+    "degree": 810,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 768
+      },
+      {
+        "name": "Engineering",
+        "count": 36
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 6
+      }
+    ],
+    "non_degree": 382,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 211
+      },
+      {
+        "name": "Language training",
+        "count": 171
+      }
+    ],
+    "name_en": "Busan University of Foreign Studies",
+    "lat": 35.2670628,
+    "lon": 129.0795592
+  },
+  {
+    "name_ko": "대구가톨릭대학교",
+    "region_ko": "경북",
+    "total": 1178,
+    "degree": 902,
+    "by_field": [
+      {
+        "name": "Natural Sciences",
+        "count": 390
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 323
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 95
+      },
+      {
+        "name": "Engineering",
+        "count": 94
+      }
+    ],
+    "non_degree": 276,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 267
+      },
+      {
+        "name": "Exchange",
+        "count": 9
+      }
+    ],
+    "name_en": "Daegu Catholic University",
+    "lat": 35.9111518,
+    "lon": 128.8077284
+  },
+  {
+    "name_ko": "경동대학교",
+    "region_ko": "강원",
+    "total": 1169,
+    "degree": 1074,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 769
+      },
+      {
+        "name": "Engineering",
+        "count": 305
+      }
+    ],
+    "non_degree": 95,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 64
+      },
+      {
+        "name": "Exchange",
+        "count": 31
+      }
+    ],
+    "name_en": "Kyungdong University",
+    "lat": 38.251531,
+    "lon": 128.556618
+  },
+  {
+    "name_ko": "부산대학교",
+    "region_ko": "부산",
+    "total": 1134,
+    "degree": 594,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 281
+      },
+      {
+        "name": "Engineering",
+        "count": 161
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 76
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 76
+      }
+    ],
+    "non_degree": 540,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 363
+      },
+      {
+        "name": "Exchange",
+        "count": 166
+      },
+      {
+        "name": "Visiting",
+        "count": 11
+      }
+    ],
+    "name_en": "Pusan National University",
+    "lat": 35.2343498,
+    "lon": 129.0784068
+  },
+  {
+    "name_ko": "배재대학교",
+    "region_ko": "대전",
+    "total": 1131,
+    "degree": 305,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 228
+      },
+      {
+        "name": "Engineering",
+        "count": 29
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 26
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 22
+      }
+    ],
+    "non_degree": 826,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 637
+      },
+      {
+        "name": "Exchange",
+        "count": 188
+      },
+      {
+        "name": "Other",
+        "count": 1
+      }
+    ],
+    "name_en": "Pai Chai University",
+    "lat": 36.3205428,
+    "lon": 127.3658519
+  },
+  {
+    "name_ko": "서울여자대학교",
+    "region_ko": "서울",
+    "total": 1131,
+    "degree": 704,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 601
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 86
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 17
+      }
+    ],
+    "non_degree": 427,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 380
+      },
+      {
+        "name": "Exchange",
+        "count": 47
+      }
+    ],
+    "name_en": "Seoul Women's University",
+    "lat": 37.6282981,
+    "lon": 127.0905308
+  },
+  {
+    "name_ko": "서울과학기술대학교",
+    "region_ko": "서울",
+    "total": 1129,
+    "degree": 572,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 257
+      },
+      {
+        "name": "Engineering",
+        "count": 231
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 72
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 12
+      }
+    ],
+    "non_degree": 557,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 446
+      },
+      {
+        "name": "Exchange",
+        "count": 111
+      }
+    ],
+    "name_en": "Seoul National University of Science and Technology",
+    "lat": 37.6324414,
+    "lon": 127.0794648
+  },
+  {
+    "name_ko": "신한대학교_제2캠퍼스",
+    "region_ko": "경기",
+    "total": 1127,
+    "degree": 718,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 433
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 104
+      },
+      {
+        "name": "Engineering",
+        "count": 98
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 83
+      }
+    ],
+    "non_degree": 409,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 396
+      },
+      {
+        "name": "Exchange",
+        "count": 13
+      }
+    ],
+    "name_en": "Shinhan University (2nd Campus)",
+    "lat": 37.90148,
+    "lon": 127.05887
+  },
+  {
+    "name_ko": "호남대학교",
+    "region_ko": "광주",
+    "total": 1118,
+    "degree": 738,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 460
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 234
+      },
+      {
+        "name": "Engineering",
+        "count": 34
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 10
+      }
+    ],
+    "non_degree": 380,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 349
+      },
+      {
+        "name": "Exchange",
+        "count": 31
+      }
+    ],
+    "name_en": "Honam University",
+    "lat": 35.1515516,
+    "lon": 126.7600432
+  },
+  {
+    "name_ko": "국립부경대학교",
+    "region_ko": "부산",
+    "total": 1115,
+    "degree": 693,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 614
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 37
+      },
+      {
+        "name": "Engineering",
+        "count": 31
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 11
+      }
+    ],
+    "non_degree": 422,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 336
+      },
+      {
+        "name": "Exchange",
+        "count": 86
+      }
+    ],
+    "name_en": "Pukyong National University",
+    "lat": 35.1159916,
+    "lon": 129.090102
+  },
+  {
+    "name_ko": "전북대학교",
+    "region_ko": "전북",
+    "total": 1112,
+    "degree": 605,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 323
+      },
+      {
+        "name": "Engineering",
+        "count": 223
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 34
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 25
+      }
+    ],
+    "non_degree": 501,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 263
+      },
+      {
+        "name": "Exchange",
+        "count": 238
+      }
+    ],
+    "name_en": "Jeonbuk National University",
+    "lat": 35.8466752,
+    "lon": 127.1337209
+  },
+  {
+    "name_ko": "우석대학교",
+    "region_ko": "전북",
+    "total": 1111,
+    "degree": 868,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 719
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 58
+      },
+      {
+        "name": "Engineering",
+        "count": 45
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 43
+      },
+      {
+        "name": "Medical",
+        "count": 3
+      }
+    ],
+    "non_degree": 236,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 163
+      },
+      {
+        "name": "Exchange",
+        "count": 65
+      },
+      {
+        "name": "Other",
+        "count": 8
+      }
+    ],
+    "name_en": "Woosuk University",
+    "lat": 35.91435,
+    "lon": 127.0683333
+  },
+  {
+    "name_ko": "대진대학교",
+    "region_ko": "경기",
+    "total": 1104,
+    "degree": 1076,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1001
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 55
+      },
+      {
+        "name": "Engineering",
+        "count": 16
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 4
+      }
+    ],
+    "non_degree": 28,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 28
+      }
+    ],
+    "name_en": "Daejin University",
+    "lat": 37.8717581,
+    "lon": 127.156421
+  },
+  {
+    "name_ko": "신라대학교",
+    "region_ko": "부산",
+    "total": 1093,
+    "degree": 621,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 332
+      },
+      {
+        "name": "Engineering",
+        "count": 228
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 41
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 20
+      }
+    ],
+    "non_degree": 472,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 462
+      },
+      {
+        "name": "Exchange",
+        "count": 10
+      }
+    ],
+    "name_en": "Silla University",
+    "lat": 35.1672753,
+    "lon": 128.9966121
+  },
+  {
+    "name_ko": "서경대학교",
+    "region_ko": "서울",
+    "total": 1077,
+    "degree": 688,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 624
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 64
+      }
+    ],
+    "non_degree": 389,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 389
+      }
+    ],
+    "name_en": "Seokyeong University",
+    "lat": 37.6149469,
+    "lon": 127.0128587
+  },
+  {
+    "name_ko": "동명대학교",
+    "region_ko": "부산",
+    "total": 1056,
+    "degree": 1002,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 600
+      },
+      {
+        "name": "Engineering",
+        "count": 354
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 45
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 3
+      }
+    ],
+    "non_degree": 54,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 42
+      },
+      {
+        "name": "Exchange",
+        "count": 12
+      }
+    ],
+    "name_en": "Tongmyong University",
+    "lat": 35.1219955,
+    "lon": 129.1017248
+  },
+  {
+    "name_ko": "강원대학교",
+    "region_ko": "강원",
+    "total": 1015,
+    "degree": 731,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 671
+      },
+      {
+        "name": "Engineering",
+        "count": 23
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 19
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 18
+      }
+    ],
+    "non_degree": 284,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 183
+      },
+      {
+        "name": "Exchange",
+        "count": 101
+      }
+    ],
+    "name_en": "Kangwon National University",
+    "lat": 37.8672582,
+    "lon": 127.7447487
+  },
+  {
+    "name_ko": "광운대학교",
+    "region_ko": "서울",
+    "total": 1009,
+    "degree": 719,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 602
+      },
+      {
+        "name": "Engineering",
+        "count": 113
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 290,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 261
+      },
+      {
+        "name": "Exchange",
+        "count": 29
+      }
+    ],
+    "name_en": "Kwangwoon University",
+    "lat": 37.6197648,
+    "lon": 127.0597566
+  },
+  {
+    "name_ko": "서원대학교",
+    "region_ko": "충북",
+    "total": 1001,
+    "degree": 933,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 923
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 5
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 68,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 68
+      }
+    ],
+    "name_en": "Seowon University",
+    "lat": 36.6247156,
+    "lon": 127.481457
+  },
+  {
+    "name_ko": "동신대학교",
+    "region_ko": "전남",
+    "total": 989,
+    "degree": 787,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 647
+      },
+      {
+        "name": "Engineering",
+        "count": 110
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 19
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 11
+      }
+    ],
+    "non_degree": 202,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 192
+      },
+      {
+        "name": "Exchange",
+        "count": 10
+      }
+    ],
+    "name_en": "Dongshin University",
+    "lat": 35.0491912,
+    "lon": 126.7188837
+  },
+  {
+    "name_ko": "중부대학교",
+    "region_ko": "충남",
+    "total": 971,
+    "degree": 748,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 667
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 41
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 22
+      },
+      {
+        "name": "Engineering",
+        "count": 18
+      }
+    ],
+    "non_degree": 223,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 219
+      },
+      {
+        "name": "Exchange",
+        "count": 4
+      }
+    ],
+    "name_en": "Joongbu University",
+    "lat": 36.1925591,
+    "lon": 127.452084
+  },
+  {
+    "name_ko": "전남대학교",
+    "region_ko": "광주",
+    "total": 960,
+    "degree": 254,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 158
+      },
+      {
+        "name": "Engineering",
+        "count": 50
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 36
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 10
+      }
+    ],
+    "non_degree": 706,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 391
+      },
+      {
+        "name": "Language training",
+        "count": 282
+      },
+      {
+        "name": "Visiting",
+        "count": 33
+      }
+    ],
+    "name_en": "Chonnam National University",
+    "lat": 35.1769099,
+    "lon": 126.9068927
+  },
+  {
+    "name_ko": "단국대학교",
+    "region_ko": "경기",
+    "total": 956,
+    "degree": 713,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 354
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 329
+      },
+      {
+        "name": "Engineering",
+        "count": 30
+      }
+    ],
+    "non_degree": 218,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 162
+      },
+      {
+        "name": "Language training",
+        "count": 56
+      }
+    ],
+    "name_en": "Dankook University",
+    "lat": 37.319288,
+    "lon": 127.1289665
+  },
+  {
+    "name_ko": "대신대학교",
+    "region_ko": "경북",
+    "total": 950,
+    "degree": 851,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 577
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 274
+      }
+    ],
+    "non_degree": 99,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 99
+      }
+    ],
+    "name_en": "Daeshin University",
+    "lat": 35.8042007,
+    "lon": 128.7446346
+  },
+  {
+    "name_ko": "경일대학교",
+    "region_ko": "경북",
+    "total": 946,
+    "degree": 543,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 428
+      },
+      {
+        "name": "Engineering",
+        "count": 78
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 36
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 403,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 403
+      }
+    ],
+    "name_en": "Kyungil University",
+    "lat": 35.9077641,
+    "lon": 128.8011067
+  },
+  {
+    "name_ko": "경운대학교",
+    "region_ko": "경북",
+    "total": 909,
+    "degree": 728,
+    "by_field": [
+      {
+        "name": "Natural Sciences",
+        "count": 436
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 220
+      },
+      {
+        "name": "Engineering",
+        "count": 49
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 23
+      }
+    ],
+    "non_degree": 181,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 127
+      },
+      {
+        "name": "Exchange",
+        "count": 54
+      }
+    ],
+    "name_en": "Kyungwoon University",
+    "lat": 36.1676137,
+    "lon": 128.4669655
+  },
+  {
+    "name_ko": "인제대학교",
+    "region_ko": "경남",
+    "total": 893,
+    "degree": 257,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 211
+      },
+      {
+        "name": "Engineering",
+        "count": 32
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 8
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 6
+      }
+    ],
+    "non_degree": 636,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 628
+      },
+      {
+        "name": "Exchange",
+        "count": 8
+      }
+    ],
+    "name_en": "Inje University",
+    "lat": 35.250061,
+    "lon": 128.9020135
+  },
+  {
+    "name_ko": "성신여자대학교",
+    "region_ko": "서울",
+    "total": 890,
+    "degree": 141,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 65
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 53
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 13
+      },
+      {
+        "name": "Engineering",
+        "count": 10
+      }
+    ],
+    "non_degree": 749,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 553
+      },
+      {
+        "name": "Exchange",
+        "count": 196
+      }
+    ],
+    "name_en": "Sungshin Women's University",
+    "lat": 37.5913559,
+    "lon": 127.0222074
+  },
+  {
+    "name_ko": "영산대학교(해운대)",
+    "region_ko": "부산",
+    "total": 842,
+    "degree": 608,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 498
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 60
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 50
+      }
+    ],
+    "non_degree": 230,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 226
+      },
+      {
+        "name": "Exchange",
+        "count": 4
+      }
+    ],
+    "name_en": "Youngsan University (Haeundae)",
+    "lat": 35.2234617,
+    "lon": 129.1532831
+  },
+  {
+    "name_ko": "서울기독대학교",
+    "region_ko": "서울",
+    "total": 838,
+    "degree": 838,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 533
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 305
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Seoul Christian University",
+    "lat": 37.6008565,
+    "lon": 126.9123274
+  },
+  {
+    "name_ko": "충북대학교",
+    "region_ko": "충북",
+    "total": 826,
+    "degree": 392,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 267
+      },
+      {
+        "name": "Engineering",
+        "count": 80
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 40
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 4
+      },
+      {
+        "name": "Medical",
+        "count": 1
+      }
+    ],
+    "non_degree": 434,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 358
+      },
+      {
+        "name": "Exchange",
+        "count": 76
+      }
+    ],
+    "name_en": "Chungbuk National University",
+    "lat": 36.6281688,
+    "lon": 127.4538403
+  },
+  {
+    "name_ko": "경기대학교",
+    "region_ko": "경기",
+    "total": 812,
+    "degree": 361,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 328
+      },
+      {
+        "name": "Engineering",
+        "count": 18
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 12
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 3
+      }
+    ],
+    "non_degree": 451,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 399
+      },
+      {
+        "name": "Exchange",
+        "count": 52
+      }
+    ],
+    "name_en": "Kyonggi University",
+    "lat": 37.301391,
+    "lon": 127.0365609
+  },
+  {
+    "name_ko": "극동대학교",
+    "region_ko": "충북",
+    "total": 806,
+    "degree": 772,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 620
+      },
+      {
+        "name": "Engineering",
+        "count": 144
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 4
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 4
+      }
+    ],
+    "non_degree": 34,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 33
+      },
+      {
+        "name": "Exchange",
+        "count": 1
+      }
+    ],
+    "name_en": "Far East University",
+    "lat": 37.1292211,
+    "lon": 127.6350513
+  },
+  {
+    "name_ko": "동양대학교",
+    "region_ko": "경북",
+    "total": 725,
+    "degree": 416,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 385
+      },
+      {
+        "name": "Engineering",
+        "count": 30
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 309,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 309
+      }
+    ],
+    "name_en": "Dongyang University",
+    "lat": 36.8823206,
+    "lon": 128.5337885
+  },
+  {
+    "name_ko": "서울시립대학교",
+    "region_ko": "서울",
+    "total": 725,
+    "degree": 251,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 185
+      },
+      {
+        "name": "Engineering",
+        "count": 48
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 9
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 9
+      }
+    ],
+    "non_degree": 474,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 286
+      },
+      {
+        "name": "Exchange",
+        "count": 185
+      },
+      {
+        "name": "Visiting",
+        "count": 3
+      }
+    ],
+    "name_en": "University of Seoul",
+    "lat": 37.5830387,
+    "lon": 127.0591856
+  },
+  {
+    "name_ko": "강서대학교",
+    "region_ko": "서울",
+    "total": 706,
+    "degree": 666,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 665
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 40,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 40
+      }
+    ],
+    "name_en": "Kangseo University",
+    "lat": 37.5483053,
+    "lon": 126.8545934
+  },
+  {
+    "name_ko": "광주대학교",
+    "region_ko": "광주",
+    "total": 692,
+    "degree": 263,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 232
+      },
+      {
+        "name": "Engineering",
+        "count": 20
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 10
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 429,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 406
+      },
+      {
+        "name": "Exchange",
+        "count": 23
+      }
+    ],
+    "name_en": "Gwangju University",
+    "lat": 35.1057203,
+    "lon": 126.8955031
+  },
+  {
+    "name_ko": "호원대학교",
+    "region_ko": "전북",
+    "total": 689,
+    "degree": 503,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 288
+      },
+      {
+        "name": "Engineering",
+        "count": 120
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 51
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 44
+      }
+    ],
+    "non_degree": 186,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 186
+      }
+    ],
+    "name_en": "Howon University",
+    "lat": 35.9669056,
+    "lon": 126.8645345
+  },
+  {
+    "name_ko": "중앙대학교_제2캠퍼스",
+    "region_ko": "경기",
+    "total": 678,
+    "degree": 618,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 598
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 14
+      },
+      {
+        "name": "Engineering",
+        "count": 6
+      }
+    ],
+    "non_degree": 60,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 46
+      },
+      {
+        "name": "Exchange",
+        "count": 14
+      }
+    ],
+    "name_en": "Chung-Ang University (2nd Campus)",
+    "lat": 37.00438,
+    "lon": 127.22763
+  },
+  {
+    "name_ko": "순천향대학교",
+    "region_ko": "충남",
+    "total": 675,
+    "degree": 564,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 430
+      },
+      {
+        "name": "Engineering",
+        "count": 117
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 12
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 5
+      }
+    ],
+    "non_degree": 111,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 91
+      },
+      {
+        "name": "Language training",
+        "count": 20
+      }
+    ],
+    "name_en": "Soonchunhyang University",
+    "lat": 36.769988,
+    "lon": 126.9316341
+  },
+  {
+    "name_ko": "충남대학교",
+    "region_ko": "대전",
+    "total": 674,
+    "degree": 299,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 231
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 31
+      },
+      {
+        "name": "Engineering",
+        "count": 30
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 6
+      },
+      {
+        "name": "Medical",
+        "count": 1
+      }
+    ],
+    "non_degree": 375,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 296
+      },
+      {
+        "name": "Exchange",
+        "count": 79
+      }
+    ],
+    "name_en": "Chungnam National University",
+    "lat": 36.369879,
+    "lon": 127.3448276
+  },
+  {
+    "name_ko": "연세대학교(미래)_분교",
+    "region_ko": "강원",
+    "total": 622,
+    "degree": 543,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 487
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 33
+      },
+      {
+        "name": "Engineering",
+        "count": 14
+      },
+      {
+        "name": "Medical",
+        "count": 9
+      }
+    ],
+    "non_degree": 79,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 47
+      },
+      {
+        "name": "Exchange",
+        "count": 32
+      }
+    ],
+    "name_en": "Yonsei University (Mirae)",
+    "lat": 37.2800965,
+    "lon": 127.901503
+  },
+  {
+    "name_ko": "부산가톨릭대학교",
+    "region_ko": "부산",
+    "total": 614,
+    "degree": 506,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 494
+      },
+      {
+        "name": "Engineering",
+        "count": 9
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 3
+      }
+    ],
+    "non_degree": 108,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 108
+      }
+    ],
+    "name_en": "Catholic University of Pusan",
+    "lat": 35.2457082,
+    "lon": 129.0988427
+  },
+  {
+    "name_ko": "고려대학교(세종)_분교",
+    "region_ko": "세종",
+    "total": 596,
+    "degree": 488,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 315
+      },
+      {
+        "name": "Engineering",
+        "count": 82
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 72
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 19
+      }
+    ],
+    "non_degree": 108,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 75
+      },
+      {
+        "name": "Exchange",
+        "count": 27
+      },
+      {
+        "name": "Visiting",
+        "count": 6
+      }
+    ],
+    "name_en": "Korea University (Sejong)",
+    "lat": 36.6108894,
+    "lon": 127.2934174
+  },
+  {
+    "name_ko": "동의대학교",
+    "region_ko": "부산",
+    "total": 586,
+    "degree": 541,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 309
+      },
+      {
+        "name": "Engineering",
+        "count": 222
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 7
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 3
+      }
+    ],
+    "non_degree": 45,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 39
+      },
+      {
+        "name": "Language training",
+        "count": 6
+      }
+    ],
+    "name_en": "Dong-eui University",
+    "lat": 35.1430956,
+    "lon": 129.0341636
+  },
+  {
+    "name_ko": "덕성여자대학교",
+    "region_ko": "서울",
+    "total": 571,
+    "degree": 157,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 140
+      },
+      {
+        "name": "Engineering",
+        "count": 10
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 5
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 414,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 366
+      },
+      {
+        "name": "Exchange",
+        "count": 48
+      }
+    ],
+    "name_en": "Duksung Women's University",
+    "lat": 37.650931,
+    "lon": 127.016908
+  },
+  {
+    "name_ko": "광주여자대학교",
+    "region_ko": "광주",
+    "total": 533,
+    "degree": 447,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 398
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 44
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 5
+      }
+    ],
+    "non_degree": 86,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 86
+      }
+    ],
+    "name_en": "Kwangju Women's University",
+    "lat": 35.1636239,
+    "lon": 126.7974759
+  },
+  {
+    "name_ko": "한국공학대학교",
+    "region_ko": "경기",
+    "total": 529,
+    "degree": 215,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 194
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 21
+      }
+    ],
+    "non_degree": 314,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 314
+      }
+    ],
+    "name_en": "Tech University of Korea",
+    "lat": 37.3402397,
+    "lon": 126.7333516
+  },
+  {
+    "name_ko": "숙명여자대학교",
+    "region_ko": "서울",
+    "total": 520,
+    "degree": 160,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 120
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 27
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 10
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      }
+    ],
+    "non_degree": 360,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 288
+      },
+      {
+        "name": "Language training",
+        "count": 72
+      }
+    ],
+    "name_en": "Sookmyung Women's University",
+    "lat": 37.5442933,
+    "lon": 126.9652336
+  },
+  {
+    "name_ko": "한성대학교",
+    "region_ko": "서울",
+    "total": 506,
+    "degree": 263,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 148
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 113
+      },
+      {
+        "name": "Engineering",
+        "count": 2
+      }
+    ],
+    "non_degree": 243,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 235
+      },
+      {
+        "name": "Exchange",
+        "count": 8
+      }
+    ],
+    "name_en": "Hansung University",
+    "lat": 37.5821124,
+    "lon": 127.0105404
+  },
+  {
+    "name_ko": "호서대학교",
+    "region_ko": "충남",
+    "total": 504,
+    "degree": 275,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 163
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 69
+      },
+      {
+        "name": "Engineering",
+        "count": 22
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 21
+      }
+    ],
+    "non_degree": 229,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 193
+      },
+      {
+        "name": "Exchange",
+        "count": 36
+      }
+    ],
+    "name_en": "Hoseo University",
+    "lat": 36.7352819,
+    "lon": 127.0757053
+  },
+  {
+    "name_ko": "강남대학교",
+    "region_ko": "경기",
+    "total": 485,
+    "degree": 299,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 238
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 61
+      }
+    ],
+    "non_degree": 186,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 161
+      },
+      {
+        "name": "Exchange",
+        "count": 25
+      }
+    ],
+    "name_en": "Kangnam University",
+    "lat": 37.2757349,
+    "lon": 127.1324999
+  },
+  {
+    "name_ko": "한국과학기술원",
+    "region_ko": "대전",
+    "total": 481,
+    "degree": 391,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 337
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 34
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 20
+      }
+    ],
+    "non_degree": 90,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 87
+      },
+      {
+        "name": "Other",
+        "count": 3
+      }
+    ],
+    "name_en": "Korea Advanced Institute of Science and Technology (KAIST)",
+    "lat": 36.3703054,
+    "lon": 127.3620118
+  },
+  {
+    "name_ko": "백석대학교",
+    "region_ko": "충남",
+    "total": 469,
+    "degree": 324,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 158
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 96
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 70
+      }
+    ],
+    "non_degree": 145,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 91
+      },
+      {
+        "name": "Exchange",
+        "count": 54
+      }
+    ],
+    "name_en": "Baekseok University",
+    "lat": 36.8397504,
+    "lon": 127.1850643
+  },
+  {
+    "name_ko": "김천대학교",
+    "region_ko": "경북",
+    "total": 466,
+    "degree": 228,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 167
+      },
+      {
+        "name": "Engineering",
+        "count": 35
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 26
+      }
+    ],
+    "non_degree": 238,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 238
+      }
+    ],
+    "name_en": "Gimcheon University",
+    "lat": 36.1398256,
+    "lon": 128.0812634
+  },
+  {
+    "name_ko": "청운대학교",
+    "region_ko": "충남",
+    "total": 458,
+    "degree": 350,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 268
+      },
+      {
+        "name": "Engineering",
+        "count": 65
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 15
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 108,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 108
+      }
+    ],
+    "name_en": "Chungwoon University",
+    "lat": 36.5801433,
+    "lon": 126.6610803
+  },
+  {
+    "name_ko": "한국방송통신대학교",
+    "region_ko": "서울",
+    "total": 432,
+    "degree": 432,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 356
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 70
+      },
+      {
+        "name": "Engineering",
+        "count": 4
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Korea National Open University",
+    "lat": 37.5786076,
+    "lon": 127.0034506
+  },
+  {
+    "name_ko": "건양대학교",
+    "region_ko": "충남",
+    "total": 430,
+    "degree": 92,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 69
+      },
+      {
+        "name": "Engineering",
+        "count": 12
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 11
+      }
+    ],
+    "non_degree": 338,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 334
+      },
+      {
+        "name": "Exchange",
+        "count": 4
+      }
+    ],
+    "name_en": "Konyang University",
+    "lat": 36.1808993,
+    "lon": 127.1115408
+  },
+  {
+    "name_ko": "인천대학교",
+    "region_ko": "인천",
+    "total": 430,
+    "degree": 210,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 172
+      },
+      {
+        "name": "Engineering",
+        "count": 18
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 11
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 9
+      }
+    ],
+    "non_degree": 220,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 134
+      },
+      {
+        "name": "Language training",
+        "count": 86
+      }
+    ],
+    "name_en": "Incheon National University",
+    "lat": 37.3751446,
+    "lon": 126.6323415
+  },
+  {
+    "name_ko": "국립군산대학교",
+    "region_ko": "전북",
+    "total": 422,
+    "degree": 310,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 162
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 90
+      },
+      {
+        "name": "Engineering",
+        "count": 49
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 9
+      }
+    ],
+    "non_degree": 112,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 69
+      },
+      {
+        "name": "Language training",
+        "count": 43
+      }
+    ],
+    "name_en": "Kunsan National University",
+    "lat": 35.9456011,
+    "lon": 126.6802365
+  },
+  {
+    "name_ko": "동국대학교(WISE)_분교",
+    "region_ko": "경북",
+    "total": 420,
+    "degree": 375,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 269
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 81
+      },
+      {
+        "name": "Engineering",
+        "count": 11
+      },
+      {
+        "name": "Medical",
+        "count": 9
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      }
+    ],
+    "non_degree": 45,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 35
+      },
+      {
+        "name": "Exchange",
+        "count": 10
+      }
+    ],
+    "name_en": "Dongguk University (WISE)",
+    "lat": 35.8583466,
+    "lon": 129.1957111
+  },
+  {
+    "name_ko": "나사렛대학교",
+    "region_ko": "충남",
+    "total": 413,
+    "degree": 138,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 116
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 15
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 7
+      }
+    ],
+    "non_degree": 275,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 275
+      }
+    ],
+    "name_en": "Korea Nazarene University",
+    "lat": 36.7965657,
+    "lon": 127.119535
+  },
+  {
+    "name_ko": "경남대학교",
+    "region_ko": "경남",
+    "total": 407,
+    "degree": 341,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 201
+      },
+      {
+        "name": "Engineering",
+        "count": 89
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 30
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 21
+      }
+    ],
+    "non_degree": 66,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 33
+      },
+      {
+        "name": "Exchange",
+        "count": 33
+      }
+    ],
+    "name_en": "Kyungnam University",
+    "lat": 35.1815818,
+    "lon": 128.5531977
+  },
+  {
+    "name_ko": "서울신학대학교",
+    "region_ko": "경기",
+    "total": 407,
+    "degree": 14,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 11
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      },
+      {
+        "name": "Engineering",
+        "count": 1
+      }
+    ],
+    "non_degree": 393,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 393
+      }
+    ],
+    "name_en": "Seoul Theological University",
+    "lat": 37.479748,
+    "lon": 126.789993
+  },
+  {
+    "name_ko": "송원대학교",
+    "region_ko": "광주",
+    "total": 400,
+    "degree": 228,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 217
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 8
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      }
+    ],
+    "non_degree": 172,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 172
+      }
+    ],
+    "name_en": "Songwon University",
+    "lat": 35.1085836,
+    "lon": 126.8744808
+  },
+  {
+    "name_ko": "경동대학교_제4캠퍼스",
+    "region_ko": "경기",
+    "total": 392,
+    "degree": 29,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 25
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 363,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 363
+      }
+    ],
+    "name_en": "Kyungdong University (4th Campus)",
+    "lat": 37.8104859,
+    "lon": 127.0712119
+  },
+  {
+    "name_ko": "성결대학교",
+    "region_ko": "경기",
+    "total": 388,
+    "degree": 47,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 33
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 13
+      },
+      {
+        "name": "Engineering",
+        "count": 1
+      }
+    ],
+    "non_degree": 341,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 338
+      },
+      {
+        "name": "Exchange",
+        "count": 3
+      }
+    ],
+    "name_en": "Sungkyul University",
+    "lat": 37.3798664,
+    "lon": 126.9285167
+  },
+  {
+    "name_ko": "삼육대학교",
+    "region_ko": "서울",
+    "total": 361,
+    "degree": 187,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 148
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 23
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 11
+      },
+      {
+        "name": "Engineering",
+        "count": 5
+      }
+    ],
+    "non_degree": 174,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 148
+      },
+      {
+        "name": "Exchange",
+        "count": 26
+      }
+    ],
+    "name_en": "Sahmyook University",
+    "lat": 37.642012,
+    "lon": 127.1056211
+  },
+  {
+    "name_ko": "대전대학교",
+    "region_ko": "대전",
+    "total": 356,
+    "degree": 255,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 195
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 32
+      },
+      {
+        "name": "Engineering",
+        "count": 23
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 4
+      },
+      {
+        "name": "Medical",
+        "count": 1
+      }
+    ],
+    "non_degree": 101,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 84
+      },
+      {
+        "name": "Exchange",
+        "count": 17
+      }
+    ],
+    "name_en": "Daejeon University",
+    "lat": 36.3354252,
+    "lon": 127.4603521
+  },
+  {
+    "name_ko": "초당대학교",
+    "region_ko": "전남",
+    "total": 349,
+    "degree": 270,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 177
+      },
+      {
+        "name": "Engineering",
+        "count": 68
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 13
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 12
+      }
+    ],
+    "non_degree": 79,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 49
+      },
+      {
+        "name": "Language training",
+        "count": 30
+      }
+    ],
+    "name_en": "Chodang University",
+    "lat": 34.9775479,
+    "lon": 126.4739688
+  },
+  {
+    "name_ko": "경상국립대학교",
+    "region_ko": "경남",
+    "total": 335,
+    "degree": 90,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 67
+      },
+      {
+        "name": "Engineering",
+        "count": 15
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 8
+      }
+    ],
+    "non_degree": 245,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 147
+      },
+      {
+        "name": "Exchange",
+        "count": 98
+      }
+    ],
+    "name_en": "Gyeongsang National University",
+    "lat": 35.1546243,
+    "lon": 128.0994027
+  },
+  {
+    "name_ko": "제주대학교",
+    "region_ko": "제주",
+    "total": 331,
+    "degree": 155,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 101
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 36
+      },
+      {
+        "name": "Engineering",
+        "count": 11
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 7
+      }
+    ],
+    "non_degree": 175,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 152
+      },
+      {
+        "name": "Exchange",
+        "count": 23
+      }
+    ],
+    "name_en": "Jeju National University",
+    "lat": 33.460114,
+    "lon": 126.561659
+  },
+  {
+    "name_ko": "예원예술대학교_제2캠퍼스",
+    "region_ko": "경기",
+    "total": 309,
+    "degree": 284,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 270
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 14
+      }
+    ],
+    "non_degree": 25,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 25
+      }
+    ],
+    "name_en": "Yewon Arts University (2nd Campus)",
+    "lat": 37.84643,
+    "lon": 127.03688
+  },
+  {
+    "name_ko": "서울한영대학교",
+    "region_ko": "서울",
+    "total": 308,
+    "degree": 226,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 226
+      }
+    ],
+    "non_degree": 82,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 82
+      }
+    ],
+    "name_en": "Seoul Hanyoung University",
+    "lat": 37.4965593,
+    "lon": 126.8514864
+  },
+  {
+    "name_ko": "국립공주대학교",
+    "region_ko": "충남",
+    "total": 307,
+    "degree": 132,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 67
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 32
+      },
+      {
+        "name": "Engineering",
+        "count": 20
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 13
+      }
+    ],
+    "non_degree": 159,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 152
+      },
+      {
+        "name": "Exchange",
+        "count": 7
+      }
+    ],
+    "name_en": "Kongju National University",
+    "lat": 36.4682808,
+    "lon": 127.1401671
+  },
+  {
+    "name_ko": "국립한밭대학교",
+    "region_ko": "대전",
+    "total": 305,
+    "degree": 74,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 50
+      },
+      {
+        "name": "Engineering",
+        "count": 15
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 9
+      }
+    ],
+    "non_degree": 231,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 175
+      },
+      {
+        "name": "Exchange",
+        "count": 55
+      },
+      {
+        "name": "Visiting",
+        "count": 1
+      }
+    ],
+    "name_en": "Hanbat National University",
+    "lat": 36.3506504,
+    "lon": 127.2974494
+  },
+  {
+    "name_ko": "명지대학교",
+    "region_ko": "경기",
+    "total": 301,
+    "degree": 156,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 110
+      },
+      {
+        "name": "Engineering",
+        "count": 41
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      }
+    ],
+    "non_degree": 145,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 115
+      },
+      {
+        "name": "Exchange",
+        "count": 30
+      }
+    ],
+    "name_en": "Myongji University",
+    "lat": 37.5803,
+    "lon": 126.9226
+  },
+  {
+    "name_ko": "국립강릉원주대학교",
+    "region_ko": "강원",
+    "total": 299,
+    "degree": 139,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 117
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 11
+      },
+      {
+        "name": "Engineering",
+        "count": 6
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      }
+    ],
+    "non_degree": 160,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 154
+      },
+      {
+        "name": "Exchange",
+        "count": 6
+      }
+    ],
+    "name_en": "Gangneung-Wonju National University",
+    "lat": 37.840093,
+    "lon": 128.87626
+  },
+  {
+    "name_ko": "조선대학교",
+    "region_ko": "광주",
+    "total": 295,
+    "degree": 194,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 121
+      },
+      {
+        "name": "Engineering",
+        "count": 35
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 30
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 8
+      }
+    ],
+    "non_degree": 101,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 84
+      },
+      {
+        "name": "Exchange",
+        "count": 17
+      }
+    ],
+    "name_en": "Chosun University",
+    "lat": 35.1412134,
+    "lon": 126.9303491
+  },
+  {
+    "name_ko": "경기대학교_제2캠퍼스",
+    "region_ko": "서울",
+    "total": 294,
+    "degree": 294,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 265
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 29
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Kyonggi University (2nd Campus)",
+    "lat": 37.56485,
+    "lon": 126.96206
+  },
+  {
+    "name_ko": "국립창원대학교",
+    "region_ko": "경남",
+    "total": 277,
+    "degree": 128,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 119
+      },
+      {
+        "name": "Engineering",
+        "count": 4
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 3
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 149,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 126
+      },
+      {
+        "name": "Exchange",
+        "count": 23
+      }
+    ],
+    "name_en": "Changwon National University",
+    "lat": 35.2448472,
+    "lon": 128.6951022
+  },
+  {
+    "name_ko": "한일장신대학교",
+    "region_ko": "전북",
+    "total": 276,
+    "degree": 58,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 46
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 12
+      }
+    ],
+    "non_degree": 218,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 218
+      }
+    ],
+    "name_en": "Hanil University",
+    "lat": 35.7636017,
+    "lon": 127.2063168
+  },
+  {
+    "name_ko": "성공회대학교",
+    "region_ko": "서울",
+    "total": 275,
+    "degree": 224,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 223
+      },
+      {
+        "name": "Engineering",
+        "count": 1
+      }
+    ],
+    "non_degree": 51,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 43
+      },
+      {
+        "name": "Language training",
+        "count": 8
+      }
+    ],
+    "name_en": "Sungkonghoe University",
+    "lat": 37.4872849,
+    "lon": 126.8258937
+  },
+  {
+    "name_ko": "국립순천대학교",
+    "region_ko": "전남",
+    "total": 261,
+    "degree": 157,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 97
+      },
+      {
+        "name": "Engineering",
+        "count": 27
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 23
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 10
+      }
+    ],
+    "non_degree": 104,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 88
+      },
+      {
+        "name": "Exchange",
+        "count": 16
+      }
+    ],
+    "name_en": "Sunchon National University",
+    "lat": 34.9681989,
+    "lon": 127.4804636
+  },
+  {
+    "name_ko": "울산대학교",
+    "region_ko": "울산",
+    "total": 257,
+    "degree": 106,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 78
+      },
+      {
+        "name": "Engineering",
+        "count": 14
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 12
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 151,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 105
+      },
+      {
+        "name": "Language training",
+        "count": 46
+      }
+    ],
+    "name_en": "University of Ulsan",
+    "lat": 35.5442371,
+    "lon": 129.2567134
+  },
+  {
+    "name_ko": "전주대학교",
+    "region_ko": "전북",
+    "total": 245,
+    "degree": 234,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 167
+      },
+      {
+        "name": "Engineering",
+        "count": 28
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 26
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 13
+      }
+    ],
+    "non_degree": 11,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 11
+      }
+    ],
+    "name_en": "Jeonju University",
+    "lat": 35.8127648,
+    "lon": 127.089518
+  },
+  {
+    "name_ko": "한경국립대학교",
+    "region_ko": "경기",
+    "total": 245,
+    "degree": 78,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 55
+      },
+      {
+        "name": "Engineering",
+        "count": 10
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 9
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 4
+      }
+    ],
+    "non_degree": 167,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 167
+      }
+    ],
+    "name_en": "Hankyong National University",
+    "lat": 37.0517569,
+    "lon": 127.0959379
+  },
+  {
+    "name_ko": "한신대학교",
+    "region_ko": "경기",
+    "total": 242,
+    "degree": 178,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 172
+      },
+      {
+        "name": "Engineering",
+        "count": 6
+      }
+    ],
+    "non_degree": 64,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 59
+      },
+      {
+        "name": "Exchange",
+        "count": 5
+      }
+    ],
+    "name_en": "Hanshin University",
+    "lat": 37.193463,
+    "lon": 127.0234525
+  },
+  {
+    "name_ko": "국립한국해양대학교",
+    "region_ko": "부산",
+    "total": 241,
+    "degree": 90,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 76
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 10
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 4
+      }
+    ],
+    "non_degree": 151,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 125
+      },
+      {
+        "name": "Exchange",
+        "count": 26
+      }
+    ],
+    "name_en": "Korea Maritime and Ocean University",
+    "lat": 35.0761704,
+    "lon": 129.0891449
+  },
+  {
+    "name_ko": "세명대학교",
+    "region_ko": "충북",
+    "total": 237,
+    "degree": 61,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 31
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 15
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 12
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      }
+    ],
+    "non_degree": 176,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 168
+      },
+      {
+        "name": "Exchange",
+        "count": 8
+      }
+    ],
+    "name_en": "Semyung University",
+    "lat": 37.1783983,
+    "lon": 128.1968878
+  },
+  {
+    "name_ko": "남부대학교",
+    "region_ko": "광주",
+    "total": 231,
+    "degree": 86,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 66
+      },
+      {
+        "name": "Engineering",
+        "count": 13
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 135,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 135
+      }
+    ],
+    "name_en": "Nambu University",
+    "lat": 35.2064503,
+    "lon": 126.8402985
+  },
+  {
+    "name_ko": "경희사이버대학교",
+    "region_ko": "서울",
+    "total": 229,
+    "degree": 229,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 148
+      },
+      {
+        "name": "Engineering",
+        "count": 69
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 10
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Kyung Hee Cyber University",
+    "lat": 37.5948716,
+    "lon": 127.0530887
+  },
+  {
+    "name_ko": "창신대학교",
+    "region_ko": "경남",
+    "total": 229,
+    "degree": 158,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 103
+      },
+      {
+        "name": "Engineering",
+        "count": 52
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 3
+      }
+    ],
+    "non_degree": 63,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 63
+      }
+    ],
+    "name_en": "Changshin University",
+    "lat": 35.2440425,
+    "lon": 128.5999544
+  },
+  {
+    "name_ko": "대구예술대학교",
+    "region_ko": "경북",
+    "total": 227,
+    "degree": 96,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 82
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 14
+      }
+    ],
+    "non_degree": 131,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 131
+      }
+    ],
+    "name_en": "Daegu Arts University",
+    "lat": 36.07221,
+    "lon": 128.53836
+  },
+  {
+    "name_ko": "건국대학교(글로컬)_분교",
+    "region_ko": "충북",
+    "total": 218,
+    "degree": 204,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 94
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 84
+      },
+      {
+        "name": "Engineering",
+        "count": 17
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 9
+      }
+    ],
+    "non_degree": 14,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 12
+      },
+      {
+        "name": "Language training",
+        "count": 2
+      }
+    ],
+    "name_en": "Konkuk University (Glocal)",
+    "lat": 36.9489478,
+    "lon": 127.9145281
+  },
+  {
+    "name_ko": "제주국제대학교",
+    "region_ko": "제주",
+    "total": 208,
+    "degree": 164,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 120
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 44
+      }
+    ],
+    "non_degree": 44,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 44
+      }
+    ],
+    "name_en": "Jeju International University",
+    "lat": 33.4411014,
+    "lon": 126.5701741
+  },
+  {
+    "name_ko": "한서대학교",
+    "region_ko": "충남",
+    "total": 205,
+    "degree": 119,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 64
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 40
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 12
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      }
+    ],
+    "non_degree": 86,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 80
+      },
+      {
+        "name": "Exchange",
+        "count": 4
+      },
+      {
+        "name": "Other",
+        "count": 2
+      }
+    ],
+    "name_en": "Hanseo University",
+    "lat": 36.6907793,
+    "lon": 126.5852304
+  },
+  {
+    "name_ko": "한라대학교",
+    "region_ko": "강원",
+    "total": 196,
+    "degree": 179,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 157
+      },
+      {
+        "name": "Engineering",
+        "count": 15
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 7
+      }
+    ],
+    "non_degree": 17,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 17
+      }
+    ],
+    "name_en": "Halla University",
+    "lat": 37.3032193,
+    "lon": 127.9074151
+  },
+  {
+    "name_ko": "상명대학교",
+    "region_ko": "서울",
+    "total": 194,
+    "degree": 152,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 107
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 27
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 14
+      },
+      {
+        "name": "Engineering",
+        "count": 4
+      }
+    ],
+    "non_degree": 42,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 25
+      },
+      {
+        "name": "Language training",
+        "count": 17
+      }
+    ],
+    "name_en": "Sangmyung University",
+    "lat": 37.6025021,
+    "lon": 126.9548314
+  },
+  {
+    "name_ko": "한국항공대학교",
+    "region_ko": "경기",
+    "total": 194,
+    "degree": 191,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 131
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 43
+      },
+      {
+        "name": "Engineering",
+        "count": 17
+      }
+    ],
+    "non_degree": 3,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 3
+      }
+    ],
+    "name_en": "Korea Aerospace University",
+    "lat": 37.6003073,
+    "lon": 126.8653933
+  },
+  {
+    "name_ko": "유원대학교",
+    "region_ko": "충북",
+    "total": 185,
+    "degree": 39,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 33
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 146,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 146
+      }
+    ],
+    "name_en": "U1 University",
+    "lat": 36.1953813,
+    "lon": 127.7989927
+  },
+  {
+    "name_ko": "한동대학교",
+    "region_ko": "경북",
+    "total": 177,
+    "degree": 139,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 109
+      },
+      {
+        "name": "Engineering",
+        "count": 26
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 4
+      }
+    ],
+    "non_degree": 33,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 32
+      },
+      {
+        "name": "Visiting",
+        "count": 1
+      }
+    ],
+    "name_en": "Handong Global University",
+    "lat": 36.103127,
+    "lon": 129.3886111
+  },
+  {
+    "name_ko": "고려사이버대학교",
+    "region_ko": "서울",
+    "total": 172,
+    "degree": 172,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 130
+      },
+      {
+        "name": "Engineering",
+        "count": 42
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Korea Cyber University",
+    "lat": 37.5869261,
+    "lon": 126.9871055
+  },
+  {
+    "name_ko": "중원대학교",
+    "region_ko": "충북",
+    "total": 172,
+    "degree": 154,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 77
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 68
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      },
+      {
+        "name": "Engineering",
+        "count": 4
+      }
+    ],
+    "non_degree": 18,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 10
+      },
+      {
+        "name": "Language training",
+        "count": 8
+      }
+    ],
+    "name_en": "Jungwon University",
+    "lat": 36.819035,
+    "lon": 127.7992156
+  },
+  {
+    "name_ko": "신경주대학교",
+    "region_ko": "경북",
+    "total": 168,
+    "degree": 100,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 97
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 3
+      }
+    ],
+    "non_degree": 68,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 68
+      }
+    ],
+    "name_en": "Shin Gyeongju University",
+    "lat": 35.8296967,
+    "lon": 129.1617152
+  },
+  {
+    "name_ko": "한림대학교",
+    "region_ko": "강원",
+    "total": 168,
+    "degree": 113,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 107
+      },
+      {
+        "name": "Engineering",
+        "count": 5
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 55,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 55
+      }
+    ],
+    "name_en": "Hallym University",
+    "lat": 37.8861199,
+    "lon": 127.7386506
+  },
+  {
+    "name_ko": "가톨릭관동대학교",
+    "region_ko": "강원",
+    "total": 157,
+    "degree": 32,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 23
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 4
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      },
+      {
+        "name": "Medical",
+        "count": 2
+      }
+    ],
+    "non_degree": 125,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 125
+      }
+    ],
+    "name_en": "Catholic Kwandong University",
+    "lat": 37.7359577,
+    "lon": 128.8732257
+  },
+  {
+    "name_ko": "국립목포해양대학교",
+    "region_ko": "전남",
+    "total": 154,
+    "degree": 9,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 9
+      }
+    ],
+    "non_degree": 145,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 145
+      }
+    ],
+    "name_en": "Mokpo National Maritime University",
+    "lat": 34.79273,
+    "lon": 126.36627
+  },
+  {
+    "name_ko": "한양사이버대학교",
+    "region_ko": "서울",
+    "total": 151,
+    "degree": 91,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 64
+      },
+      {
+        "name": "Engineering",
+        "count": 16
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 11
+      }
+    ],
+    "non_degree": 60,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 60
+      }
+    ],
+    "name_en": "Hanyang Cyber University",
+    "lat": 37.5571828,
+    "lon": 127.0474977
+  },
+  {
+    "name_ko": "전남대학교_제2캠퍼스",
+    "region_ko": "전남",
+    "total": 149,
+    "degree": 144,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 112
+      },
+      {
+        "name": "Engineering",
+        "count": 27
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      }
+    ],
+    "non_degree": 5,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 3
+      },
+      {
+        "name": "Visiting",
+        "count": 2
+      }
+    ],
+    "name_en": "Chonnam National University (2nd Campus)",
+    "lat": 34.77497,
+    "lon": 127.69917
+  },
+  {
+    "name_ko": "평택대학교",
+    "region_ko": "경기",
+    "total": 149,
+    "degree": 42,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 39
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 107,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 95
+      },
+      {
+        "name": "Exchange",
+        "count": 12
+      }
+    ],
+    "name_en": "Pyeongtaek University",
+    "lat": 36.9949658,
+    "lon": 127.1326936
+  },
+  {
+    "name_ko": "단국대학교_제2캠퍼스",
+    "region_ko": "충남",
+    "total": 147,
+    "degree": 96,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 48
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 30
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 18
+      }
+    ],
+    "non_degree": 51,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 43
+      },
+      {
+        "name": "Exchange",
+        "count": 8
+      }
+    ],
+    "name_en": "Dankook University (2nd Campus)",
+    "lat": 36.83683,
+    "lon": 127.16823
+  },
+  {
+    "name_ko": "용인대학교",
+    "region_ko": "경기",
+    "total": 138,
+    "degree": 35,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 21
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 9
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      }
+    ],
+    "non_degree": 103,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 102
+      },
+      {
+        "name": "Exchange",
+        "count": 1
+      }
+    ],
+    "name_en": "Yong In University",
+    "lat": 37.2263944,
+    "lon": 127.1677464
+  },
+  {
+    "name_ko": "세종사이버대학교",
+    "region_ko": "서울",
+    "total": 134,
+    "degree": 134,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 70
+      },
+      {
+        "name": "Engineering",
+        "count": 54
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 8
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Sejong Cyber University",
+    "lat": 37.553298,
+    "lon": 127.0725984
+  },
+  {
+    "name_ko": "원광대학교",
+    "region_ko": "전북",
+    "total": 132,
+    "degree": 63,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 39
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 11
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 8
+      },
+      {
+        "name": "Engineering",
+        "count": 4
+      },
+      {
+        "name": "Medical",
+        "count": 1
+      }
+    ],
+    "non_degree": 69,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 56
+      },
+      {
+        "name": "Exchange",
+        "count": 13
+      }
+    ],
+    "name_en": "Wonkwang University",
+    "lat": 35.968779,
+    "lon": 126.9591018
+  },
+  {
+    "name_ko": "광신대학교",
+    "region_ko": "광주",
+    "total": 115,
+    "degree": 39,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 38
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 76,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 76
+      }
+    ],
+    "name_en": "Kwangshin University",
+    "lat": 35.2159269,
+    "lon": 126.8853507
+  },
+  {
+    "name_ko": "국립한국교통대학교",
+    "region_ko": "충북",
+    "total": 113,
+    "degree": 35,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 25
+      },
+      {
+        "name": "Engineering",
+        "count": 6
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 78,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 41
+      },
+      {
+        "name": "Language training",
+        "count": 37
+      }
+    ],
+    "name_en": "Korea National University of Transportation",
+    "lat": 36.7692865,
+    "lon": 127.6242853
+  },
+  {
+    "name_ko": "한국성서대학교",
+    "region_ko": "서울",
+    "total": 113,
+    "degree": 20,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 10
+      },
+      {
+        "name": "Engineering",
+        "count": 10
+      }
+    ],
+    "non_degree": 93,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 90
+      },
+      {
+        "name": "Exchange",
+        "count": 3
+      }
+    ],
+    "name_en": "Korean Bible University",
+    "lat": 37.6486582,
+    "lon": 127.0642124
+  },
+  {
+    "name_ko": "예원예술대학교",
+    "region_ko": "전북",
+    "total": 104,
+    "degree": 90,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 90
+      }
+    ],
+    "non_degree": 14,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 14
+      }
+    ],
+    "name_en": "Yewon Arts University",
+    "lat": 35.646465,
+    "lon": 127.2694961
+  },
+  {
+    "name_ko": "강원대학교_제2캠퍼스",
+    "region_ko": "강원",
+    "total": 99,
+    "degree": 69,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 25
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 16
+      },
+      {
+        "name": "Engineering",
+        "count": 14
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 14
+      }
+    ],
+    "non_degree": 30,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 19
+      },
+      {
+        "name": "Visiting",
+        "count": 8
+      },
+      {
+        "name": "Exchange",
+        "count": 3
+      }
+    ],
+    "name_en": "Kangwon National University (2nd Campus)",
+    "lat": 37.45281,
+    "lon": 129.16219
+  },
+  {
+    "name_ko": "숭실사이버대학교",
+    "region_ko": "서울",
+    "total": 98,
+    "degree": 98,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 95
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Soongsil Cyber University",
+    "lat": 37.574442,
+    "lon": 126.9887166
+  },
+  {
+    "name_ko": "영산대학교(양산)_제2캠퍼스",
+    "region_ko": "경남",
+    "total": 98,
+    "degree": 98,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 87
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 10
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Youngsan University (2nd Campus)",
+    "lat": 35.4292178,
+    "lon": 129.1466394
+  },
+  {
+    "name_ko": "협성대학교",
+    "region_ko": "경기",
+    "total": 98,
+    "degree": 2,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1
+      },
+      {
+        "name": "Engineering",
+        "count": 1
+      }
+    ],
+    "non_degree": 96,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 96
+      }
+    ],
+    "name_en": "Hyupsung University",
+    "lat": 37.212834,
+    "lon": 126.9528669
+  },
+  {
+    "name_ko": "위덕대학교",
+    "region_ko": "경북",
+    "total": 93,
+    "degree": 43,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 40
+      },
+      {
+        "name": "Engineering",
+        "count": 2
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 50,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 49
+      },
+      {
+        "name": "Exchange",
+        "count": 1
+      }
+    ],
+    "name_en": "Uiduk University",
+    "lat": 36.0153656,
+    "lon": 129.2835403
+  },
+  {
+    "name_ko": "한국예술종합학교",
+    "region_ko": "서울",
+    "total": 86,
+    "degree": 55,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 55
+      }
+    ],
+    "non_degree": 31,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 31
+      }
+    ],
+    "name_en": "Korea National University of Arts",
+    "lat": 37.6049302,
+    "lon": 127.0574461
+  },
+  {
+    "name_ko": "홍익대학교_제2캠퍼스",
+    "region_ko": "세종",
+    "total": 86,
+    "degree": 86,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 79
+      },
+      {
+        "name": "Engineering",
+        "count": 5
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Hongik University (2nd Campus)",
+    "lat": 36.62147,
+    "lon": 127.28514
+  },
+  {
+    "name_ko": "울산과학기술원",
+    "region_ko": "울산",
+    "total": 84,
+    "degree": 62,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 51
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 9
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 22,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 17
+      },
+      {
+        "name": "Other",
+        "count": 5
+      }
+    ],
+    "name_en": "Ulsan National Institute of Science and Technology (UNIST)",
+    "lat": 35.5735512,
+    "lon": 129.1899352
+  },
+  {
+    "name_ko": "고신대학교",
+    "region_ko": "부산",
+    "total": 79,
+    "degree": 44,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 37
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 4
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 3
+      }
+    ],
+    "non_degree": 35,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 35
+      }
+    ],
+    "name_en": "Kosin University",
+    "lat": 35.0793381,
+    "lon": 129.0628586
+  },
+  {
+    "name_ko": "상지대학교",
+    "region_ko": "강원",
+    "total": 75,
+    "degree": 69,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 49
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 16
+      },
+      {
+        "name": "Engineering",
+        "count": 4
+      }
+    ],
+    "non_degree": 6,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 6
+      }
+    ],
+    "name_en": "Sangji University",
+    "lat": 37.3698748,
+    "lon": 127.9290587
+  },
+  {
+    "name_ko": "한국기술교육대학교",
+    "region_ko": "충남",
+    "total": 75,
+    "degree": 26,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 24
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 49,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 31
+      },
+      {
+        "name": "Language training",
+        "count": 18
+      }
+    ],
+    "name_en": "Korea University of Technology and Education",
+    "lat": 36.7635507,
+    "lon": 127.281751
+  },
+  {
+    "name_ko": "국립경국대학교",
+    "region_ko": "경북",
+    "total": 73,
+    "degree": 25,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 14
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 6
+      },
+      {
+        "name": "Engineering",
+        "count": 5
+      }
+    ],
+    "non_degree": 48,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 41
+      },
+      {
+        "name": "Exchange",
+        "count": 7
+      }
+    ],
+    "name_en": "Gyeongguk National University",
+    "lat": 36.54231,
+    "lon": 128.7965
+  },
+  {
+    "name_ko": "수원대학교",
+    "region_ko": "경기",
+    "total": 73,
+    "degree": 14,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 11
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 3
+      }
+    ],
+    "non_degree": 59,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 31
+      },
+      {
+        "name": "Exchange",
+        "count": 28
+      }
+    ],
+    "name_en": "University of Suwon",
+    "lat": 37.2100359,
+    "lon": 126.9757751
+  },
+  {
+    "name_ko": "국립목포대학교",
+    "region_ko": "전남",
+    "total": 71,
+    "degree": 47,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 41
+      },
+      {
+        "name": "Engineering",
+        "count": 5
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 6,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 6
+      }
+    ],
+    "name_en": "Mokpo National University",
+    "lat": 34.9103033,
+    "lon": 126.437759
+  },
+  {
+    "name_ko": "광주과학기술원",
+    "region_ko": "광주",
+    "total": 69,
+    "degree": 45,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 27
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 18
+      }
+    ],
+    "non_degree": 24,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 24
+      }
+    ],
+    "name_en": "Gwangju Institute of Science and Technology (GIST)",
+    "lat": 35.2281557,
+    "lon": 126.8421662
+  },
+  {
+    "name_ko": "서울디지털대학교",
+    "region_ko": "서울",
+    "total": 62,
+    "degree": 62,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 29
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 22
+      },
+      {
+        "name": "Engineering",
+        "count": 11
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Seoul Digital University",
+    "lat": 37.543038,
+    "lon": 126.947751
+  },
+  {
+    "name_ko": "서울사이버대학교",
+    "region_ko": "서울",
+    "total": 62,
+    "degree": 62,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 41
+      },
+      {
+        "name": "Engineering",
+        "count": 12
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 8
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Seoul Cyber University",
+    "lat": 37.6297055,
+    "lon": 127.0271732
+  },
+  {
+    "name_ko": "세한대학교",
+    "region_ko": "전남",
+    "total": 62,
+    "degree": 62,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 46
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 14
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      },
+      {
+        "name": "Engineering",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Sehan University",
+    "lat": 34.7449815,
+    "lon": 126.4825156
+  },
+  {
+    "name_ko": "동덕여자대학교",
+    "region_ko": "서울",
+    "total": 56,
+    "degree": 55,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 31
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 19
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 5
+      }
+    ],
+    "non_degree": 1,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 1
+      }
+    ],
+    "name_en": "Dongduk Women's University",
+    "lat": 37.6064518,
+    "lon": 127.0419322
+  },
+  {
+    "name_ko": "원광디지털대학교",
+    "region_ko": "전북",
+    "total": 54,
+    "degree": 54,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 25
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 21
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 8
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Wonkwang Digital University",
+    "lat": 35.9712021,
+    "lon": 126.9561077
+  },
+  {
+    "name_ko": "부산디지털대학교",
+    "region_ko": "부산",
+    "total": 48,
+    "degree": 48,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 48
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Busan Digital University",
+    "lat": 35.1464922,
+    "lon": 129.0107045
+  },
+  {
+    "name_ko": "포항공과대학교",
+    "region_ko": "경북",
+    "total": 47,
+    "degree": 0,
+    "by_field": [],
+    "non_degree": 47,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 47
+      }
+    ],
+    "name_en": "Pohang University of Science and Technology (POSTECH)",
+    "lat": 36.0180795,
+    "lon": 129.3208556
+  },
+  {
+    "name_ko": "상명대학교_제2캠퍼스",
+    "region_ko": "충남",
+    "total": 45,
+    "degree": 31,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 22
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 6
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      }
+    ],
+    "non_degree": 14,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 14
+      }
+    ],
+    "name_en": "Sangmyung University (2nd Campus)",
+    "lat": 36.833,
+    "lon": 127.179
+  },
+  {
+    "name_ko": "추계예술대학교",
+    "region_ko": "서울",
+    "total": 45,
+    "degree": 45,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 36
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 9
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Chugye University for the Arts",
+    "lat": 37.5626968,
+    "lon": 126.9541023
+  },
+  {
+    "name_ko": "건양대학교_제2캠퍼스",
+    "region_ko": "대전",
+    "total": 42,
+    "degree": 42,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 23
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 19
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Konyang University (2nd Campus)",
+    "lat": 36.30537,
+    "lon": 127.34284
+  },
+  {
+    "name_ko": "서울장신대학교",
+    "region_ko": "경기",
+    "total": 42,
+    "degree": 42,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 42
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Seoul Jangsin University",
+    "lat": 37.4094619,
+    "lon": 127.2459756
+  },
+  {
+    "name_ko": "디지털서울문화예술대학교",
+    "region_ko": "서울",
+    "total": 34,
+    "degree": 34,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 26
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 8
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Digital Seoul Culture Arts University",
+    "lat": 37.585392,
+    "lon": 126.943736
+  },
+  {
+    "name_ko": "국립금오공과대학교",
+    "region_ko": "경북",
+    "total": 30,
+    "degree": 21,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 14
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 7
+      }
+    ],
+    "non_degree": 5,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 3
+      },
+      {
+        "name": "Exchange",
+        "count": 2
+      }
+    ],
+    "name_en": "Kumoh National Institute of Technology",
+    "lat": 36.1452565,
+    "lon": 128.3908528
+  },
+  {
+    "name_ko": "차의과학대학교",
+    "region_ko": "경기",
+    "total": 29,
+    "degree": 29,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 29
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "CHA University",
+    "lat": 37.85301,
+    "lon": 127.13528
+  },
+  {
+    "name_ko": "영남신학대학교",
+    "region_ko": "경북",
+    "total": 28,
+    "degree": 17,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 17
+      }
+    ],
+    "non_degree": 11,
+    "by_program": [
+      {
+        "name": "Language training",
+        "count": 11
+      }
+    ],
+    "name_en": "Yeungnam Theological University",
+    "lat": 35.8811008,
+    "lon": 128.8172082
+  },
+  {
+    "name_ko": "한세대학교",
+    "region_ko": "경기",
+    "total": 22,
+    "degree": 14,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 8
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 6
+      }
+    ],
+    "non_degree": 8,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 8
+      }
+    ],
+    "name_en": "Hansei University",
+    "lat": 37.344095,
+    "lon": 126.953735
+  },
+  {
+    "name_ko": "을지대학교_제2캠퍼스",
+    "region_ko": "경기",
+    "total": 18,
+    "degree": 9,
+    "by_field": [
+      {
+        "name": "Natural Sciences",
+        "count": 7
+      },
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 9,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 6
+      },
+      {
+        "name": "Visiting",
+        "count": 3
+      }
+    ],
+    "name_en": "Eulji University (2nd Campus)",
+    "lat": 37.46086,
+    "lon": 127.16547
+  },
+  {
+    "name_ko": "안양대학교",
+    "region_ko": "경기",
+    "total": 16,
+    "degree": 10,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 5
+      },
+      {
+        "name": "Engineering",
+        "count": 3
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 6,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 6
+      }
+    ],
+    "name_en": "Anyang University",
+    "lat": 37.3913807,
+    "lon": 126.9198075
+  },
+  {
+    "name_ko": "대구경북과학기술원",
+    "region_ko": "대구",
+    "total": 15,
+    "degree": 15,
+    "by_field": [
+      {
+        "name": "Natural Sciences",
+        "count": 15
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Daegu Gyeongbuk Institute of Science and Technology (DGIST)",
+    "lat": 35.7003,
+    "lon": 128.45764
+  },
+  {
+    "name_ko": "태재대학교",
+    "region_ko": "서울",
+    "total": 13,
+    "degree": 13,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 11
+      },
+      {
+        "name": "Engineering",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Taejae University",
+    "lat": 37.5836161,
+    "lon": 126.9883307
+  },
+  {
+    "name_ko": "가야대학교(김해)",
+    "region_ko": "경남",
+    "total": 12,
+    "degree": 12,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 10
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Kaya University (Gimhae)",
+    "lat": 35.2698417,
+    "lon": 128.8723148
+  },
+  {
+    "name_ko": "한국체육대학교",
+    "region_ko": "서울",
+    "total": 11,
+    "degree": 11,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 11
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Korea National Sport University",
+    "lat": 37.519698,
+    "lon": 127.1310792
+  },
+  {
+    "name_ko": "신한대학교",
+    "region_ko": "경기",
+    "total": 10,
+    "degree": 8,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 4
+      },
+      {
+        "name": "Engineering",
+        "count": 4
+      }
+    ],
+    "non_degree": 2,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 2
+      }
+    ],
+    "name_en": "Shinhan University",
+    "lat": 37.7090404,
+    "lon": 127.0445209
+  },
+  {
+    "name_ko": "가톨릭대학교_제3캠퍼스",
+    "region_ko": "서울",
+    "total": 9,
+    "degree": 9,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 9
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Catholic University of Korea (3rd Campus)",
+    "lat": 37.48669,
+    "lon": 126.80109
+  },
+  {
+    "name_ko": "국제사이버대학교",
+    "region_ko": "경기",
+    "total": 9,
+    "degree": 9,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 8
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "International Cyber University",
+    "lat": 37.269566,
+    "lon": 127.028094
+  },
+  {
+    "name_ko": "국립강릉원주대학교_제2캠퍼스",
+    "region_ko": "강원",
+    "total": 8,
+    "degree": 8,
+    "by_field": [
+      {
+        "name": "Engineering",
+        "count": 7
+      },
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Gangneung-Wonju National University (2nd Campus)",
+    "lat": 37.30661,
+    "lon": 127.92584
+  },
+  {
+    "name_ko": "총신대학교",
+    "region_ko": "서울",
+    "total": 7,
+    "degree": 7,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 7
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Chongshin University",
+    "lat": 37.4891789,
+    "lon": 126.9674991
+  },
+  {
+    "name_ko": "경인교육대학교",
+    "region_ko": "인천",
+    "total": 6,
+    "degree": 0,
+    "by_field": [],
+    "non_degree": 6,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 6
+      }
+    ],
+    "name_en": "Gyeongin National University of Education",
+    "lat": 37.5372624,
+    "lon": 126.7175668
+  },
+  {
+    "name_ko": "서울교육대학교",
+    "region_ko": "서울",
+    "total": 6,
+    "degree": 0,
+    "by_field": [],
+    "non_degree": 6,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 6
+      }
+    ],
+    "name_en": "Seoul National University of Education",
+    "lat": 37.4899829,
+    "lon": 127.0165676
+  },
+  {
+    "name_ko": "인천가톨릭대학교",
+    "region_ko": "인천",
+    "total": 6,
+    "degree": 6,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 6
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Incheon Catholic University",
+    "lat": 37.3721469,
+    "lon": 126.6624164
+  },
+  {
+    "name_ko": "장로회신학대학교",
+    "region_ko": "서울",
+    "total": 5,
+    "degree": 5,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 4
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Presbyterian University and Theological Seminary",
+    "lat": 37.5502939,
+    "lon": 127.1042927
+  },
+  {
+    "name_ko": "중앙승가대학교",
+    "region_ko": "경기",
+    "total": 4,
+    "degree": 4,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 4
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Joong-Ang Sangha University",
+    "lat": 37.6054076,
+    "lon": 126.7066827
+  },
+  {
+    "name_ko": "한국전통문화대학교",
+    "region_ko": "충남",
+    "total": 4,
+    "degree": 4,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 3
+      },
+      {
+        "name": "Engineering",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Korea National University of Cultural Heritage",
+    "lat": 36.3078573,
+    "lon": 126.8965712
+  },
+  {
+    "name_ko": "한국침례신학대학교",
+    "region_ko": "대전",
+    "total": 4,
+    "degree": 4,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      },
+      {
+        "name": "Arts & Sports",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Korea Baptist Theological University",
+    "lat": 36.9984957,
+    "lon": 127.1545761
+  },
+  {
+    "name_ko": "감리교신학대학교",
+    "region_ko": "서울",
+    "total": 3,
+    "degree": 3,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 3
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Methodist Theological University",
+    "lat": 37.5675189,
+    "lon": 126.962223
+  },
+  {
+    "name_ko": "가톨릭꽃동네대학교",
+    "region_ko": "충북",
+    "total": 2,
+    "degree": 2,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Kkottongnae University",
+    "lat": 36.48677,
+    "lon": 127.42417
+  },
+  {
+    "name_ko": "경동대학교_제3캠퍼스",
+    "region_ko": "강원",
+    "total": 2,
+    "degree": 2,
+    "by_field": [
+      {
+        "name": "Natural Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Kyungdong University (3rd Campus)",
+    "lat": 38.251531,
+    "lon": 128.556618
+  },
+  {
+    "name_ko": "대구교육대학교",
+    "region_ko": "대구",
+    "total": 2,
+    "degree": 0,
+    "by_field": [],
+    "non_degree": 2,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 2
+      }
+    ],
+    "name_en": "Daegu National University of Education",
+    "lat": 35.8521113,
+    "lon": 128.5886875
+  },
+  {
+    "name_ko": "아신대학교",
+    "region_ko": "경기",
+    "total": 2,
+    "degree": 2,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "ACTS University",
+    "lat": 37.511774,
+    "lon": 127.4283404
+  },
+  {
+    "name_ko": "영산선학대학교",
+    "region_ko": "전남",
+    "total": 2,
+    "degree": 2,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Youngsan University of Seon Studies",
+    "lat": 35.3265545,
+    "lon": 126.4419015
+  },
+  {
+    "name_ko": "을지대학교",
+    "region_ko": "대전",
+    "total": 2,
+    "degree": 2,
+    "by_field": [
+      {
+        "name": "Medical",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Eulji University",
+    "lat": 37.4604557,
+    "lon": 127.1660237
+  },
+  {
+    "name_ko": "한국교원대학교",
+    "region_ko": "충북",
+    "total": 2,
+    "degree": 0,
+    "by_field": [],
+    "non_degree": 2,
+    "by_program": [
+      {
+        "name": "Exchange",
+        "count": 2
+      }
+    ],
+    "name_en": "Korea National University of Education",
+    "lat": 36.6098093,
+    "lon": 127.3598856
+  },
+  {
+    "name_ko": "호남신학대학교",
+    "region_ko": "광주",
+    "total": 2,
+    "degree": 2,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 2
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Honam Theological University and Seminary",
+    "lat": 35.1395444,
+    "lon": 126.9122454
+  },
+  {
+    "name_ko": "광주가톨릭대학교",
+    "region_ko": "전남",
+    "total": 1,
+    "degree": 1,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Gwangju Catholic University",
+    "lat": 35.0159045,
+    "lon": 126.8650412
+  },
+  {
+    "name_ko": "대전가톨릭대학교",
+    "region_ko": "세종",
+    "total": 1,
+    "degree": 1,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Daejeon Catholic University",
+    "lat": 36.656666,
+    "lon": 127.198635
+  },
+  {
+    "name_ko": "수원가톨릭대학교",
+    "region_ko": "경기",
+    "total": 1,
+    "degree": 1,
+    "by_field": [
+      {
+        "name": "Humanities & Social Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Suwon Catholic University",
+    "lat": 37.1945317,
+    "lon": 126.9341068
+  },
+  {
+    "name_ko": "을지대학교_제3캠퍼스",
+    "region_ko": "경기",
+    "total": 1,
+    "degree": 1,
+    "by_field": [
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Eulji University (3rd Campus)",
+    "lat": 37.75297,
+    "lon": 127.05145
+  },
+  {
+    "name_ko": "인천가톨릭대학교_제2캠퍼스",
+    "region_ko": "인천",
+    "total": 1,
+    "degree": 1,
+    "by_field": [
+      {
+        "name": "Arts & Sports",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Incheon Catholic University (2nd Campus)",
+    "lat": 37.65699,
+    "lon": 126.44818
+  },
+  {
+    "name_ko": "화성의과학대학교",
+    "region_ko": "경기",
+    "total": 1,
+    "degree": 1,
+    "by_field": [
+      {
+        "name": "Natural Sciences",
+        "count": 1
+      }
+    ],
+    "non_degree": 0,
+    "by_program": [],
+    "name_en": "Hwaseong University of Medical Science",
+    "lat": 37.2020663,
+    "lon": 126.8392643
+  }
+]
