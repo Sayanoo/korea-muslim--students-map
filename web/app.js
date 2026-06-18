@@ -184,12 +184,51 @@ const TABLE_SETS = {
 };
 let tableKey = "muslim";
 let tableSort = { col: "name", dir: 1 };
+let tableCountry = "";
+
+function rankTableHtml(label, entity, rows) {
+  const total = rows.reduce((s, r) => s + r.count, 0);
+  const body = rows.map((r, i) => `<tr><td class="num">${i + 1}</td>
+    <td class="nm"><b>${r.name}</b>${r.sub && r.sub !== r.name ? `<span class="ko">${r.sub}</span>` : ""}</td>
+    <td class="num tot">${r.count.toLocaleString()}</td></tr>`).join("");
+  return `<div class="rank-col"><h4 class="rank-h">${label} · <b>${total.toLocaleString()}</b></h4>
+    <table class="data"><tr><th class="num">#</th><th>${entity}</th><th class="num">Count</th></tr>
+    ${body || `<tr><td colspan="3" class="none">none</td></tr>`}</table></div>`;
+}
+function renderCountryTable() {
+  Promise.all([loadFile("muslim_universities.json"),
+               loadFile("muslim_residents_by_region.json"),
+               loadFile("muslim_by_region.json")]).then(([unis, res, stu]) => {
+    const set = new Set();
+    unis.forEach((u) => u.by_country.forEach((c) => set.add(c.country)));
+    Object.values(res).forEach((r) => r.by_country.forEach((c) => set.add(c.country)));
+    const list = [...set].sort((a, b) => a.localeCompare(b));
+    if (!list.includes(tableCountry)) tableCountry = list.includes("Uzbekistan") ? "Uzbekistan" : list[0];
+    const C = tableCountry;
+    const rank = (arr, nameKey, subKey) => arr
+      .map((r) => ({ name: r[nameKey], sub: r[subKey], count: countOf(r, C) }))
+      .filter((r) => r.count > 0).sort((a, b) => b.count - a.count);
+    const uniRows = rank(unis, "name_en", "name_ko");
+    const resRows = rank(Object.values(res), "name_eng", "name");
+    const stuRows = rank(Object.values(stu), "name_eng", "name");
+    document.getElementById("table-meta").innerHTML =
+      `Country: <select id="ctab-select" class="cfilter">` +
+      list.map((c) => `<option value="${c}"${c === C ? " selected" : ""}>${c}</option>`).join("") +
+      `</select> <span class="hint">${C} — ranked high → low across Korea.</span>`;
+    document.getElementById("table-wrap").innerHTML = `<div class="rank-grid">` +
+      rankTableHtml("Residents by province (MOJ 2024)", "Province", resRows) +
+      rankTableHtml("Students by university (2025)", "University", uniRows) +
+      rankTableHtml("Students by province (2025)", "Province", stuRows) + `</div>`;
+    document.getElementById("ctab-select").onchange = (e) => { tableCountry = e.target.value; renderCountryTable(); };
+  });
+}
 function breakdownHtml(by) {
   return by.map((c) => c.extra
     ? `<span class="bd x">${c.country} ${c.count.toLocaleString()}<i>·non-Muslim</i></span>`
     : `<span class="bd">${c.country} ${c.count.toLocaleString()}</span>`).join("");
 }
 function renderTable() {
+  if (tableKey === "country") return renderCountryTable();
   const set = TABLE_SETS[tableKey];
   loadFile(set.file).then((data) => {
     let rows = set.rows(data);

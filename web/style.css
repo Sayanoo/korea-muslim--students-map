@@ -50,6 +50,13 @@ table.data td.tot { font-weight: 700; color: #0f766e; font-variant-numeric: tabu
 .bd.x { background: #f3f4f6; color: #6b7280; border-color: #e5e7eb; }
 .bd.x i { font-style: normal; font-size: 9px; opacity: .8; margin-left: 3px; }
 
+/* By-country ranked columns */
+.rank-grid { display: flex; gap: 18px; flex-wrap: wrap; align-items: flex-start; }
+.rank-col { flex: 1; min-width: 270px; }
+.rank-h { margin: 0 0 6px; color: #0b3d2e; font-size: 13px; font-weight: 600; }
+.rank-col table.data th:nth-child(2) { width: 100%; }
+.data td.none { color: #8a93a0; text-align: center; padding: 10px; }
+
 /* About & sources modal */
 .modal { display: none; position: fixed; inset: 0; background: rgba(11,61,46,.55);
          z-index: 2000; padding: 24px; overflow: auto; }
