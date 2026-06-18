@@ -1,33 +1,36 @@
 // South Korea bounds — lock the viewport to the country.
 const KOREA_BOUNDS = L.latLngBounds([32.8, 124.3], [39.0, 132.2]);
-const map = L.map("map", {
-  maxBounds: KOREA_BOUNDS,
-  maxBoundsViscosity: 1.0,
-  minZoom: 7,
-}).setView([36.5, 127.8], 7);
+const map = L.map("map", { maxBounds: KOREA_BOUNDS, maxBoundsViscosity: 1.0, minZoom: 7 })
+  .setView([36.5, 127.8], 7);
 map.setMaxBounds(KOREA_BOUNDS);
 L.tileLayer("https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png", {
-  maxZoom: 19, minZoom: 7,
-  attribution: "&copy; OpenStreetMap, &copy; CARTO",
+  maxZoom: 19, minZoom: 7, attribution: "&copy; OpenStreetMap, &copy; CARTO",
 }).addTo(map);
 
 function radius(n) { return Math.max(5, Math.min(36, 4 + Math.sqrt(n) * 0.85)); }
 function plainRows(list) {
   return list.map((c) => `<tr><td>${c.name}</td><td class="n">${c.count.toLocaleString()}</td></tr>`).join("");
 }
-function countryRows(list) {
-  return list.map((c) =>
-    `<tr class="${c.extra ? "extra" : ""}"><td>${c.country}${c.extra ? " <span class='tag'>non-Muslim</span>" : ""}</td>` +
-    `<td class="n">${c.count.toLocaleString()}</td></tr>`).join("");
+function countryRows(list, hl) {
+  return list.map((c) => {
+    const cls = [c.extra ? "extra" : "", c.country === hl ? "hl" : ""].join(" ").trim();
+    return `<tr class="${cls}"><td>${c.country}${c.extra ? " <span class='tag'>non-Muslim</span>" : ""}</td>` +
+           `<td class="n">${c.count.toLocaleString()}</td></tr>`;
+  }).join("");
 }
 function ramp(stops, lo, hi) {
   return `<div class="ramp">${stops.map((c) => `<span style="background:${c}"></span>`).join("")}</div>` +
          `<div class="ramp-lbl"><span>${lo}</span><span>${hi}</span></div>`;
 }
 const TEAL = ["#99f6e4", "#2dd4bf", "#0d9488", "#0f766e", "#0b3d2e"];
-function bucket(n, t) {
+function colorFor(n, t) {
   return n >= t[3] ? TEAL[4] : n >= t[2] ? TEAL[3] : n >= t[1] ? TEAL[2]
        : n >= t[0] ? TEAL[1] : n >= 1 ? TEAL[0] : "#e5e7eb";
+}
+function dynamicThresholds(values) {
+  const m = Math.max(0, ...values);
+  if (m <= 4) return [1, 2, 3, 4];
+  return [Math.max(1, Math.round(m * 0.05)), Math.round(m * 0.2), Math.round(m * 0.45), Math.round(m * 0.75)];
 }
 
 const MARKER_VIEWS = {
@@ -44,7 +47,7 @@ const MARKER_VIEWS = {
     },
   },
   muslim: {
-    file: "muslim_universities.json", color: (u) => bucket(u.total_muslim, [15, 50, 150, 400]), value: (u) => u.total_muslim,
+    file: "muslim_universities.json", color: (u) => colorFor(u.total_muslim, [15, 50, 150, 400]), value: (u) => u.total_muslim,
     subtitle: "2025 · university students from Muslim-majority countries (>50% Muslim)",
     legend: `<b>Muslim-country students (per university)</b><br>Circle size = number of students.${ramp(TEAL, 1, "400+")}Hover a campus to see each country.`,
     card: (u) => `<div class="uni-card"><h3>${u.name_en}</h3><p class="sub">${u.name_ko}</p>
@@ -54,27 +57,40 @@ const MARKER_VIEWS = {
 };
 const REGION_VIEWS = {
   region: {
-    geo: "skorea_provinces.geojson", data: "muslim_by_region.json",
-    color: (r) => bucket(r ? r.total_muslim : 0, [200, 500, 1000, 2000]),
+    geo: "skorea_provinces.geojson", data: "muslim_by_region.json", unit: "students",
+    buckets: [200, 500, 1000, 2000],
     subtitle: "2025 · university students from Muslim-majority countries, by province",
     legend: `<b>Muslim-country students by province</b><br>Shade = students in the region.${ramp(TEAL, 1, "2000+")}Hover a region for the country breakdown.`,
     title: "students from Muslim-majority countries",
   },
   residents: {
-    geo: "skorea_provinces.geojson", data: "muslim_residents_by_region.json",
-    color: (r) => bucket(r ? r.total_muslim : 0, [2000, 5000, 15000, 40000]),
+    geo: "skorea_provinces.geojson", data: "muslim_residents_by_region.json", unit: "residents",
+    buckets: [2000, 5000, 15000, 40000],
     subtitle: "2024 · registered residents from Muslim-majority countries (법무부 통계연보), by province",
     legend: `<b>Muslim-country residents by province</b><br>Shade = registered residents in the region.${ramp(TEAL, 1, "40k+")}Hover a region for the country breakdown.`,
     title: "registered residents from Muslim-majority countries",
   },
 };
+
+function countOf(r, country) {
+  if (!r) return 0;
+  const e = r.by_country.find((c) => c.country === country);
+  return e ? e.count : 0;
+}
+function regionMetric(cfg, r) {
+  return regionCountry ? countOf(r, regionCountry) : (r ? r.total_muslim : 0);
+}
 function regionCard(cfg, r) {
+  if (regionCountry) {
+    return `<div class="uni-card"><h3>${r.name_eng}</h3><p class="sub">${r.name}</p>
+      <p class="total">${countOf(r, regionCountry).toLocaleString()}<span> ${regionCountry} ${cfg.unit}</span></p>
+      <h4>All countries</h4><table>${countryRows(r.by_country, regionCountry)}</table></div>`;
+  }
   return `<div class="uni-card"><h3>${r.name_eng}</h3><p class="sub">${r.name}</p>
     <p class="total">${r.total_muslim.toLocaleString()}<span> ${cfg.title}</span></p>
     <h4>By country of origin</h4><table>${countryRows(r.by_country)}</table></div>`;
 }
 
-// ---- shared data loader (cache by file) ----------------------------------
 const files = {};
 function loadFile(path) {
   if (files[path]) return Promise.resolve(files[path]);
@@ -82,6 +98,8 @@ function loadFile(path) {
 }
 
 let layer = null;
+let regionCountry = "";
+let regionCtx = null; // {cfg, geo, regions}
 function clearLayer() { if (layer) { map.removeLayer(layer); layer = null; } }
 
 function renderMarkers(cfg, data) {
@@ -97,10 +115,25 @@ function renderMarkers(cfg, data) {
   });
   map.addLayer(layer);
 }
-function renderRegions(cfg, geojson, regions) {
+
+function renderRegions() {
+  const { cfg, geo, regions } = regionCtx;
+  const vals = geo.features.map((f) => regionMetric(cfg, regions[f.properties.code]));
+  const thr = regionCountry ? dynamicThresholds(vals) : cfg.buckets;
+  // chrome
+  if (regionCountry) {
+    document.getElementById("subtitle").textContent = `${regionCountry} — ${cfg.unit} from this country, by province`;
+    document.getElementById("legend").innerHTML =
+      `<b>${regionCountry} ${cfg.unit} by province</b><br>Shade = ${cfg.unit} from ${regionCountry}.` +
+      `${ramp(TEAL, 1, Math.max(0, ...vals).toLocaleString())}Hover a region for all countries.`;
+  } else {
+    document.getElementById("subtitle").textContent = cfg.subtitle;
+    document.getElementById("legend").innerHTML = cfg.legend;
+  }
   clearLayer();
-  layer = L.geoJSON(geojson, {
-    style: (f) => ({ fillColor: cfg.color(regions[f.properties.code]), fillOpacity: 0.72, color: "#0b3d2e", weight: 1.2 }),
+  layer = L.geoJSON(geo, {
+    style: (f) => ({ fillColor: colorFor(regionMetric(cfg, regions[f.properties.code]), thr),
+                     fillOpacity: 0.72, color: "#0b3d2e", weight: 1.2 }),
     onEachFeature: (f, lyr) => {
       const r = regions[f.properties.code] ||
         { name_eng: f.properties.name_eng, name: f.properties.name, total_muslim: 0, by_country: [] };
@@ -112,13 +145,30 @@ function renderRegions(cfg, geojson, regions) {
   map.addLayer(layer);
 }
 
+function populateCountryFilter(regions) {
+  const set = new Set();
+  Object.values(regions).forEach((r) => r.by_country.forEach((c) => set.add(c.country)));
+  const list = [...set].sort((a, b) => a.localeCompare(b));
+  if (!list.includes(regionCountry)) regionCountry = "";
+  const sel = document.getElementById("country-filter");
+  sel.innerHTML = `<option value="">All Muslim countries</option>` +
+    list.map((c) => `<option value="${c}"${c === regionCountry ? " selected" : ""}>${c}</option>`).join("");
+}
+
 function loadMapView(name) {
-  const cfg = REGION_VIEWS[name] || MARKER_VIEWS[name];
-  document.getElementById("subtitle").textContent = cfg.subtitle;
-  document.getElementById("legend").innerHTML = cfg.legend;
-  if (REGION_VIEWS[name]) {
-    Promise.all([loadFile(cfg.geo), loadFile(cfg.data)]).then(([g, r]) => renderRegions(cfg, g, r));
+  const isRegion = !!REGION_VIEWS[name];
+  document.getElementById("cfilter-wrap").style.display = isRegion ? "" : "none";
+  if (isRegion) {
+    const cfg = REGION_VIEWS[name];
+    Promise.all([loadFile(cfg.geo), loadFile(cfg.data)]).then(([geo, regions]) => {
+      regionCtx = { cfg, geo, regions };
+      populateCountryFilter(regions);
+      renderRegions();
+    });
   } else {
+    const cfg = MARKER_VIEWS[name];
+    document.getElementById("subtitle").textContent = cfg.subtitle;
+    document.getElementById("legend").innerHTML = cfg.legend;
     loadFile(cfg.file).then((d) => renderMarkers(cfg, d));
   }
 }
@@ -134,7 +184,6 @@ const TABLE_SETS = {
 };
 let tableKey = "muslim";
 let tableSort = { col: "name", dir: 1 };
-
 function breakdownHtml(by) {
   return by.map((c) => c.extra
     ? `<span class="bd x">${c.country} ${c.count.toLocaleString()}<i>·non-Muslim</i></span>`
@@ -145,8 +194,7 @@ function renderTable() {
   loadFile(set.file).then((data) => {
     let rows = set.rows(data);
     rows.sort((a, b) => tableSort.col === "total"
-      ? (b.total - a.total) * tableSort.dir
-      : a.name.localeCompare(b.name) * tableSort.dir);
+      ? (b.total - a.total) * tableSort.dir : a.name.localeCompare(b.name) * tableSort.dir);
     const grand = rows.reduce((s, r) => s + r.total, 0);
     document.getElementById("table-meta").innerHTML =
       `${rows.length} ${set.entity.toLowerCase()}s · ${grand.toLocaleString()} ${set.total} ` +
@@ -165,24 +213,25 @@ function renderTable() {
     document.querySelectorAll("#table-wrap th.sortable").forEach((th) => {
       th.onclick = () => {
         const col = th.dataset.col;
-        if (tableSort.col === col) tableSort.dir *= -1;
-        else tableSort = { col, dir: col === "total" ? -1 : 1 };
+        if (tableSort.col === col) tableSort.dir *= -1; else tableSort = { col, dir: col === "total" ? -1 : 1 };
         renderTable();
       };
     });
   });
 }
 
-function showMode(mode) {  // "map" or "table"
+function showMode(mode) {
   const t = mode === "table";
   document.getElementById("map").style.display = t ? "none" : "";
   document.getElementById("legend").style.display = t ? "none" : "";
   document.getElementById("table-view").style.display = t ? "flex" : "none";
   document.getElementById("detail-btn").classList.toggle("active", t);
-  if (t) document.querySelectorAll(".toggle button").forEach((b) => b.classList.remove("active"));
+  if (t) {
+    document.querySelectorAll(".toggle button").forEach((b) => b.classList.remove("active"));
+    document.getElementById("cfilter-wrap").style.display = "none";
+  }
 }
 
-// ---- wiring --------------------------------------------------------------
 document.querySelectorAll(".toggle button").forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".toggle button").forEach((b) => b.classList.remove("active"));
@@ -191,10 +240,11 @@ document.querySelectorAll(".toggle button").forEach((btn) => {
     loadMapView(btn.dataset.view);
   });
 });
-document.getElementById("detail-btn").addEventListener("click", () => {
-  showMode("table");
-  renderTable();
+document.getElementById("country-filter").addEventListener("change", (e) => {
+  regionCountry = e.target.value;
+  if (regionCtx) renderRegions();
 });
+document.getElementById("detail-btn").addEventListener("click", () => { showMode("table"); renderTable(); });
 document.querySelectorAll(".table-tabs button").forEach((btn) => {
   btn.addEventListener("click", () => {
     document.querySelectorAll(".table-tabs button").forEach((b) => b.classList.remove("active"));
