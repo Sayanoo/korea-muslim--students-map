@@ -13,16 +13,28 @@
   <header>
     <h1>Foreign Students at Korean Universities</h1>
     <div class="toggle">
-      <button id="btn-all" class="active" data-view="all">All foreign students</button>
-      <button id="btn-muslim" data-view="muslim">Muslim-country students</button>
-      <button id="btn-region" data-view="region">Muslim students by province</button>
-      <button id="btn-residents" data-view="residents">Muslim residents by province</button>
+      <button class="active" data-view="all">All foreign students</button>
+      <button data-view="muslim">Muslim-country students</button>
+      <button data-view="region">Muslim students by province</button>
+      <button data-view="residents">Muslim residents by province</button>
     </div>
+    <button id="detail-btn" class="detail-btn">▦ Detailed view (table)</button>
     <span id="subtitle" class="sub"></span>
-    <input id="search" type="search" placeholder="Search a university…" autocomplete="off" />
   </header>
+
   <div id="map"></div>
   <div id="legend" class="legend"></div>
+
+  <div id="table-view">
+    <div class="table-tabs">
+      <button class="active" data-table="muslim">Muslim-country students</button>
+      <button data-table="region">Muslim students by province</button>
+      <button data-table="residents">Muslim residents by province</button>
+    </div>
+    <div id="table-meta"></div>
+    <div id="table-wrap"></div>
+  </div>
+
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
   <script src="app.js"></script>
