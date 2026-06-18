@@ -255,4 +255,9 @@ document.querySelectorAll(".table-tabs button").forEach((btn) => {
   });
 });
 
+const aboutModal = document.getElementById("about-modal");
+document.getElementById("about-btn").addEventListener("click", () => aboutModal.classList.add("open"));
+document.getElementById("about-close").addEventListener("click", () => aboutModal.classList.remove("open"));
+aboutModal.addEventListener("click", (e) => { if (e.target === aboutModal) aboutModal.classList.remove("open"); });
+
 loadMapView("all");
