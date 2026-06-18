@@ -13,6 +13,10 @@ header .sub { font-size: 12px; color: #b8d8c9; flex-basis: 100%; order: 5; margi
 .toggle button:hover { background: rgba(45,212,191,.15); }
 .toggle button.active { background: #2dd4bf; color: #06302a; font-weight: 700; }
 
+.cfilter-wrap { margin-left: auto; font-size: 12px; color: #b8d8c9; display: flex;
+                align-items: center; gap: 6px; }
+.cfilter { font-size: 13px; padding: 6px 10px; border-radius: 999px; border: 1px solid #2dd4bf;
+           background: #fff; color: #06302a; cursor: pointer; max-width: 200px; }
 .detail-btn { margin-left: auto; background: transparent; color: #cce8da;
               border: 1px solid #2dd4bf; border-radius: 999px; padding: 6px 14px;
               font-size: 13px; cursor: pointer; transition: background .15s; }
@@ -67,6 +71,7 @@ table.data td.tot { font-weight: 700; color: #0f766e; font-variant-numeric: tabu
 .uni-card table { border-collapse: collapse; width: 100%; }
 .uni-card td { padding: 1px 10px 1px 0; }
 .uni-card td.n { text-align: right; font-variant-numeric: tabular-nums; color: #0f766e; font-weight: 600; }
+.uni-card tr.hl td { background: #ccfbf1; font-weight: 700; }
 .uni-card tr.extra td { color: #8a93a0; border-top: 1px dashed #cdd6d2; padding-top: 3px; }
 .uni-card tr.extra td.n { color: #8a93a0; }
 .uni-card tr.extra .tag { font-size: 9px; color: #94a3b8; border: 1px solid #d8e0dc;
