@@ -24,15 +24,17 @@ function plainRows(list) {
   return list.map((c) =>
     `<tr><td>${c.name}</td><td class="n">${c.count.toLocaleString()}</td></tr>`).join("");
 }
-function muslimColor(n) {
-  return n >= 400 ? "#0b3d2e" : n >= 150 ? "#0f766e" : n >= 50 ? "#0d9488"
-       : n >= 15 ? "#2dd4bf" : "#99f6e4";
+function ramp(stops, lo, hi) {
+  return `<div class="ramp">${stops.map((c) => `<span style="background:${c}"></span>`).join("")}</div>` +
+         `<div class="ramp-lbl"><span>${lo}</span><span>${hi}</span></div>`;
 }
-function regionColor(n) {
-  return n >= 2000 ? "#0b3d2e" : n >= 1000 ? "#0f766e" : n >= 500 ? "#0d9488"
-       : n >= 200 ? "#2dd4bf" : n >= 1 ? "#99f6e4" : "#e5e7eb";
+const TEAL = ["#99f6e4", "#2dd4bf", "#0d9488", "#0f766e", "#0b3d2e"];
+function bucket(n, t) {
+  return n >= t[3] ? TEAL[4] : n >= t[2] ? TEAL[3] : n >= t[1] ? TEAL[2]
+       : n >= t[0] ? TEAL[1] : n >= 1 ? TEAL[0] : "#e5e7eb";
 }
 
+// ---- Marker views --------------------------------------------------------
 const MARKER_VIEWS = {
   all: {
     file: "universities.json",
@@ -53,33 +55,43 @@ const MARKER_VIEWS = {
   },
   muslim: {
     file: "muslim_universities.json",
-    color: (u) => muslimColor(u.total_muslim),
+    color: (u) => bucket(u.total_muslim, [15, 50, 150, 400]),
     value: (u) => u.total_muslim,
-    subtitle: "2025 · students from Muslim-majority countries (>50% Muslim) · circle size & shade = count",
-    legend: `<b>Students from Muslim-majority countries</b><br>Circle size = number of students.
-      <div class="ramp"><span style="background:#99f6e4"></span><span style="background:#2dd4bf"></span>
-      <span style="background:#0d9488"></span><span style="background:#0f766e"></span>
-      <span style="background:#0b3d2e"></span></div><div class="ramp-lbl"><span>1</span><span>400+</span></div>
-      Hover a campus to see each country.`,
+    subtitle: "2025 · university students from Muslim-majority countries (>50% Muslim)",
+    legend: `<b>Muslim-country students (per university)</b><br>Circle size = number of students.
+      ${ramp(TEAL, 1, "400+")}Hover a campus to see each country.`,
     card: (u) => `<div class="uni-card"><h3>${u.name_en}</h3><p class="sub">${u.name_ko}</p>
       <p class="total">${u.total_muslim.toLocaleString()}<span> students from Muslim-majority countries</span></p>
       <h4>By country of origin</h4><table>${countryRows(u.by_country)}</table></div>`,
   },
 };
 
-const REGION_VIEW = {
-  geo: "skorea_provinces.geojson",
-  data: "muslim_by_region.json",
-  subtitle: "2025 · Muslim-majority-country students aggregated by province/metropolitan city",
-  legend: `<b>Muslim students by province</b><br>Shade = total students in the region.
-    <div class="ramp"><span style="background:#99f6e4"></span><span style="background:#2dd4bf"></span>
-    <span style="background:#0d9488"></span><span style="background:#0f766e"></span>
-    <span style="background:#0b3d2e"></span></div><div class="ramp-lbl"><span>1</span><span>2000+</span></div>
-    Hover a region for the country breakdown.`,
-  card: (r) => `<div class="uni-card"><h3>${r.name_eng}</h3><p class="sub">${r.name}</p>
-    <p class="total">${r.total_muslim.toLocaleString()}<span> students from Muslim-majority countries</span></p>
-    <h4>By country of origin</h4><table>${countryRows(r.by_country)}</table></div>`,
+// ---- Province (choropleth) views -----------------------------------------
+const REGION_VIEWS = {
+  region: {
+    geo: "skorea_provinces.geojson",
+    data: "muslim_by_region.json",
+    color: (r) => bucket(r ? r.total_muslim : 0, [200, 500, 1000, 2000]),
+    subtitle: "2025 · university students from Muslim-majority countries, by province",
+    legend: `<b>Muslim-country students by province</b><br>Shade = students in the region.
+      ${ramp(TEAL, 1, "2000+")}Hover a region for the country breakdown.`,
+    title: "students from Muslim-majority countries",
+  },
+  residents: {
+    geo: "skorea_provinces.geojson",
+    data: "muslim_residents_by_region.json",
+    color: (r) => bucket(r ? r.total_muslim : 0, [2000, 5000, 15000, 40000]),
+    subtitle: "2024 · registered residents from Muslim-majority countries (법무부 통계연보), by province",
+    legend: `<b>Muslim-country residents by province</b><br>Shade = registered residents in the region.
+      ${ramp(TEAL, 1, "40k+")}Hover a region for the country breakdown.`,
+    title: "registered residents from Muslim-majority countries",
+  },
 };
+function regionCard(cfg, r) {
+  return `<div class="uni-card"><h3>${r.name_eng}</h3><p class="sub">${r.name}</p>
+    <p class="total">${r.total_muslim.toLocaleString()}<span> ${cfg.title}</span></p>
+    <h4>By country of origin</h4><table>${countryRows(r.by_country)}</table></div>`;
+}
 
 let layer = null;
 let byName = new Map();
@@ -106,19 +118,16 @@ function renderMarkers(cfg, data) {
   map.addLayer(layer);
 }
 
-function renderRegions(geojson, regions) {
+function renderRegions(cfg, geojson, regions) {
   clearLayer();
   layer = L.geoJSON(geojson, {
-    style: (f) => {
-      const r = regions[f.properties.code];
-      return { fillColor: regionColor(r ? r.total_muslim : 0), fillOpacity: 0.7,
-               color: "#0b3d2e", weight: 1.2 };
-    },
+    style: (f) => ({ fillColor: cfg.color(regions[f.properties.code]), fillOpacity: 0.72,
+                     color: "#0b3d2e", weight: 1.2 }),
     onEachFeature: (f, lyr) => {
       const r = regions[f.properties.code] ||
         { name_eng: f.properties.name_eng, name: f.properties.name, total_muslim: 0, by_country: [] };
-      lyr.bindPopup(REGION_VIEW.card(r), { maxHeight: 320 });
-      lyr.on("mouseover", () => { lyr.setStyle({ weight: 3, fillOpacity: 0.85 }); lyr.openPopup(); });
+      lyr.bindPopup(regionCard(cfg, r), { maxHeight: 320 });
+      lyr.on("mouseover", () => { lyr.setStyle({ weight: 3, fillOpacity: 0.9 }); lyr.openPopup(); });
       lyr.on("mouseout", () => layer.resetStyle(lyr));
       byName.set(`${(r.name_eng || "").toLowerCase()}${r.name || ""}`, { marker: lyr, u: null });
     },
@@ -127,21 +136,19 @@ function renderRegions(geojson, regions) {
 }
 
 function loadView(name) {
-  if (name === "region") {
-    document.getElementById("subtitle").textContent = REGION_VIEW.subtitle;
-    document.getElementById("legend").innerHTML = REGION_VIEW.legend;
+  const cfg = REGION_VIEWS[name] || MARKER_VIEWS[name];
+  document.getElementById("subtitle").textContent = cfg.subtitle;
+  document.getElementById("legend").innerHTML = cfg.legend;
+  if (REGION_VIEWS[name]) {
     Promise.all([
-      dataCache.geo || fetch(REGION_VIEW.geo).then((r) => r.json()),
-      dataCache.region || fetch(REGION_VIEW.data).then((r) => r.json()),
+      dataCache.geo || fetch(cfg.geo).then((r) => r.json()),
+      dataCache[name] || fetch(cfg.data).then((r) => r.json()),
     ]).then(([geojson, regions]) => {
-      dataCache.geo = geojson; dataCache.region = regions;
-      renderRegions(geojson, regions);
+      dataCache.geo = geojson; dataCache[name] = regions;
+      renderRegions(cfg, geojson, regions);
     });
     return;
   }
-  const cfg = MARKER_VIEWS[name];
-  document.getElementById("subtitle").textContent = cfg.subtitle;
-  document.getElementById("legend").innerHTML = cfg.legend;
   if (dataCache[name]) return renderMarkers(cfg, dataCache[name]);
   fetch(cfg.file).then((r) => r.json()).then((data) => {
     dataCache[name] = data;
@@ -162,8 +169,8 @@ document.getElementById("search").addEventListener("input", (e) => {
   if (!q) return;
   for (const [key, { marker, u }] of byName) {
     if (key.includes(q)) {
-      if (u) { map.setView([u.lat, u.lon], 12); }
-      else { map.fitBounds(marker.getBounds()); }
+      if (u) map.setView([u.lat, u.lon], 12);
+      else map.fitBounds(marker.getBounds());
       marker.openPopup();
       break;
     }

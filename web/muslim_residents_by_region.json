@@ -1,0 +1,2275 @@
+{
+  "31": {
+    "code": "31",
+    "name": "경기도",
+    "name_eng": "Gyeonggi-do",
+    "total_muslim": 57860,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 16703
+      },
+      {
+        "country": "Bangladesh",
+        "count": 13718
+      },
+      {
+        "country": "Indonesia",
+        "count": 10558
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 6075
+      },
+      {
+        "country": "Pakistan",
+        "count": 5128
+      },
+      {
+        "country": "Malaysia",
+        "count": 1111
+      },
+      {
+        "country": "Turkey",
+        "count": 725
+      },
+      {
+        "country": "Egypt",
+        "count": 654
+      },
+      {
+        "country": "Syria",
+        "count": 508
+      },
+      {
+        "country": "Morocco",
+        "count": 476
+      },
+      {
+        "country": "Tajikistan",
+        "count": 381
+      },
+      {
+        "country": "Iran",
+        "count": 291
+      },
+      {
+        "country": "Afghanistan",
+        "count": 248
+      },
+      {
+        "country": "Algeria",
+        "count": 193
+      },
+      {
+        "country": "Iraq",
+        "count": 134
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 118
+      },
+      {
+        "country": "Tunisia",
+        "count": 116
+      },
+      {
+        "country": "Sudan",
+        "count": 116
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 95
+      },
+      {
+        "country": "Guinea",
+        "count": 92
+      },
+      {
+        "country": "Senegal",
+        "count": 84
+      },
+      {
+        "country": "Mali",
+        "count": 71
+      },
+      {
+        "country": "Jordan",
+        "count": 66
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 53
+      },
+      {
+        "country": "Libya",
+        "count": 34
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 34
+      },
+      {
+        "country": "Gambia",
+        "count": 15
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 11
+      },
+      {
+        "country": "Palestine",
+        "count": 8
+      },
+      {
+        "country": "Brunei",
+        "count": 8
+      },
+      {
+        "country": "Lebanon",
+        "count": 7
+      },
+      {
+        "country": "Albania",
+        "count": 7
+      },
+      {
+        "country": "Niger",
+        "count": 5
+      },
+      {
+        "country": "Somalia",
+        "count": 4
+      },
+      {
+        "country": "Mauritania",
+        "count": 3
+      },
+      {
+        "country": "Kosovo",
+        "count": 3
+      },
+      {
+        "country": "Bahrain",
+        "count": 2
+      },
+      {
+        "country": "Oman",
+        "count": 1
+      },
+      {
+        "country": "Qatar",
+        "count": 1
+      },
+      {
+        "country": "Kuwait",
+        "count": 1
+      },
+      {
+        "country": "Maldives",
+        "count": 1
+      },
+      {
+        "country": "Comoros",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 10789,
+        "extra": true
+      }
+    ]
+  },
+  "38": {
+    "code": "38",
+    "name": "경상남도",
+    "name_eng": "Gyeongsangnam-do",
+    "total_muslim": 24655,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 10348
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 7681
+      },
+      {
+        "country": "Bangladesh",
+        "count": 2028
+      },
+      {
+        "country": "Pakistan",
+        "count": 1779
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1345
+      },
+      {
+        "country": "Malaysia",
+        "count": 353
+      },
+      {
+        "country": "Turkey",
+        "count": 286
+      },
+      {
+        "country": "Syria",
+        "count": 234
+      },
+      {
+        "country": "Tunisia",
+        "count": 112
+      },
+      {
+        "country": "Morocco",
+        "count": 110
+      },
+      {
+        "country": "Egypt",
+        "count": 109
+      },
+      {
+        "country": "Tajikistan",
+        "count": 72
+      },
+      {
+        "country": "Iran",
+        "count": 44
+      },
+      {
+        "country": "Algeria",
+        "count": 31
+      },
+      {
+        "country": "Libya",
+        "count": 27
+      },
+      {
+        "country": "Iraq",
+        "count": 20
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 15
+      },
+      {
+        "country": "Mali",
+        "count": 12
+      },
+      {
+        "country": "Afghanistan",
+        "count": 9
+      },
+      {
+        "country": "Jordan",
+        "count": 9
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 7
+      },
+      {
+        "country": "Sudan",
+        "count": 7
+      },
+      {
+        "country": "Senegal",
+        "count": 5
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 3
+      },
+      {
+        "country": "Gambia",
+        "count": 3
+      },
+      {
+        "country": "Djibouti",
+        "count": 3
+      },
+      {
+        "country": "Palestine",
+        "count": 1
+      },
+      {
+        "country": "Brunei",
+        "count": 1
+      },
+      {
+        "country": "Somalia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 996,
+        "extra": true
+      }
+    ]
+  },
+  "37": {
+    "code": "37",
+    "name": "경상북도",
+    "name_eng": "Gyeongsangbuk-do",
+    "total_muslim": 15875,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 6115
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 4815
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1277
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1212
+      },
+      {
+        "country": "Pakistan",
+        "count": 1004
+      },
+      {
+        "country": "Malaysia",
+        "count": 377
+      },
+      {
+        "country": "Egypt",
+        "count": 225
+      },
+      {
+        "country": "Tunisia",
+        "count": 199
+      },
+      {
+        "country": "Syria",
+        "count": 187
+      },
+      {
+        "country": "Turkey",
+        "count": 102
+      },
+      {
+        "country": "Tajikistan",
+        "count": 96
+      },
+      {
+        "country": "Morocco",
+        "count": 68
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 56
+      },
+      {
+        "country": "Iran",
+        "count": 52
+      },
+      {
+        "country": "Algeria",
+        "count": 20
+      },
+      {
+        "country": "Sudan",
+        "count": 14
+      },
+      {
+        "country": "Afghanistan",
+        "count": 10
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 7
+      },
+      {
+        "country": "Jordan",
+        "count": 6
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 6
+      },
+      {
+        "country": "Iraq",
+        "count": 5
+      },
+      {
+        "country": "Libya",
+        "count": 4
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 4
+      },
+      {
+        "country": "Senegal",
+        "count": 4
+      },
+      {
+        "country": "Gambia",
+        "count": 3
+      },
+      {
+        "country": "Palestine",
+        "count": 2
+      },
+      {
+        "country": "Guinea",
+        "count": 1
+      },
+      {
+        "country": "Brunei",
+        "count": 1
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 1
+      },
+      {
+        "country": "Lebanon",
+        "count": 1
+      },
+      {
+        "country": "Somalia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 1231,
+        "extra": true
+      }
+    ]
+  },
+  "24": {
+    "code": "24",
+    "name": "광주광역시",
+    "name_eng": "Gwangju",
+    "total_muslim": 4764,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 1979
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1178
+      },
+      {
+        "country": "Indonesia",
+        "count": 692
+      },
+      {
+        "country": "Pakistan",
+        "count": 360
+      },
+      {
+        "country": "Bangladesh",
+        "count": 167
+      },
+      {
+        "country": "Turkey",
+        "count": 103
+      },
+      {
+        "country": "Malaysia",
+        "count": 57
+      },
+      {
+        "country": "Syria",
+        "count": 40
+      },
+      {
+        "country": "Egypt",
+        "count": 35
+      },
+      {
+        "country": "Tajikistan",
+        "count": 30
+      },
+      {
+        "country": "Iran",
+        "count": 23
+      },
+      {
+        "country": "Iraq",
+        "count": 23
+      },
+      {
+        "country": "Morocco",
+        "count": 20
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 13
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 9
+      },
+      {
+        "country": "Afghanistan",
+        "count": 5
+      },
+      {
+        "country": "Tunisia",
+        "count": 5
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 5
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 4
+      },
+      {
+        "country": "Sudan",
+        "count": 4
+      },
+      {
+        "country": "Brunei",
+        "count": 3
+      },
+      {
+        "country": "Albania",
+        "count": 2
+      },
+      {
+        "country": "Libya",
+        "count": 1
+      },
+      {
+        "country": "Senegal",
+        "count": 1
+      },
+      {
+        "country": "Guinea",
+        "count": 1
+      },
+      {
+        "country": "Gambia",
+        "count": 1
+      },
+      {
+        "country": "Palestine",
+        "count": 1
+      },
+      {
+        "country": "Niger",
+        "count": 1
+      },
+      {
+        "country": "Maldives",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 726,
+        "extra": true
+      }
+    ]
+  },
+  "22": {
+    "code": "22",
+    "name": "대구광역시",
+    "name_eng": "Daegu",
+    "total_muslim": 6164,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 2056
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 1504
+      },
+      {
+        "country": "Pakistan",
+        "count": 1064
+      },
+      {
+        "country": "Bangladesh",
+        "count": 682
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 329
+      },
+      {
+        "country": "Turkey",
+        "count": 91
+      },
+      {
+        "country": "Egypt",
+        "count": 78
+      },
+      {
+        "country": "Tajikistan",
+        "count": 77
+      },
+      {
+        "country": "Guinea",
+        "count": 47
+      },
+      {
+        "country": "Malaysia",
+        "count": 40
+      },
+      {
+        "country": "Morocco",
+        "count": 40
+      },
+      {
+        "country": "Syria",
+        "count": 32
+      },
+      {
+        "country": "Iran",
+        "count": 28
+      },
+      {
+        "country": "Tunisia",
+        "count": 25
+      },
+      {
+        "country": "Algeria",
+        "count": 12
+      },
+      {
+        "country": "Mali",
+        "count": 12
+      },
+      {
+        "country": "Afghanistan",
+        "count": 11
+      },
+      {
+        "country": "Senegal",
+        "count": 9
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 8
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 5
+      },
+      {
+        "country": "Jordan",
+        "count": 4
+      },
+      {
+        "country": "Sudan",
+        "count": 2
+      },
+      {
+        "country": "Palestine",
+        "count": 2
+      },
+      {
+        "country": "Albania",
+        "count": 2
+      },
+      {
+        "country": "Somalia",
+        "count": 2
+      },
+      {
+        "country": "Libya",
+        "count": 1
+      },
+      {
+        "country": "Iraq",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 1340,
+        "extra": true
+      }
+    ]
+  },
+  "25": {
+    "code": "25",
+    "name": "대전광역시",
+    "name_eng": "Daejeon",
+    "total_muslim": 3421,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 900
+      },
+      {
+        "country": "Indonesia",
+        "count": 627
+      },
+      {
+        "country": "Bangladesh",
+        "count": 590
+      },
+      {
+        "country": "Pakistan",
+        "count": 371
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 318
+      },
+      {
+        "country": "Turkey",
+        "count": 121
+      },
+      {
+        "country": "Malaysia",
+        "count": 69
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 59
+      },
+      {
+        "country": "Egypt",
+        "count": 55
+      },
+      {
+        "country": "Syria",
+        "count": 52
+      },
+      {
+        "country": "Iran",
+        "count": 49
+      },
+      {
+        "country": "Tajikistan",
+        "count": 44
+      },
+      {
+        "country": "Morocco",
+        "count": 33
+      },
+      {
+        "country": "Afghanistan",
+        "count": 24
+      },
+      {
+        "country": "Jordan",
+        "count": 20
+      },
+      {
+        "country": "Tunisia",
+        "count": 15
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 14
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 10
+      },
+      {
+        "country": "Algeria",
+        "count": 10
+      },
+      {
+        "country": "Iraq",
+        "count": 8
+      },
+      {
+        "country": "Sudan",
+        "count": 8
+      },
+      {
+        "country": "Brunei",
+        "count": 8
+      },
+      {
+        "country": "Mauritania",
+        "count": 5
+      },
+      {
+        "country": "Somalia",
+        "count": 3
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 2
+      },
+      {
+        "country": "Libya",
+        "count": 1
+      },
+      {
+        "country": "Senegal",
+        "count": 1
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 1
+      },
+      {
+        "country": "Lebanon",
+        "count": 1
+      },
+      {
+        "country": "Albania",
+        "count": 1
+      },
+      {
+        "country": "Niger",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 951,
+        "extra": true
+      }
+    ]
+  },
+  "21": {
+    "code": "21",
+    "name": "부산광역시",
+    "name_eng": "Busan",
+    "total_muslim": 9489,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 3903
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 2396
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1336
+      },
+      {
+        "country": "Pakistan",
+        "count": 927
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 354
+      },
+      {
+        "country": "Turkey",
+        "count": 92
+      },
+      {
+        "country": "Malaysia",
+        "count": 86
+      },
+      {
+        "country": "Morocco",
+        "count": 86
+      },
+      {
+        "country": "Iran",
+        "count": 84
+      },
+      {
+        "country": "Egypt",
+        "count": 43
+      },
+      {
+        "country": "Tajikistan",
+        "count": 43
+      },
+      {
+        "country": "Syria",
+        "count": 26
+      },
+      {
+        "country": "Tunisia",
+        "count": 21
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 16
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 15
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 12
+      },
+      {
+        "country": "Iraq",
+        "count": 11
+      },
+      {
+        "country": "Algeria",
+        "count": 10
+      },
+      {
+        "country": "Sudan",
+        "count": 5
+      },
+      {
+        "country": "Senegal",
+        "count": 4
+      },
+      {
+        "country": "Palestine",
+        "count": 4
+      },
+      {
+        "country": "Libya",
+        "count": 3
+      },
+      {
+        "country": "Brunei",
+        "count": 3
+      },
+      {
+        "country": "Jordan",
+        "count": 2
+      },
+      {
+        "country": "Oman",
+        "count": 2
+      },
+      {
+        "country": "Bahrain",
+        "count": 2
+      },
+      {
+        "country": "Qatar",
+        "count": 1
+      },
+      {
+        "country": "Lebanon",
+        "count": 1
+      },
+      {
+        "country": "Niger",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 707,
+        "extra": true
+      }
+    ]
+  },
+  "11": {
+    "code": "11",
+    "name": "서울특별시",
+    "name_eng": "Seoul",
+    "total_muslim": 17069,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 3943
+      },
+      {
+        "country": "Indonesia",
+        "count": 2109
+      },
+      {
+        "country": "Malaysia",
+        "count": 1735
+      },
+      {
+        "country": "Pakistan",
+        "count": 1554
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1429
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1090
+      },
+      {
+        "country": "Turkey",
+        "count": 982
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 885
+      },
+      {
+        "country": "Iran",
+        "count": 527
+      },
+      {
+        "country": "Egypt",
+        "count": 503
+      },
+      {
+        "country": "Morocco",
+        "count": 436
+      },
+      {
+        "country": "Tajikistan",
+        "count": 162
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 144
+      },
+      {
+        "country": "Senegal",
+        "count": 133
+      },
+      {
+        "country": "Iraq",
+        "count": 116
+      },
+      {
+        "country": "Algeria",
+        "count": 109
+      },
+      {
+        "country": "Tunisia",
+        "count": 104
+      },
+      {
+        "country": "Syria",
+        "count": 101
+      },
+      {
+        "country": "Libya",
+        "count": 92
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 92
+      },
+      {
+        "country": "Sudan",
+        "count": 88
+      },
+      {
+        "country": "Mali",
+        "count": 83
+      },
+      {
+        "country": "Afghanistan",
+        "count": 78
+      },
+      {
+        "country": "Oman",
+        "count": 71
+      },
+      {
+        "country": "Guinea",
+        "count": 69
+      },
+      {
+        "country": "Gambia",
+        "count": 67
+      },
+      {
+        "country": "Brunei",
+        "count": 57
+      },
+      {
+        "country": "Jordan",
+        "count": 56
+      },
+      {
+        "country": "Qatar",
+        "count": 52
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 47
+      },
+      {
+        "country": "Kuwait",
+        "count": 41
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 31
+      },
+      {
+        "country": "Lebanon",
+        "count": 21
+      },
+      {
+        "country": "Palestine",
+        "count": 15
+      },
+      {
+        "country": "Albania",
+        "count": 14
+      },
+      {
+        "country": "Bahrain",
+        "count": 12
+      },
+      {
+        "country": "Somalia",
+        "count": 7
+      },
+      {
+        "country": "Mauritania",
+        "count": 4
+      },
+      {
+        "country": "Niger",
+        "count": 4
+      },
+      {
+        "country": "Chad",
+        "count": 2
+      },
+      {
+        "country": "Kosovo",
+        "count": 2
+      },
+      {
+        "country": "Djibouti",
+        "count": 1
+      },
+      {
+        "country": "Maldives",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 10938,
+        "extra": true
+      }
+    ]
+  },
+  "29": {
+    "code": "29",
+    "name": "세종특별자치시",
+    "name_eng": "Sejongsi",
+    "total_muslim": 835,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 241
+      },
+      {
+        "country": "Indonesia",
+        "count": 197
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 150
+      },
+      {
+        "country": "Bangladesh",
+        "count": 94
+      },
+      {
+        "country": "Pakistan",
+        "count": 87
+      },
+      {
+        "country": "Malaysia",
+        "count": 27
+      },
+      {
+        "country": "Syria",
+        "count": 10
+      },
+      {
+        "country": "Turkey",
+        "count": 6
+      },
+      {
+        "country": "Egypt",
+        "count": 4
+      },
+      {
+        "country": "Morocco",
+        "count": 4
+      },
+      {
+        "country": "Gambia",
+        "count": 4
+      },
+      {
+        "country": "Iraq",
+        "count": 2
+      },
+      {
+        "country": "Tajikistan",
+        "count": 1
+      },
+      {
+        "country": "Iran",
+        "count": 1
+      },
+      {
+        "country": "Afghanistan",
+        "count": 1
+      },
+      {
+        "country": "Jordan",
+        "count": 1
+      },
+      {
+        "country": "Algeria",
+        "count": 1
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 1
+      },
+      {
+        "country": "Lebanon",
+        "count": 1
+      },
+      {
+        "country": "Somalia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 43,
+        "extra": true
+      }
+    ]
+  },
+  "26": {
+    "code": "26",
+    "name": "울산광역시",
+    "name_eng": "Ulsan",
+    "total_muslim": 4390,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 1554
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 1363
+      },
+      {
+        "country": "Bangladesh",
+        "count": 378
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 337
+      },
+      {
+        "country": "Pakistan",
+        "count": 274
+      },
+      {
+        "country": "Afghanistan",
+        "count": 143
+      },
+      {
+        "country": "Turkey",
+        "count": 99
+      },
+      {
+        "country": "Egypt",
+        "count": 41
+      },
+      {
+        "country": "Iran",
+        "count": 38
+      },
+      {
+        "country": "Morocco",
+        "count": 35
+      },
+      {
+        "country": "Tajikistan",
+        "count": 35
+      },
+      {
+        "country": "Tunisia",
+        "count": 29
+      },
+      {
+        "country": "Malaysia",
+        "count": 22
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 8
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 7
+      },
+      {
+        "country": "Libya",
+        "count": 6
+      },
+      {
+        "country": "Jordan",
+        "count": 6
+      },
+      {
+        "country": "Algeria",
+        "count": 6
+      },
+      {
+        "country": "Guinea",
+        "count": 4
+      },
+      {
+        "country": "Iraq",
+        "count": 2
+      },
+      {
+        "country": "Senegal",
+        "count": 1
+      },
+      {
+        "country": "Mali",
+        "count": 1
+      },
+      {
+        "country": "Somalia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 316,
+        "extra": true
+      }
+    ]
+  },
+  "23": {
+    "code": "23",
+    "name": "인천광역시",
+    "name_eng": "Incheon",
+    "total_muslim": 15914,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 3919
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 2604
+      },
+      {
+        "country": "Indonesia",
+        "count": 2426
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1743
+      },
+      {
+        "country": "Pakistan",
+        "count": 1540
+      },
+      {
+        "country": "Egypt",
+        "count": 635
+      },
+      {
+        "country": "Libya",
+        "count": 589
+      },
+      {
+        "country": "Tajikistan",
+        "count": 380
+      },
+      {
+        "country": "Jordan",
+        "count": 357
+      },
+      {
+        "country": "Syria",
+        "count": 298
+      },
+      {
+        "country": "Afghanistan",
+        "count": 249
+      },
+      {
+        "country": "Iraq",
+        "count": 167
+      },
+      {
+        "country": "Turkey",
+        "count": 154
+      },
+      {
+        "country": "Morocco",
+        "count": 144
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 131
+      },
+      {
+        "country": "Malaysia",
+        "count": 124
+      },
+      {
+        "country": "Iran",
+        "count": 84
+      },
+      {
+        "country": "Palestine",
+        "count": 68
+      },
+      {
+        "country": "Sudan",
+        "count": 63
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 59
+      },
+      {
+        "country": "Tunisia",
+        "count": 46
+      },
+      {
+        "country": "Algeria",
+        "count": 33
+      },
+      {
+        "country": "Mali",
+        "count": 29
+      },
+      {
+        "country": "Senegal",
+        "count": 18
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 13
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 12
+      },
+      {
+        "country": "Guinea",
+        "count": 10
+      },
+      {
+        "country": "Albania",
+        "count": 8
+      },
+      {
+        "country": "Lebanon",
+        "count": 5
+      },
+      {
+        "country": "Chad",
+        "count": 2
+      },
+      {
+        "country": "Gambia",
+        "count": 1
+      },
+      {
+        "country": "Brunei",
+        "count": 1
+      },
+      {
+        "country": "Oman",
+        "count": 1
+      },
+      {
+        "country": "Somalia",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 2886,
+        "extra": true
+      }
+    ]
+  },
+  "36": {
+    "code": "36",
+    "name": "전라남도",
+    "name_eng": "Jeollanam-do",
+    "total_muslim": 9125,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 5195
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 2303
+      },
+      {
+        "country": "Bangladesh",
+        "count": 656
+      },
+      {
+        "country": "Pakistan",
+        "count": 210
+      },
+      {
+        "country": "Turkey",
+        "count": 202
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 200
+      },
+      {
+        "country": "Syria",
+        "count": 82
+      },
+      {
+        "country": "Malaysia",
+        "count": 64
+      },
+      {
+        "country": "Egypt",
+        "count": 60
+      },
+      {
+        "country": "Morocco",
+        "count": 41
+      },
+      {
+        "country": "Tajikistan",
+        "count": 19
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 18
+      },
+      {
+        "country": "Afghanistan",
+        "count": 11
+      },
+      {
+        "country": "Iran",
+        "count": 10
+      },
+      {
+        "country": "Iraq",
+        "count": 10
+      },
+      {
+        "country": "Tunisia",
+        "count": 9
+      },
+      {
+        "country": "Jordan",
+        "count": 8
+      },
+      {
+        "country": "Algeria",
+        "count": 6
+      },
+      {
+        "country": "Qatar",
+        "count": 6
+      },
+      {
+        "country": "Gambia",
+        "count": 4
+      },
+      {
+        "country": "Libya",
+        "count": 2
+      },
+      {
+        "country": "Sudan",
+        "count": 2
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 2
+      },
+      {
+        "country": "Brunei",
+        "count": 2
+      },
+      {
+        "country": "Mali",
+        "count": 1
+      },
+      {
+        "country": "Oman",
+        "count": 1
+      },
+      {
+        "country": "Kuwait",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 623,
+        "extra": true
+      }
+    ]
+  },
+  "35": {
+    "code": "35",
+    "name": "전라북도",
+    "name_eng": "Jeollabuk-do",
+    "total_muslim": 6260,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 2316
+      },
+      {
+        "country": "Indonesia",
+        "count": 1639
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1099
+      },
+      {
+        "country": "Pakistan",
+        "count": 323
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 238
+      },
+      {
+        "country": "Syria",
+        "count": 124
+      },
+      {
+        "country": "Turkey",
+        "count": 120
+      },
+      {
+        "country": "Egypt",
+        "count": 98
+      },
+      {
+        "country": "Malaysia",
+        "count": 56
+      },
+      {
+        "country": "Tajikistan",
+        "count": 46
+      },
+      {
+        "country": "Afghanistan",
+        "count": 43
+      },
+      {
+        "country": "Iran",
+        "count": 34
+      },
+      {
+        "country": "Morocco",
+        "count": 32
+      },
+      {
+        "country": "Tunisia",
+        "count": 18
+      },
+      {
+        "country": "Sudan",
+        "count": 14
+      },
+      {
+        "country": "Gambia",
+        "count": 13
+      },
+      {
+        "country": "Iraq",
+        "count": 7
+      },
+      {
+        "country": "Algeria",
+        "count": 7
+      },
+      {
+        "country": "Guinea",
+        "count": 6
+      },
+      {
+        "country": "Libya",
+        "count": 5
+      },
+      {
+        "country": "Jordan",
+        "count": 5
+      },
+      {
+        "country": "Lebanon",
+        "count": 4
+      },
+      {
+        "country": "Senegal",
+        "count": 3
+      },
+      {
+        "country": "Mali",
+        "count": 3
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 3
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 2
+      },
+      {
+        "country": "Palestine",
+        "count": 1
+      },
+      {
+        "country": "Comoros",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 1152,
+        "extra": true
+      }
+    ]
+  },
+  "39": {
+    "code": "39",
+    "name": "제주특별자치도",
+    "name_eng": "Jeju-do",
+    "total_muslim": 4368,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 3803
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 141
+      },
+      {
+        "country": "Pakistan",
+        "count": 130
+      },
+      {
+        "country": "Malaysia",
+        "count": 82
+      },
+      {
+        "country": "Bangladesh",
+        "count": 80
+      },
+      {
+        "country": "Turkey",
+        "count": 28
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 26
+      },
+      {
+        "country": "Tajikistan",
+        "count": 21
+      },
+      {
+        "country": "Morocco",
+        "count": 9
+      },
+      {
+        "country": "Egypt",
+        "count": 8
+      },
+      {
+        "country": "Iran",
+        "count": 7
+      },
+      {
+        "country": "Sudan",
+        "count": 7
+      },
+      {
+        "country": "Syria",
+        "count": 4
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 4
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 4
+      },
+      {
+        "country": "Algeria",
+        "count": 3
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 2
+      },
+      {
+        "country": "Lebanon",
+        "count": 2
+      },
+      {
+        "country": "Mauritania",
+        "count": 2
+      },
+      {
+        "country": "Afghanistan",
+        "count": 1
+      },
+      {
+        "country": "Tunisia",
+        "count": 1
+      },
+      {
+        "country": "Jordan",
+        "count": 1
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 1
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 270,
+        "extra": true
+      }
+    ]
+  },
+  "34": {
+    "code": "34",
+    "name": "충청남도",
+    "name_eng": "Chungcheongnam-do",
+    "total_muslim": 15743,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 5840
+      },
+      {
+        "country": "Indonesia",
+        "count": 3912
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 3208
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1248
+      },
+      {
+        "country": "Pakistan",
+        "count": 532
+      },
+      {
+        "country": "Malaysia",
+        "count": 310
+      },
+      {
+        "country": "Turkey",
+        "count": 127
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 83
+      },
+      {
+        "country": "Syria",
+        "count": 81
+      },
+      {
+        "country": "Morocco",
+        "count": 80
+      },
+      {
+        "country": "Egypt",
+        "count": 71
+      },
+      {
+        "country": "Tajikistan",
+        "count": 69
+      },
+      {
+        "country": "Afghanistan",
+        "count": 35
+      },
+      {
+        "country": "Iran",
+        "count": 29
+      },
+      {
+        "country": "Algeria",
+        "count": 16
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 13
+      },
+      {
+        "country": "Iraq",
+        "count": 12
+      },
+      {
+        "country": "Senegal",
+        "count": 11
+      },
+      {
+        "country": "Tunisia",
+        "count": 10
+      },
+      {
+        "country": "Jordan",
+        "count": 10
+      },
+      {
+        "country": "Mali",
+        "count": 9
+      },
+      {
+        "country": "Guinea",
+        "count": 8
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 5
+      },
+      {
+        "country": "Sudan",
+        "count": 5
+      },
+      {
+        "country": "Palestine",
+        "count": 5
+      },
+      {
+        "country": "Gambia",
+        "count": 4
+      },
+      {
+        "country": "Burkina Faso",
+        "count": 2
+      },
+      {
+        "country": "Chad",
+        "count": 2
+      },
+      {
+        "country": "Libya",
+        "count": 1
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 1
+      },
+      {
+        "country": "Brunei",
+        "count": 1
+      },
+      {
+        "country": "Oman",
+        "count": 1
+      },
+      {
+        "country": "Lebanon",
+        "count": 1
+      },
+      {
+        "country": "Mauritania",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 2267,
+        "extra": true
+      }
+    ]
+  },
+  "33": {
+    "code": "33",
+    "name": "충청북도",
+    "name_eng": "Chungcheongbuk-do",
+    "total_muslim": 10702,
+    "by_country": [
+      {
+        "country": "Uzbekistan",
+        "count": 4468
+      },
+      {
+        "country": "Indonesia",
+        "count": 1863
+      },
+      {
+        "country": "Bangladesh",
+        "count": 1312
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 1209
+      },
+      {
+        "country": "Malaysia",
+        "count": 578
+      },
+      {
+        "country": "Pakistan",
+        "count": 517
+      },
+      {
+        "country": "Egypt",
+        "count": 202
+      },
+      {
+        "country": "Turkey",
+        "count": 154
+      },
+      {
+        "country": "Syria",
+        "count": 85
+      },
+      {
+        "country": "Morocco",
+        "count": 75
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 50
+      },
+      {
+        "country": "Tajikistan",
+        "count": 47
+      },
+      {
+        "country": "Afghanistan",
+        "count": 21
+      },
+      {
+        "country": "Senegal",
+        "count": 21
+      },
+      {
+        "country": "Algeria",
+        "count": 16
+      },
+      {
+        "country": "Iran",
+        "count": 14
+      },
+      {
+        "country": "Iraq",
+        "count": 12
+      },
+      {
+        "country": "Libya",
+        "count": 11
+      },
+      {
+        "country": "Tunisia",
+        "count": 9
+      },
+      {
+        "country": "Mali",
+        "count": 9
+      },
+      {
+        "country": "Guinea",
+        "count": 5
+      },
+      {
+        "country": "Sudan",
+        "count": 4
+      },
+      {
+        "country": "Lebanon",
+        "count": 4
+      },
+      {
+        "country": "Gambia",
+        "count": 3
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 3
+      },
+      {
+        "country": "Somalia",
+        "count": 3
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 2
+      },
+      {
+        "country": "Brunei",
+        "count": 2
+      },
+      {
+        "country": "Jordan",
+        "count": 1
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 1
+      },
+      {
+        "country": "Oman",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 1876,
+        "extra": true
+      }
+    ]
+  },
+  "32": {
+    "code": "32",
+    "name": "강원도",
+    "name_eng": "Gangwon-do",
+    "total_muslim": 3559,
+    "by_country": [
+      {
+        "country": "Indonesia",
+        "count": 1251
+      },
+      {
+        "country": "Uzbekistan",
+        "count": 1221
+      },
+      {
+        "country": "Bangladesh",
+        "count": 442
+      },
+      {
+        "country": "Kazakhstan",
+        "count": 205
+      },
+      {
+        "country": "Pakistan",
+        "count": 150
+      },
+      {
+        "country": "Turkey",
+        "count": 49
+      },
+      {
+        "country": "Tajikistan",
+        "count": 44
+      },
+      {
+        "country": "Malaysia",
+        "count": 43
+      },
+      {
+        "country": "Syria",
+        "count": 40
+      },
+      {
+        "country": "Morocco",
+        "count": 25
+      },
+      {
+        "country": "Iran",
+        "count": 21
+      },
+      {
+        "country": "Egypt",
+        "count": 14
+      },
+      {
+        "country": "Jordan",
+        "count": 7
+      },
+      {
+        "country": "Iraq",
+        "count": 7
+      },
+      {
+        "country": "Algeria",
+        "count": 7
+      },
+      {
+        "country": "Brunei",
+        "count": 6
+      },
+      {
+        "country": "Afghanistan",
+        "count": 4
+      },
+      {
+        "country": "Turkmenistan",
+        "count": 4
+      },
+      {
+        "country": "Tunisia",
+        "count": 3
+      },
+      {
+        "country": "Saudi Arabia",
+        "count": 2
+      },
+      {
+        "country": "Azerbaijan",
+        "count": 2
+      },
+      {
+        "country": "Senegal",
+        "count": 2
+      },
+      {
+        "country": "Mali",
+        "count": 2
+      },
+      {
+        "country": "Lebanon",
+        "count": 2
+      },
+      {
+        "country": "Libya",
+        "count": 1
+      },
+      {
+        "country": "Sudan",
+        "count": 1
+      },
+      {
+        "country": "Guinea",
+        "count": 1
+      },
+      {
+        "country": "Sierra Leone",
+        "count": 1
+      },
+      {
+        "country": "Albania",
+        "count": 1
+      },
+      {
+        "country": "Chad",
+        "count": 1
+      },
+      {
+        "country": "Mongolia",
+        "count": 553,
+        "extra": true
+      }
+    ]
+  }
+}
