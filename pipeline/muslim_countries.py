@@ -25,12 +25,15 @@ MUSLIM_KO_TO_EN: dict[str, str] = {
     "쿠웨이트": "Kuwait",
     "키르기스스탄": "Kyrgyzstan",
     "키르기스공화국": "Kyrgyzstan",
+    "키르기즈": "Kyrgyzstan",
+    "키르기즈스탄": "Kyrgyzstan",
     "레바논": "Lebanon",
     "리비아": "Libya",
     "말레이시아": "Malaysia",
     "몰디브": "Maldives",
     "말리": "Mali",
     "모리타니": "Mauritania",
+    "모리타니아": "Mauritania",
     "모로코": "Morocco",
     "니제르": "Niger",
     "오만": "Oman",
@@ -49,8 +52,10 @@ MUSLIM_KO_TO_EN: dict[str, str] = {
     "터키": "Turkey",
     "투르크메니스탄": "Turkmenistan",
     "아랍에미리트": "United Arab Emirates",
+    "아랍에미리트연합": "United Arab Emirates",
     "우즈베키스탄": "Uzbekistan",
     "예멘": "Yemen",
+    "예멘공화국": "Yemen",
 }
 
 # English aliases -> canonical English name (for English-language sources).
